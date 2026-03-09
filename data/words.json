@@ -348,6 +348,128 @@
             { "id": 121, "word": "code of conduct", "meanings": [{ "partOfSpeech": "명사", "definitions": ["행동 수칙", "행동 강령"] }] },
             { "id": 122, "word": "conductor", "meanings": [{ "partOfSpeech": "명사", "definitions": ["안내자", "지휘자"] }] }
           ]
+        },
+        {
+          "id": 38,
+          "word": "shout",
+          "meanings": [
+            { "partOfSpeech": "동사", "definitions": ["외치다"] },
+            { "partOfSpeech": "명사", "definitions": ["외침", "환호"] }
+          ],
+          "related": []
+        },
+        {
+          "id": 39,
+          "word": "prepare",
+          "meanings": [
+            { "partOfSpeech": "동사", "definitions": ["준비하다"] }
+          ],
+          "related": [
+            { "id": 123, "word": "preparation", "meanings": [{ "partOfSpeech": "명사", "definitions": ["준비"] }] },
+            { "id": 124, "word": "prepare for", "meanings": [{ "partOfSpeech": "숙어", "definitions": ["~에 대비하다"] }] }
+          ]
+        },
+        {
+          "id": 40,
+          "word": "dismiss",
+          "meanings": [
+            { "partOfSpeech": "동사", "definitions": ["해고하다", "해산시키다"] }
+          ],
+          "related": [
+            { "id": 125, "word": "dismissal", "meanings": [{ "partOfSpeech": "명사", "definitions": ["해고", "일축"] }] }
+          ]
+        },
+        {
+          "id": 41,
+          "word": "arrive",
+          "meanings": [
+            { "partOfSpeech": "동사", "definitions": ["도착하다", "이르다"] }
+          ],
+          "related": [
+            { "id": 126, "word": "arrival", "meanings": [{ "partOfSpeech": "명사", "definitions": ["도착"] }] },
+            { "id": 127, "word": "departure", "meanings": [{ "partOfSpeech": "명사", "definitions": ["출발"] }] }
+          ]
+        },
+        {
+          "id": 42,
+          "word": "arrest",
+          "meanings": [
+            { "partOfSpeech": "동사", "definitions": ["체포하다", "구속하다"] }
+          ],
+          "related": []
+        },
+        {
+          "id": 43,
+          "word": "climb",
+          "meanings": [
+            { "partOfSpeech": "동사", "definitions": ["기어오르다"] }
+          ],
+          "related": [
+            { "id": 128, "word": "climbing", "meanings": [{ "partOfSpeech": "명사", "definitions": ["등산"] }] }
+          ]
+        },
+        {
+          "id": 44,
+          "word": "advertise",
+          "meanings": [
+            { "partOfSpeech": "동사", "definitions": ["광고하다"] }
+          ],
+          "related": [
+            { "id": 129, "word": "advertisement", "meanings": [{ "partOfSpeech": "명사", "definitions": ["광고"] }] }
+          ]
+        },
+        {
+          "id": 45,
+          "word": "seek",
+          "meanings": [
+            { "partOfSpeech": "동사", "definitions": ["취하다"] }
+          ],
+          "related": []
+        },
+        {
+          "id": 46,
+          "word": "attack",
+          "meanings": [
+            { "partOfSpeech": "동사", "definitions": ["~을 공격하다", "습격하다"] },
+            { "partOfSpeech": "명사", "definitions": ["공격", "습격"] }
+          ],
+          "related": []
+        },
+        {
+          "id": 47,
+          "word": "melt",
+          "meanings": [
+            { "partOfSpeech": "동사", "definitions": ["녹다"] }
+          ],
+          "related": []
+        },
+        {
+          "id": 48,
+          "word": "calculate",
+          "meanings": [
+            { "partOfSpeech": "동사", "definitions": ["계산하다"] }
+          ],
+          "related": [
+            { "id": 130, "word": "calculator", "meanings": [{ "partOfSpeech": "명사", "definitions": ["계산기"] }] },
+            { "id": 131, "word": "calculation", "meanings": [{ "partOfSpeech": "명사", "definitions": ["계산", "추정"] }] },
+            { "id": 132, "word": "calculated", "meanings": [{ "partOfSpeech": "형용사", "definitions": ["계산된", "고의적인"] }] }
+          ]
+        },
+        {
+          "id": 49,
+          "word": "bark",
+          "meanings": [
+            { "partOfSpeech": "동사", "definitions": ["(개가)짖다"] }
+          ],
+          "related": []
+        },
+        {
+          "id": 50,
+          "word": "lick",
+          "meanings": [
+            { "partOfSpeech": "동사", "definitions": ["핥다"] }
+          ],
+          "related": []
         }
       ]
     }
