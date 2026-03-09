@@ -1,8 +1,9 @@
 // ─── State ───────────────────────────────────────────────────────────────────
 let allData = null;
 
-// Inline quiz answer registry (avoids JSON escaping in onclick)
-const _ans = {};
+// Inline quiz item registry
+// key -> { word, type('en'|'ko'), partOfSpeech, correctAnswer, userAnswer, isCorrect, answered }
+const _items = {};
 let currentCategory = null;
 let currentMode = 'list';   // 'list' | 'quiz-en' | 'quiz-ko'
 let hideState = { en: false, ko: false };
@@ -29,6 +30,8 @@ async function init() {
 }
 
 // ─── Navigation ───────────────────────────────────────────────────────────────
+let _prevView = 'home';
+
 function showView(name) {
   document.querySelectorAll('[id^="view-"]').forEach(el => el.classList.add('hidden'));
   document.getElementById('view-' + name).classList.remove('hidden');
@@ -42,12 +45,25 @@ function showView(name) {
   } else if (name === 'category') {
     backBtn.classList.remove('hidden');
     title.textContent = currentCategory.name;
+  } else if (name === 'history') {
+    _prevView = 'home';
+    backBtn.classList.remove('hidden');
+    title.textContent = '학습 기록';
+    renderHistoryList();
+  } else if (name === 'history-detail') {
+    _prevView = 'history';
+    backBtn.classList.remove('hidden');
+    title.textContent = '정오표';
   }
 }
 
 function goBack() {
-  showView('home');
-  renderHome();
+  if (_prevView === 'history') {
+    showView('history');
+  } else {
+    showView('home');
+    renderHome();
+  }
 }
 
 // ─── Home ─────────────────────────────────────────────────────────────────────
@@ -142,12 +158,18 @@ function updateHideButtons() {
 
 function renderWordList() {
   updateHideButtons();
-  // Clear answer registry
-  Object.keys(_ans).forEach(k => delete _ans[k]);
+  Object.keys(_items).forEach(k => delete _items[k]);
   const container = document.getElementById('word-list');
   container.innerHTML = currentCategory.words.map((word, idx) =>
     renderWordCard(word, idx + 1, false)
   ).join('');
+  // 채점 버튼: hide 모드일 때만 표시
+  const gradeWrap = document.getElementById('grade-btn-wrap');
+  if (hideState.en || hideState.ko) {
+    gradeWrap.classList.remove('hidden');
+  } else {
+    gradeWrap.classList.add('hidden');
+  }
 }
 
 function renderWordCard(word, num, isRelated) {
@@ -156,8 +178,8 @@ function renderWordCard(word, num, isRelated) {
   // English word section
   let wordHtml;
   if (hideState.en) {
-    _ans[key] = word.word;
-    const prefix = !isRelated ? `<span class="text-gray-400 text-sm mr-1">${num}.</span>` : '';
+    _items[key] = { word: word.word, type: 'en', partOfSpeech: null, correctAnswer: word.word, userAnswer: null, isCorrect: null, answered: false };
+    const prefix = isRelated ? '' : `<span class="text-gray-400 text-sm mr-1">${num}.</span>`;
     wordHtml = `
       <div id="iw-${key}" class="inline-input-wrap">
         <div class="hidden-tap" onclick="activateInput('${key}','en')">
@@ -165,14 +187,14 @@ function renderWordCard(word, num, isRelated) {
         </div>
       </div>`;
   } else {
-    wordHtml = `<div class="word-main">${!isRelated ? num + '. ' : ''}${word.word}</div>`;
+    wordHtml = `<div class="word-main">${isRelated ? '' : num + '. '}${word.word}</div>`;
   }
 
   // Meanings section
   const meaningsHtml = word.meanings.map((m, mi) => {
     const mKey = `m${word.id}_${mi}`;
     if (hideState.ko) {
-      _ans[mKey] = m.definitions;
+      _items[mKey] = { word: word.word, type: 'ko', partOfSpeech: m.partOfSpeech, correctAnswer: m.definitions, userAnswer: null, isCorrect: null, answered: false };
       return `
         <div class="flex items-start gap-1 mt-0.5">
           <span class="pos-badge">${m.partOfSpeech}</span>
@@ -191,11 +213,11 @@ function renderWordCard(word, num, isRelated) {
   }).join('');
 
   // Related words
-  const relatedHtml = !isRelated && word.related && word.related.length > 0
-    ? `<div class="mt-3 space-y-2">${word.related.map(rel =>
+  const relatedHtml = isRelated || !word.related || word.related.length === 0
+    ? ''
+    : `<div class="mt-3 space-y-2">${word.related.map(rel =>
         `<div class="word-related">${renderWordCard(rel, null, true)}</div>`
-      ).join('')}</div>`
-    : '';
+      ).join('')}</div>`;
 
   return `
     <div class="word-card">
@@ -224,19 +246,17 @@ function activateInput(key, type) {
 function checkInlineInput(inputEl, key, type) {
   const userAnswer = normalize(inputEl.value);
   if (!userAnswer) return;
-  const answer = _ans[key];
+  const item = _items[key];
+  if (!item) return;
 
-  let isCorrect;
-  if (type === 'en') {
-    isCorrect = userAnswer === normalize(answer);
-  } else {
-    isCorrect = answer.some(def =>
-      normalize(def) === userAnswer ||
-      normalize(def).includes(userAnswer) ||
-      userAnswer.includes(normalize(def))
-    );
-  }
+  const isCorrect = matchAnswer(userAnswer, item.correctAnswer, type);
 
+  // Update registry
+  item.userAnswer = userAnswer;
+  item.isCorrect = isCorrect;
+  item.answered = true;
+
+  inputEl.classList.remove('border-green-400', 'border-red-400');
   inputEl.classList.add(isCorrect ? 'border-green-400' : 'border-red-400');
 
   const fb = document.getElementById('fb-' + key);
@@ -245,10 +265,63 @@ function checkInlineInput(inputEl, key, type) {
     fb.textContent = '정답!';
     fb.className = 'mt-1 text-xs rounded px-2 py-0.5 text-green-600 bg-green-50';
   } else {
-    const correct = type === 'en' ? answer : answer.join(', ');
+    const correct = Array.isArray(item.correctAnswer) ? item.correctAnswer.join(', ') : item.correctAnswer;
     fb.textContent = `정답: ${correct}`;
     fb.className = 'mt-1 text-xs rounded px-2 py-0.5 text-red-500 bg-red-50';
   }
+}
+
+function matchAnswer(userAnswer, correctAnswer, type) {
+  if (type === 'en') {
+    return userAnswer === normalize(correctAnswer);
+  }
+  return correctAnswer.some(def =>
+    normalize(def) === userAnswer ||
+    normalize(def).includes(userAnswer) ||
+    userAnswer.includes(normalize(def))
+  );
+}
+
+// ─── Grade All ────────────────────────────────────────────────────────────────
+function gradeAll() {
+  // Pull current input values from DOM for unanswered items
+  for (const [key, item] of Object.entries(_items)) {
+    if (item.answered) continue;
+    const inputEl = document.querySelector(`#iw-${key} input`);
+    const val = inputEl ? normalize(inputEl.value) : '';
+    item.userAnswer = val || null;
+    item.isCorrect = val ? matchAnswer(val, item.correctAnswer, item.type) : false;
+    item.answered = true;
+  }
+
+  const entries = Object.values(_items);
+  const total = entries.length;
+  const correct = entries.filter(i => i.isCorrect).length;
+  const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+  const now = new Date();
+  const record = {
+    id: now.getTime(),
+    date: now.toLocaleDateString('ko-KR'),
+    time: now.toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' }),
+    category: currentCategory.name,
+    mode: hideState.en ? '영어 가리기' : '뜻 가리기',
+    total,
+    correct,
+    pct,
+    items: entries.map(i => ({
+      word: i.word,
+      type: i.type,
+      partOfSpeech: i.partOfSpeech,
+      correctAnswer: Array.isArray(i.correctAnswer) ? i.correctAnswer.join(', ') : i.correctAnswer,
+      userAnswer: i.userAnswer || '(미응답)',
+      isCorrect: i.isCorrect
+    }))
+  };
+
+  saveHistoryRecord(record);
+  renderHistoryDetail(record);
+  showView('history-detail');
 }
 
 // ─── Quiz ─────────────────────────────────────────────────────────────────────
@@ -457,6 +530,125 @@ function renderQuizResult() {
       </div>
     </div>
   `;
+}
+
+// ─── History ──────────────────────────────────────────────────────────────────
+const HISTORY_KEY = 'vocab_history';
+
+function loadHistoryRecords() {
+  try { return JSON.parse(localStorage.getItem(HISTORY_KEY)) || []; }
+  catch { return []; }
+}
+
+function saveHistoryRecord(record) {
+  const records = loadHistoryRecords();
+  records.unshift(record);
+  if (records.length > 100) records.splice(100);
+  localStorage.setItem(HISTORY_KEY, JSON.stringify(records));
+}
+
+function renderHistoryList() {
+  const records = loadHistoryRecords();
+  const container = document.getElementById('history-list-container');
+
+  if (records.length === 0) {
+    container.innerHTML = `
+      <div class="text-center py-16 text-gray-400">
+        <div class="text-4xl mb-3">📋</div>
+        <div class="text-sm">아직 채점 기록이 없습니다.<br>전체 목록에서 가리기 후 채점해 보세요.</div>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = `
+    <div class="space-y-3">
+      ${records.map(r => {
+        const pctColor = r.pct >= 80 ? 'text-green-600 bg-green-50' : r.pct >= 50 ? 'text-yellow-600 bg-yellow-50' : 'text-red-500 bg-red-50';
+        return `
+          <button onclick="openHistoryDetail(${r.id})"
+            class="w-full bg-white rounded-xl p-4 shadow-sm text-left active:bg-gray-50 transition-colors">
+            <div class="flex items-center justify-between">
+              <div>
+                <div class="font-semibold text-gray-800 text-sm">${r.category} · ${r.mode}</div>
+                <div class="text-xs text-gray-400 mt-0.5">${r.date} ${r.time}</div>
+                <div class="text-xs text-gray-500 mt-1">
+                  정답 <span class="text-green-600 font-semibold">${r.correct}</span> /
+                  오답 <span class="text-red-500 font-semibold">${r.total - r.correct}</span> /
+                  전체 ${r.total}문항
+                </div>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-lg font-bold px-3 py-1 rounded-xl ${pctColor}">${r.pct}%</span>
+                <svg class="w-4 h-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+              </div>
+            </div>
+          </button>`;
+      }).join('')}
+      <button onclick="clearHistory()"
+        class="mt-2 text-xs text-red-400 underline w-full text-center py-2">기록 모두 삭제</button>
+    </div>`;
+}
+
+function openHistoryDetail(id) {
+  const records = loadHistoryRecords();
+  const record = records.find(r => r.id === id);
+  if (!record) return;
+  renderHistoryDetail(record);
+  showView('history-detail');
+}
+
+function renderHistoryDetail(record) {
+  const container = document.getElementById('history-detail-container');
+  const pctColor = record.pct >= 80 ? 'bg-green-100 text-green-600' : record.pct >= 50 ? 'bg-yellow-100 text-yellow-600' : 'bg-red-100 text-red-500';
+  const emoji = record.pct >= 80 ? '🎉' : record.pct >= 50 ? '😊' : '💪';
+
+  const rows = record.items.map(item => {
+    const icon = item.isCorrect
+      ? `<span class="result-icon correct">O</span>`
+      : `<span class="result-icon wrong">X</span>`;
+    const userClass = item.isCorrect ? 'text-green-700' : 'text-red-500';
+    const correctDisplay = item.isCorrect ? '' : `<div class="text-xs text-indigo-600 mt-0.5">정답: ${item.correctAnswer}</div>`;
+
+    return `
+      <div class="result-row ${item.isCorrect ? 'result-row-correct' : 'result-row-wrong'}">
+        <div class="flex items-start gap-3">
+          ${icon}
+          <div class="flex-1 min-w-0">
+            <div class="text-xs text-gray-400 mb-0.5">${item.type === 'en' ? '영단어 쓰기' : item.word + (item.partOfSpeech ? ' · ' + item.partOfSpeech : '')}</div>
+            <div class="text-sm font-medium ${userClass} truncate">${item.userAnswer}</div>
+            ${correctDisplay}
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+
+  container.innerHTML = `
+    <div class="text-center mb-6">
+      <div class="result-circle ${pctColor} mb-3">
+        <div class="text-3xl">${emoji}</div>
+        <div class="text-2xl font-bold">${record.pct}%</div>
+      </div>
+      <div class="text-sm font-semibold text-gray-700">${record.category} · ${record.mode}</div>
+      <div class="text-xs text-gray-400 mt-1">${record.date} ${record.time}</div>
+      <div class="flex justify-center gap-4 mt-3 text-sm">
+        <span>전체 <strong>${record.total}</strong></span>
+        <span class="text-green-600">정답 <strong>${record.correct}</strong></span>
+        <span class="text-red-500">오답 <strong>${record.total - record.correct}</strong></span>
+      </div>
+    </div>
+
+    <h3 class="text-sm font-semibold text-gray-600 mb-3">정오표</h3>
+    <div class="space-y-2">${rows}</div>`;
+}
+
+function clearHistory() {
+  if (confirm('학습 기록을 모두 삭제할까요?')) {
+    localStorage.removeItem(HISTORY_KEY);
+    renderHistoryList();
+    showToast('기록이 삭제되었습니다.');
+  }
 }
 
 // ─── Scores ───────────────────────────────────────────────────────────────────
