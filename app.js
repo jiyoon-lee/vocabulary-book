@@ -29,11 +29,11 @@ const CUSTOMS_KEY    = 'vocab_customs';  // {catId: [사용자 추가 단어, ..
 const ORDER_KEY      = 'vocab_order';    // {catId: [wordId, ...]} 순서
 
 // ─── GitHub Sync ───────────────────────────────────────────────────────────────
-const GH_TOKEN_KEY = 'gh_token';
-const GH_OWNER     = 'jiyoon-lee';
-const GH_REPO      = 'vocabulary-book';
-const GH_PATH      = 'data/words.json';
-const GH_API_URL   = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_PATH}`;
+const GH_TOKEN   = '__GH_TOKEN__';  // replaced at deploy time by GitHub Actions
+const GH_OWNER   = 'jiyoon-lee';
+const GH_REPO    = 'vocabulary-book';
+const GH_PATH    = 'data/words.json';
+const GH_API_URL = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_PATH}`;
 
 function _toBase64(str) {
   const bytes = new TextEncoder().encode(str);
@@ -43,20 +43,19 @@ function _toBase64(str) {
 }
 
 async function syncToGitHub() {
-  const token = localStorage.getItem(GH_TOKEN_KEY);
-  if (!token) return;
+  if (!GH_TOKEN || GH_TOKEN === '__GH_TOKEN__') return;
 
   const content = _toBase64(JSON.stringify(allData, null, 2));
 
   try {
     const metaRes = await fetch(GH_API_URL, {
-      headers: { Authorization: `token ${token}` }
+      headers: { Authorization: `token ${GH_TOKEN}` }
     });
     let sha;
     if (metaRes.ok) {
       sha = (await metaRes.json()).sha;
     } else if (metaRes.status !== 404) {
-      showToast('GitHub 접근 오류 (토큰 확인 필요)');
+      showToast('GitHub 접근 오류');
       return;
     }
 
@@ -65,7 +64,7 @@ async function syncToGitHub() {
 
     const putRes = await fetch(GH_API_URL, {
       method: 'PUT',
-      headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
+      headers: { Authorization: `token ${GH_TOKEN}`, 'Content-Type': 'application/json' },
       body: JSON.stringify(body)
     });
 
@@ -76,18 +75,6 @@ async function syncToGitHub() {
     }
   } catch (e) {
     console.error('GitHub sync error:', e);
-  }
-}
-
-function saveGhToken() {
-  const token = document.getElementById('gh-token-input').value.trim();
-  if (token) {
-    localStorage.setItem(GH_TOKEN_KEY, token);
-    showToast('토큰이 저장됐습니다. 동기화 중...');
-    syncToGitHub();
-  } else {
-    localStorage.removeItem(GH_TOKEN_KEY);
-    showToast('토큰이 삭제됐습니다.');
   }
 }
 
@@ -1112,8 +1099,6 @@ function toggleBackupPanel() {
     if (Object.keys(customs).length > 0) {
       document.getElementById('backup-text').value = JSON.stringify(customs);
     }
-    const token = localStorage.getItem(GH_TOKEN_KEY);
-    if (token) document.getElementById('gh-token-input').value = token;
   }
 }
 
