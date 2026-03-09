@@ -56,8 +56,7 @@
   cursor: pointer;
 }
 
-.hidden-meaning .meaning-text,
-.hidden-meaning .pos-badge {
+.hidden-meaning .meaning-text {
   background: #e5e7eb;
   color: transparent;
   border-radius: 4px;

@@ -248,7 +248,7 @@ function renderQuizCard(mode) {
     </div>
     <div class="text-xs text-gray-400 text-center mb-4">${quizIndex + 1} / ${total}</div>
 
-    <div class="quiz-card" onclick="revealQuiz()">
+    <div class="quiz-card" id="quiz-card-area">
       <div class="quiz-prompt">${isEnMode ? '이 뜻의 영단어는?' : '이 단어의 뜻은?'}</div>
       ${isEnMode
         ? `<div class="quiz-meaning">${item.meanings.map(m =>
@@ -265,8 +265,21 @@ function renderQuizCard(mode) {
             ).join('')}</div>`
         }
       </div>
+    </div>
 
-      <div id="quiz-tap-hint" class="quiz-tap-hint">탭하여 정답 확인</div>
+    <!-- 입력창 -->
+    <div id="quiz-input-area" class="mt-4">
+      <div class="flex gap-2">
+        <input id="quiz-input" type="text"
+          placeholder="${isEnMode ? '영단어를 입력하세요' : '뜻을 입력하세요'}"
+          class="flex-1 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-indigo-400"
+          onkeydown="if(event.key==='Enter') checkAnswer('${escapeJs(item.word)}', ${JSON.stringify(item.meanings)}, ${isEnMode})">
+        <button onclick="checkAnswer('${escapeJs(item.word)}', ${JSON.stringify(item.meanings)}, ${isEnMode})"
+          class="px-4 py-3 bg-indigo-600 text-white rounded-xl text-sm font-semibold active:bg-indigo-700">
+          확인
+        </button>
+      </div>
+      <div id="quiz-feedback" class="hidden mt-3 text-center text-sm font-medium rounded-xl py-2"></div>
     </div>
 
     <div id="quiz-btns" class="hidden mt-4 grid grid-cols-2 gap-3">
@@ -297,8 +310,51 @@ function revealQuiz() {
   if (quizRevealed) return;
   quizRevealed = true;
   document.getElementById('quiz-answer').classList.remove('hidden');
-  document.getElementById('quiz-tap-hint').classList.add('hidden');
+  document.getElementById('quiz-input-area').classList.add('hidden');
   document.getElementById('quiz-btns').classList.remove('hidden');
+}
+
+function escapeJs(str) {
+  return str.replace(/'/g, "\\'");
+}
+
+function normalize(str) {
+  return str.trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+function checkAnswer(correctWord, meanings, isEnMode) {
+  if (quizRevealed) return;
+  const input = document.getElementById('quiz-input');
+  const feedback = document.getElementById('quiz-feedback');
+  const userAnswer = normalize(input.value);
+  if (!userAnswer) return;
+
+  let isCorrect = false;
+  if (isEnMode) {
+    // 뜻→영어: 영단어 정확히 맞추기
+    isCorrect = userAnswer === normalize(correctWord);
+  } else {
+    // 영어→뜻: 뜻 중 하나라도 포함되면 정답
+    const allDefs = meanings.flatMap(m => m.definitions);
+    isCorrect = allDefs.some(def => normalize(def) === userAnswer || normalize(def).includes(userAnswer) || userAnswer.includes(normalize(def)));
+  }
+
+  // 정답 보여주기
+  quizRevealed = true;
+  document.getElementById('quiz-answer').classList.remove('hidden');
+  document.getElementById('quiz-btns').classList.remove('hidden');
+  input.disabled = true;
+
+  feedback.classList.remove('hidden');
+  if (isCorrect) {
+    feedback.textContent = '정답이에요! 🎉';
+    feedback.className = 'mt-3 text-center text-sm font-medium rounded-xl py-2 bg-green-50 text-green-600';
+    // 자동으로 정답 처리
+    setTimeout(() => markQuiz(true), 800);
+  } else {
+    feedback.textContent = `틀렸어요. 정답을 확인하세요.`;
+    feedback.className = 'mt-3 text-center text-sm font-medium rounded-xl py-2 bg-red-50 text-red-500';
+  }
 }
 
 function markQuiz(correct) {
