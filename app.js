@@ -237,7 +237,6 @@ function checkInlineInput(inputEl, key, type) {
     );
   }
 
-  inputEl.disabled = true;
   inputEl.classList.add(isCorrect ? 'border-green-400' : 'border-red-400');
 
   const fb = document.getElementById('fb-' + key);
