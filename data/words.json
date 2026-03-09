@@ -8,82 +8,82 @@
           "id": 1,
           "word": "result",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["~로부터 생기다", "야기시키다"] },
-            { "partOfSpeech": "n.", "definitions": ["결과"] }
+            { "partOfSpeech": "동사", "definitions": ["~로부터 생기다", "야기시키다"] },
+            { "partOfSpeech": "명사", "definitions": ["결과"] }
           ],
           "related": [
-            { "id": 101, "word": "result in", "meanings": [{ "partOfSpeech": "phr.", "definitions": ["결과를 초래하다"] }] },
-            { "id": 102, "word": "result from", "meanings": [{ "partOfSpeech": "phr.", "definitions": ["원인으로부터 기인하다"] }] }
+            { "id": 101, "word": "result in", "meanings": [{ "partOfSpeech": "숙어", "definitions": ["결과를 초래하다"] }] },
+            { "id": 102, "word": "result from", "meanings": [{ "partOfSpeech": "숙어", "definitions": ["원인으로부터 기인하다"] }] }
           ]
         },
         {
           "id": 2,
           "word": "believe",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["믿다"] }
+            { "partOfSpeech": "동사", "definitions": ["믿다"] }
           ],
           "related": [
-            { "id": 103, "word": "believable", "meanings": [{ "partOfSpeech": "adj.", "definitions": ["믿을 수 있는"] }] },
-            { "id": 104, "word": "unbelievable", "meanings": [{ "partOfSpeech": "adj.", "definitions": ["믿을 수 없는", "믿기 어려운"] }] }
+            { "id": 103, "word": "believable", "meanings": [{ "partOfSpeech": "형용사", "definitions": ["믿을 수 있는"] }] },
+            { "id": 104, "word": "unbelievable", "meanings": [{ "partOfSpeech": "형용사", "definitions": ["믿을 수 없는", "믿기 어려운"] }] }
           ]
         },
         {
           "id": 3,
           "word": "enter",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["~에 들어가다", "입장하다"] }
+            { "partOfSpeech": "동사", "definitions": ["~에 들어가다", "입장하다"] }
           ],
           "related": [
-            { "id": 105, "word": "entrance", "meanings": [{ "partOfSpeech": "n.", "definitions": ["출입구"] }] }
+            { "id": 105, "word": "entrance", "meanings": [{ "partOfSpeech": "명사", "definitions": ["출입구"] }] }
           ]
         },
         {
           "id": 4,
           "word": "admit",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["인정하다", "허락하다"] }
+            { "partOfSpeech": "동사", "definitions": ["인정하다", "허락하다"] }
           ],
           "related": [
-            { "id": 106, "word": "admittance", "meanings": [{ "partOfSpeech": "n.", "definitions": ["입장", "허락"] }] }
+            { "id": 106, "word": "admittance", "meanings": [{ "partOfSpeech": "명사", "definitions": ["입장", "허락"] }] }
           ]
         },
         {
           "id": 5,
           "word": "happen",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["일어나다", "발생하다"] }
+            { "partOfSpeech": "동사", "definitions": ["일어나다", "발생하다"] }
           ],
           "related": [
-            { "id": 107, "word": "happening", "meanings": [{ "partOfSpeech": "n.", "definitions": ["(예기치못한) 사건", "일"] }] }
+            { "id": 107, "word": "happening", "meanings": [{ "partOfSpeech": "명사", "definitions": ["(예기치못한) 사건", "일"] }] }
           ]
         },
         {
           "id": 6,
           "word": "try",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["시도하다", "노력하다"] },
-            { "partOfSpeech": "n.", "definitions": ["시도", "노력"] }
+            { "partOfSpeech": "동사", "definitions": ["시도하다", "노력하다"] },
+            { "partOfSpeech": "명사", "definitions": ["시도", "노력"] }
           ],
           "related": [
-            { "id": 108, "word": "trial", "meanings": [{ "partOfSpeech": "n.", "definitions": ["재판", "시련", "시도"] }] },
-            { "id": 109, "word": "trial and error", "meanings": [{ "partOfSpeech": "n.", "definitions": ["시행 착오"] }] }
+            { "id": 108, "word": "trial", "meanings": [{ "partOfSpeech": "명사", "definitions": ["재판", "시련", "시도"] }] },
+            { "id": 109, "word": "trial and error", "meanings": [{ "partOfSpeech": "명사", "definitions": ["시행 착오"] }] }
           ]
         },
         {
           "id": 7,
           "word": "take",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["취하다"] }
+            { "partOfSpeech": "동사", "definitions": ["취하다"] }
           ],
           "related": [
-            { "id": 110, "word": "give and take", "meanings": [{ "partOfSpeech": "n.", "definitions": ["쌍방 양보", "의견 교환"] }] }
+            { "id": 110, "word": "give and take", "meanings": [{ "partOfSpeech": "명사", "definitions": ["쌍방 양보", "의견 교환"] }] }
           ]
         },
         {
           "id": 8,
           "word": "add",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["~를 더하다"] }
+            { "partOfSpeech": "동사", "definitions": ["~를 더하다"] }
           ],
           "related": []
         },
@@ -91,18 +91,18 @@
           "id": 9,
           "word": "decrease",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["감소하다", "감소시키다"] },
-            { "partOfSpeech": "n.", "definitions": ["감소"] }
+            { "partOfSpeech": "동사", "definitions": ["감소하다", "감소시키다"] },
+            { "partOfSpeech": "명사", "definitions": ["감소"] }
           ],
           "related": [
-            { "id": 111, "word": "increase", "meanings": [{ "partOfSpeech": "v.", "definitions": ["증가하다"] }] }
+            { "id": 111, "word": "increase", "meanings": [{ "partOfSpeech": "동사", "definitions": ["증가하다"] }] }
           ]
         },
         {
           "id": 10,
           "word": "improve",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["개선하다"] }
+            { "partOfSpeech": "동사", "definitions": ["개선하다"] }
           ],
           "related": []
         },
@@ -110,7 +110,7 @@
           "id": 11,
           "word": "marry",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["~와 결혼하다"] }
+            { "partOfSpeech": "동사", "definitions": ["~와 결혼하다"] }
           ],
           "related": []
         },
@@ -118,8 +118,8 @@
           "id": 12,
           "word": "cancel",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["취소하다"] },
-            { "partOfSpeech": "n.", "definitions": ["취소"] }
+            { "partOfSpeech": "동사", "definitions": ["취소하다"] },
+            { "partOfSpeech": "명사", "definitions": ["취소"] }
           ],
           "related": []
         },
@@ -127,7 +127,7 @@
           "id": 13,
           "word": "create",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["창조하다", "창작하다"] }
+            { "partOfSpeech": "동사", "definitions": ["창조하다", "창작하다"] }
           ],
           "related": []
         },
@@ -135,7 +135,7 @@
           "id": 14,
           "word": "invent",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["발명하다"] }
+            { "partOfSpeech": "동사", "definitions": ["발명하다"] }
           ],
           "related": []
         },
@@ -143,17 +143,17 @@
           "id": 15,
           "word": "realize",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["깨닫다", "실현하다"] }
+            { "partOfSpeech": "동사", "definitions": ["깨닫다", "실현하다"] }
           ],
           "related": [
-            { "id": 112, "word": "real", "meanings": [{ "partOfSpeech": "adj.", "definitions": ["진짜의", "현실적인"] }] }
+            { "id": 112, "word": "real", "meanings": [{ "partOfSpeech": "형용사", "definitions": ["진짜의", "현실적인"] }] }
           ]
         },
         {
           "id": 16,
           "word": "avoid",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["피하다"] }
+            { "partOfSpeech": "동사", "definitions": ["피하다"] }
           ],
           "related": []
         },
@@ -161,8 +161,8 @@
           "id": 17,
           "word": "reveal",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["드러내다"] },
-            { "partOfSpeech": "n.", "definitions": ["폭로"] }
+            { "partOfSpeech": "동사", "definitions": ["드러내다"] },
+            { "partOfSpeech": "명사", "definitions": ["폭로"] }
           ],
           "related": []
         },
@@ -170,8 +170,8 @@
           "id": 18,
           "word": "support",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["지지하다"] },
-            { "partOfSpeech": "n.", "definitions": ["지지"] }
+            { "partOfSpeech": "동사", "definitions": ["지지하다"] },
+            { "partOfSpeech": "명사", "definitions": ["지지"] }
           ],
           "related": []
         },
@@ -179,7 +179,7 @@
           "id": 19,
           "word": "neglect",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["무시하다", "소홀히 하다"] }
+            { "partOfSpeech": "동사", "definitions": ["무시하다", "소홀히 하다"] }
           ],
           "related": []
         },
@@ -187,7 +187,7 @@
           "id": 20,
           "word": "invest",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["투자하다"] }
+            { "partOfSpeech": "동사", "definitions": ["투자하다"] }
           ],
           "related": []
         },
@@ -195,7 +195,7 @@
           "id": 21,
           "word": "forgive",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["용서하다"] }
+            { "partOfSpeech": "동사", "definitions": ["용서하다"] }
           ],
           "related": []
         },
@@ -203,7 +203,7 @@
           "id": 22,
           "word": "earn",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["벌다", "획득하다"] }
+            { "partOfSpeech": "동사", "definitions": ["벌다", "획득하다"] }
           ],
           "related": []
         },
@@ -211,18 +211,18 @@
           "id": 23,
           "word": "wonder",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["궁금하다"] }
+            { "partOfSpeech": "동사", "definitions": ["궁금하다"] }
           ],
           "related": [
-            { "id": 113, "word": "wonderful", "meanings": [{ "partOfSpeech": "adj.", "definitions": ["훌륭한", "놀랄만한"] }] }
+            { "id": 113, "word": "wonderful", "meanings": [{ "partOfSpeech": "형용사", "definitions": ["훌륭한", "놀랄만한"] }] }
           ]
         },
         {
           "id": 24,
           "word": "lift",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["들어올리다"] },
-            { "partOfSpeech": "n.", "definitions": ["(정신의)고양"] }
+            { "partOfSpeech": "동사", "definitions": ["들어올리다"] },
+            { "partOfSpeech": "명사", "definitions": ["(정신의)고양"] }
           ],
           "related": []
         },
@@ -230,8 +230,8 @@
           "id": 25,
           "word": "express",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["표현하다"] },
-            { "partOfSpeech": "n.", "definitions": ["급행"] }
+            { "partOfSpeech": "동사", "definitions": ["표현하다"] },
+            { "partOfSpeech": "명사", "definitions": ["급행"] }
           ],
           "related": []
         },
@@ -239,17 +239,17 @@
           "id": 26,
           "word": "explain",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["설명하다"] }
+            { "partOfSpeech": "동사", "definitions": ["설명하다"] }
           ],
           "related": [
-            { "id": 114, "word": "explanation", "meanings": [{ "partOfSpeech": "n.", "definitions": ["설명", "해명"] }] }
+            { "id": 114, "word": "explanation", "meanings": [{ "partOfSpeech": "명사", "definitions": ["설명", "해명"] }] }
           ]
         },
         {
           "id": 27,
           "word": "save",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["구하다", "모으다"] }
+            { "partOfSpeech": "동사", "definitions": ["구하다", "모으다"] }
           ],
           "related": []
         },
@@ -257,7 +257,7 @@
           "id": 28,
           "word": "treat",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["취급하다", "다루다", "대접하다"] }
+            { "partOfSpeech": "동사", "definitions": ["취급하다", "다루다", "대접하다"] }
           ],
           "related": []
         },
@@ -265,8 +265,8 @@
           "id": 29,
           "word": "scream",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["소리치다"] },
-            { "partOfSpeech": "n.", "definitions": ["비명"] }
+            { "partOfSpeech": "동사", "definitions": ["소리치다"] },
+            { "partOfSpeech": "명사", "definitions": ["비명"] }
           ],
           "related": []
         },
@@ -274,18 +274,18 @@
           "id": 30,
           "word": "press",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["~을 누르다"] },
-            { "partOfSpeech": "n.", "definitions": ["신문", "언론"] }
+            { "partOfSpeech": "동사", "definitions": ["~을 누르다"] },
+            { "partOfSpeech": "명사", "definitions": ["신문", "언론"] }
           ],
           "related": [
-            { "id": 115, "word": "pressure", "meanings": [{ "partOfSpeech": "n.", "definitions": ["압박", "압력"] }] }
+            { "id": 115, "word": "pressure", "meanings": [{ "partOfSpeech": "명사", "definitions": ["압박", "압력"] }] }
           ]
         },
         {
           "id": 31,
           "word": "accept",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["받아들이다", "인정하다"] }
+            { "partOfSpeech": "동사", "definitions": ["받아들이다", "인정하다"] }
           ],
           "related": []
         },
@@ -293,39 +293,39 @@
           "id": 32,
           "word": "conclude",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["결론짓다"] }
+            { "partOfSpeech": "동사", "definitions": ["결론짓다"] }
           ],
           "related": [
-            { "id": 116, "word": "conclusion", "meanings": [{ "partOfSpeech": "n.", "definitions": ["결론"] }] },
-            { "id": 117, "word": "conclusive", "meanings": [{ "partOfSpeech": "adj.", "definitions": ["결정적인"] }] }
+            { "id": 116, "word": "conclusion", "meanings": [{ "partOfSpeech": "명사", "definitions": ["결론"] }] },
+            { "id": 117, "word": "conclusive", "meanings": [{ "partOfSpeech": "형용사", "definitions": ["결정적인"] }] }
           ]
         },
         {
           "id": 33,
           "word": "depress",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["낙담시키다", "우울하게 하다"] }
+            { "partOfSpeech": "동사", "definitions": ["낙담시키다", "우울하게 하다"] }
           ],
           "related": [
-            { "id": 118, "word": "depression", "meanings": [{ "partOfSpeech": "n.", "definitions": ["우울증", "불경기"] }] },
-            { "id": 119, "word": "depressed", "meanings": [{ "partOfSpeech": "adj.", "definitions": ["우울한"] }] }
+            { "id": 118, "word": "depression", "meanings": [{ "partOfSpeech": "명사", "definitions": ["우울증", "불경기"] }] },
+            { "id": 119, "word": "depressed", "meanings": [{ "partOfSpeech": "형용사", "definitions": ["우울한"] }] }
           ]
         },
         {
           "id": 34,
           "word": "build",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["짓다", "건축하다", "건물을 세우다"] }
+            { "partOfSpeech": "동사", "definitions": ["짓다", "건축하다", "건물을 세우다"] }
           ],
           "related": [
-            { "id": 120, "word": "building", "meanings": [{ "partOfSpeech": "n.", "definitions": ["건물"] }] }
+            { "id": 120, "word": "building", "meanings": [{ "partOfSpeech": "명사", "definitions": ["건물"] }] }
           ]
         },
         {
           "id": 35,
           "word": "hide",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["~을 숨기다", "숨다"] }
+            { "partOfSpeech": "동사", "definitions": ["~을 숨기다", "숨다"] }
           ],
           "related": []
         },
@@ -333,7 +333,7 @@
           "id": 36,
           "word": "ride",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["타다"] }
+            { "partOfSpeech": "동사", "definitions": ["타다"] }
           ],
           "related": []
         },
@@ -341,12 +341,12 @@
           "id": 37,
           "word": "conduct",
           "meanings": [
-            { "partOfSpeech": "v.", "definitions": ["수행하다"] },
-            { "partOfSpeech": "n.", "definitions": ["행위", "품행"] }
+            { "partOfSpeech": "동사", "definitions": ["수행하다"] },
+            { "partOfSpeech": "명사", "definitions": ["행위", "품행"] }
           ],
           "related": [
-            { "id": 121, "word": "code of conduct", "meanings": [{ "partOfSpeech": "n.", "definitions": ["행동 수칙", "행동 강령"] }] },
-            { "id": 122, "word": "conductor", "meanings": [{ "partOfSpeech": "n.", "definitions": ["안내자", "지휘자"] }] }
+            { "id": 121, "word": "code of conduct", "meanings": [{ "partOfSpeech": "명사", "definitions": ["행동 수칙", "행동 강령"] }] },
+            { "id": 122, "word": "conductor", "meanings": [{ "partOfSpeech": "명사", "definitions": ["안내자", "지휘자"] }] }
           ]
         }
       ]
