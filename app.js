@@ -399,9 +399,8 @@ function renderQuizCard(mode) {
       <div class="flex gap-2">
         <input id="quiz-input" type="text"
           placeholder="${isEnMode ? '영단어를 입력하세요' : '뜻을 입력하세요'}"
-          class="flex-1 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-indigo-400"
-          onkeydown="if(event.key==='Enter') checkAnswer('${escapeJs(item.word)}', ${JSON.stringify(item.meanings)}, ${isEnMode})">
-        <button onclick="checkAnswer('${escapeJs(item.word)}', ${JSON.stringify(item.meanings)}, ${isEnMode})"
+          class="flex-1 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-indigo-400">
+        <button onclick="checkAnswer()"
           class="px-4 py-3 bg-indigo-600 text-white rounded-xl text-sm font-semibold active:bg-indigo-700">
           확인
         </button>
@@ -431,6 +430,15 @@ function renderQuizCard(mode) {
       &nbsp; 틀림 <span class="text-red-400 font-semibold">${quizWrong}</span>
     </div>
   `;
+
+  // Focus input and bind Enter key after render
+  const input = document.getElementById('quiz-input');
+  if (input) {
+    input.focus();
+    input.addEventListener('keydown', e => {
+      if (e.key === 'Enter') checkAnswer();
+    });
+  }
 }
 
 function revealQuiz() {
@@ -449,20 +457,21 @@ function normalize(str) {
   return str.trim().toLowerCase().replace(/\s+/g, ' ');
 }
 
-function checkAnswer(correctWord, meanings, isEnMode) {
+function checkAnswer() {
   if (quizRevealed) return;
   const input = document.getElementById('quiz-input');
   const feedback = document.getElementById('quiz-feedback');
   const userAnswer = normalize(input.value);
   if (!userAnswer) return;
 
+  const item = quizItems[quizIndex];
+  const isEnMode = currentMode === 'quiz-en';
+
   let isCorrect = false;
   if (isEnMode) {
-    // 뜻→영어: 영단어 정확히 맞추기
-    isCorrect = userAnswer === normalize(correctWord);
+    isCorrect = userAnswer === normalize(item.word);
   } else {
-    // 영어→뜻: 뜻 중 하나라도 포함되면 정답
-    const allDefs = meanings.flatMap(m => m.definitions);
+    const allDefs = item.meanings.flatMap(m => m.definitions);
     isCorrect = allDefs.some(def => normalize(def) === userAnswer || normalize(def).includes(userAnswer) || userAnswer.includes(normalize(def)));
   }
 
