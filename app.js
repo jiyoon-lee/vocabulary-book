@@ -54,12 +54,24 @@ async function reloadFromJson() {
 // ─── Init ─────────────────────────────────────────────────────────────────────
 async function init() {
   try {
+    const res = await fetch('data/words.json');
+    const fresh = await res.json();
+
     const local = localStorage.getItem(LOCAL_DATA_KEY);
     if (local) {
       allData = JSON.parse(local);
+      // 새 카테고리가 생겼으면 자동으로 추가
+      let changed = false;
+      fresh.categories.forEach(freshCat => {
+        const exists = allData.categories.find(c => c.id === freshCat.id);
+        if (!exists) {
+          allData.categories.push(freshCat);
+          changed = true;
+        }
+      });
+      if (changed) saveData();
     } else {
-      const res = await fetch('data/words.json');
-      allData = await res.json();
+      allData = fresh;
       saveData();
     }
   } catch (e) {
