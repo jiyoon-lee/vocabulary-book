@@ -596,6 +596,11 @@ function showWordModal(title, word) {
   document.getElementById('modal-title').textContent = title;
   document.getElementById('modal-form').innerHTML = buildWordForm(word);
   document.getElementById('word-modal').showModal();
+  // 단어 추가 시 영단어 입력란, 수정 시 뜻 입력란에 포커스
+  const focusTarget = word.word
+    ? document.querySelector('#form-meanings .def-input')
+    : document.getElementById('form-word');
+  if (focusTarget) setTimeout(() => focusTarget.focus(), 50);
 }
 
 function closeWordModal() {
@@ -663,15 +668,21 @@ function buildWordForm(word) {
 }
 
 function addMeaningRow() {
-  document.getElementById('form-meanings').insertAdjacentHTML('beforeend', meaningRowHtml('', ''));
+  const container = document.getElementById('form-meanings');
+  container.insertAdjacentHTML('beforeend', meaningRowHtml('', ''));
+  container.lastElementChild.querySelector('.def-input').focus();
 }
 
 function addRelatedRow() {
-  document.getElementById('form-related').insertAdjacentHTML('beforeend', relatedItemHtml('', meaningRowHtml('', '')));
+  const container = document.getElementById('form-related');
+  container.insertAdjacentHTML('beforeend', relatedItemHtml('', meaningRowHtml('', '')));
+  container.lastElementChild.querySelector('.related-word-input').focus();
 }
 
 function addRelatedMeaning(btn) {
-  btn.previousElementSibling.insertAdjacentHTML('beforeend', meaningRowHtml('', ''));
+  const container = btn.previousElementSibling;
+  container.insertAdjacentHTML('beforeend', meaningRowHtml('', ''));
+  container.lastElementChild.querySelector('.def-input').focus();
 }
 
 function collectMeanings(container) {
