@@ -668,9 +668,7 @@
         {
           "id": 52,
           "word": "remind",
-          "meanings": [
-            {"partOfSpeech": "동사", "definitions": ["상기시키다"]}
-          ],
+          "meanings": [{"partOfSpeech": "동사", "definitions": ["상기시키다"]}],
           "related": []
         },
         {
@@ -684,12 +682,25 @@
         {
           "id": 54,
           "word": "decide",
-          "meanings": [
-            {"partOfSpeech": "동사", "definitions": ["결정하다"]}
-          ],
+          "meanings": [{"partOfSpeech": "동사", "definitions": ["결정하다"]}],
           "related": [
-            {"id": 201, "word": "decision", "meanings": [{"partOfSpeech": "명사", "definitions": ["결정", "판단"]}]},
-            {"id": 202, "word": "decisive", "meanings": [{"partOfSpeech": "형용사", "definitions": ["결정적인", "결단력 있는"]}]}
+            {
+              "id": 201,
+              "word": "decision",
+              "meanings": [
+                {"partOfSpeech": "명사", "definitions": ["결정", "판단"]}
+              ]
+            },
+            {
+              "id": 202,
+              "word": "decisive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": ["결정적인", "결단력 있는"]
+                }
+              ]
+            }
           ]
         },
         {
@@ -708,34 +719,46 @@
             {"partOfSpeech": "명사", "definitions": ["공급(량)"]}
           ],
           "related": [
-            {"id": 203, "word": "demand", "meanings": [{"partOfSpeech": "명사", "definitions": ["수요"]}]}
+            {
+              "id": 203,
+              "word": "demand",
+              "meanings": [{"partOfSpeech": "명사", "definitions": ["수요"]}]
+            }
           ]
         },
         {
           "id": 57,
           "word": "regret",
           "meanings": [
-            {"partOfSpeech": "동사", "definitions": ["후회하다", "유감으로 생각하다"]},
+            {
+              "partOfSpeech": "동사",
+              "definitions": ["후회하다", "유감으로 생각하다"]
+            },
             {"partOfSpeech": "명사", "definitions": ["후회", "유감"]}
           ],
           "related": [
-            {"id": 204, "word": "regretful", "meanings": [{"partOfSpeech": "형용사", "definitions": ["후회하는", "유감으로 생각하는"]}]}
+            {
+              "id": 204,
+              "word": "regretful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": ["후회하는", "유감으로 생각하는"]
+                }
+              ]
+            }
           ]
         },
         {
           "id": 58,
           "word": "see",
-          "meanings": [
-            {"partOfSpeech": "동사", "definitions": ["보다"]}
-          ],
+          "meanings": [{"partOfSpeech": "동사", "definitions": ["보다"]}],
           "related": []
         },
         {
           "id": 59,
           "word": "hire",
-          "meanings": [
-            {"partOfSpeech": "동사", "definitions": ["고용하다"]}
-          ],
+          "meanings": [{"partOfSpeech": "동사", "definitions": ["고용하다"]}],
           "related": []
         },
         {
@@ -746,29 +769,53 @@
             {"partOfSpeech": "명사", "definitions": ["제안", "제공"]}
           ],
           "related": [
-            {"id": 205, "word": "special offer", "meanings": [{"partOfSpeech": "명사", "definitions": ["특가 판매"]}]}
+            {
+              "id": 205,
+              "word": "special offer",
+              "meanings": [
+                {"partOfSpeech": "명사", "definitions": ["특가 판매"]}
+              ]
+            }
           ]
         },
         {
           "id": 61,
           "word": "borrow",
-          "meanings": [
-            {"partOfSpeech": "동사", "definitions": ["빌리다"]}
-          ],
+          "meanings": [{"partOfSpeech": "동사", "definitions": ["빌리다"]}],
           "related": [
-            {"id": 206, "word": "lend", "meanings": [{"partOfSpeech": "동사", "definitions": ["빌려주다"]}]}
+            {
+              "id": 206,
+              "word": "lend",
+              "meanings": [
+                {"partOfSpeech": "동사", "definitions": ["빌려주다"]}
+              ]
+            }
           ]
         },
         {
           "id": 62,
-          "word": "introduce",
+          "word": "discuss",
           "meanings": [
-            {"partOfSpeech": "동사", "definitions": ["소개하다"]}
+            {"partOfSpeech": "동사", "definitions": ["토론하다", "의논하다"]}
           ],
-          "related": []
+          "related": [
+            {
+              "id": 207,
+              "word": "discussion",
+              "meanings": [
+                {"partOfSpeech": "명사", "definitions": ["논의", "상의"]}
+              ]
+            }
+          ]
         },
         {
           "id": 63,
+          "word": "introduce",
+          "meanings": [{"partOfSpeech": "동사", "definitions": ["소개하다"]}],
+          "related": []
+        },
+        {
+          "id": 64,
           "word": "reform",
           "meanings": [
             {"partOfSpeech": "동사", "definitions": ["개혁[개선]하다"]}
@@ -776,7 +823,7 @@
           "related": []
         },
         {
-          "id": 64,
+          "id": 65,
           "word": "celebrate",
           "meanings": [
             {"partOfSpeech": "동사", "definitions": ["축하하다", "기리다"]}
@@ -784,37 +831,58 @@
           "related": []
         },
         {
-          "id": 65,
+          "id": 66,
           "word": "employ",
-          "meanings": [
-            {"partOfSpeech": "동사", "definitions": ["고용하다"]}
-          ],
+          "meanings": [{"partOfSpeech": "동사", "definitions": ["고용하다"]}],
           "related": [
-            {"id": 207, "word": "employer", "meanings": [{"partOfSpeech": "명사", "definitions": ["고용주"]}]},
-            {"id": 208, "word": "employee", "meanings": [{"partOfSpeech": "명사", "definitions": ["피고용인", "직원"]}]}
+            {
+              "id": 208,
+              "word": "employer",
+              "meanings": [{"partOfSpeech": "명사", "definitions": ["고용주"]}]
+            },
+            {
+              "id": 209,
+              "word": "employee",
+              "meanings": [
+                {"partOfSpeech": "명사", "definitions": ["피고용인", "직원"]}
+              ]
+            }
           ]
         },
         {
-          "id": 66,
+          "id": 67,
           "word": "rescue",
-          "meanings": [
-            {"partOfSpeech": "동사", "definitions": ["구조하다"]}
-          ],
+          "meanings": [{"partOfSpeech": "동사", "definitions": ["구조하다"]}],
           "related": []
         },
         {
-          "id": 67,
+          "id": 68,
           "word": "obey",
           "meanings": [
             {"partOfSpeech": "동사", "definitions": ["~에 복종하다"]}
           ],
           "related": [
-            {"id": 209, "word": "obedience", "meanings": [{"partOfSpeech": "명사", "definitions": ["복종", "순종"]}]},
-            {"id": 210, "word": "obedient", "meanings": [{"partOfSpeech": "형용사", "definitions": ["순종적인", "복종적인"]}]}
+            {
+              "id": 210,
+              "word": "obedience",
+              "meanings": [
+                {"partOfSpeech": "명사", "definitions": ["복종", "순종"]}
+              ]
+            },
+            {
+              "id": 211,
+              "word": "obedient",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": ["순종적인", "복종적인"]
+                }
+              ]
+            }
           ]
         },
         {
-          "id": 68,
+          "id": 69,
           "word": "kiss",
           "meanings": [
             {"partOfSpeech": "동사", "definitions": ["입을 맞추다", "키스하다"]}
@@ -822,15 +890,13 @@
           "related": []
         },
         {
-          "id": 69,
+          "id": 70,
           "word": "fail",
-          "meanings": [
-            {"partOfSpeech": "동사", "definitions": ["실패하다"]}
-          ],
+          "meanings": [{"partOfSpeech": "동사", "definitions": ["실패하다"]}],
           "related": []
         },
         {
-          "id": 70,
+          "id": 71,
           "word": "crash",
           "meanings": [
             {"partOfSpeech": "동사", "definitions": ["충돌하다", "부딪치다"]}
