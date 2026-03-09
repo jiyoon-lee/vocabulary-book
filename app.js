@@ -511,10 +511,17 @@ function closeWordModal() {
   document.getElementById('word-modal').close();
 }
 
+const POS_OPTIONS = ['동사', '명사', '형용사', '부사', '대명사', '수사', '관형사', '감탄사', '숙어'];
+
 function meaningRowHtml(pos, defs) {
+  const selected = POS_OPTIONS.includes(pos) ? pos : '동사';
+  const optionsHtml = POS_OPTIONS.map(p =>
+    `<option value="${p}"${p === selected ? ' selected' : ''}>${p}</option>`
+  ).join('');
   return `<div class="meaning-row flex gap-1 items-center">
-    <input type="text" placeholder="품사" value="${escHtml(pos)}"
-      class="w-16 border border-gray-200 rounded-lg px-2 py-1.5 text-xs focus:outline-none focus:border-indigo-400 pos-input">
+    <select class="w-20 border border-gray-200 rounded-lg px-1 py-1.5 text-xs focus:outline-none focus:border-indigo-400 pos-input bg-white">
+      ${optionsHtml}
+    </select>
     <input type="text" placeholder="뜻 (콤마로 구분)" value="${escHtml(defs)}"
       class="flex-1 border border-gray-200 rounded-lg px-2 py-1.5 text-xs focus:outline-none focus:border-indigo-400 def-input">
     <button type="button" onclick="this.closest('.meaning-row').remove()" class="text-red-400 text-sm px-1 flex-shrink-0">✕</button>
