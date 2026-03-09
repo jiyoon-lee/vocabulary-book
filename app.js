@@ -92,7 +92,7 @@ function renderHome() {
 }
 
 function countWords(cat) {
-  return cat.words.reduce((sum, w) => sum + 1 + (w.related ? w.related.length : 0), 0);
+  return cat.words.length;
 }
 
 // ─── Category ─────────────────────────────────────────────────────────────────
