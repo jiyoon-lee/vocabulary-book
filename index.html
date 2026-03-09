@@ -53,6 +53,12 @@
 
       <!-- List mode -->
       <div id="mode-list">
+        <div class="flex gap-2 mb-3 mt-4">
+          <button onclick="openAddWord()"
+            class="flex-1 py-2 text-xs font-semibold rounded-lg border border-indigo-200 text-indigo-600 bg-white active:bg-indigo-50">
+            + 단어 추가
+          </button>
+        </div>
         <div class="flex gap-2 mb-4">
           <button id="btn-hide-en" class="flex-1 py-2 text-xs rounded-lg border font-medium transition-colors"
             onclick="toggleHide('en')">영어 가리기</button>
@@ -90,6 +96,19 @@
     </div>
 
   </main>
+
+  <!-- Word Add/Edit Modal -->
+  <dialog id="word-modal" class="fixed bottom-0 left-0 right-0 m-0 w-full max-w-full max-h-[90vh] overflow-y-auto rounded-t-2xl p-4 pb-10 border-0 shadow-2xl backdrop:bg-black/50">
+    <div class="flex items-center justify-between mb-4">
+      <h2 id="modal-title" class="text-base font-bold text-gray-800">단어 추가</h2>
+      <button onclick="closeWordModal()" class="text-gray-400 text-xl leading-none px-1">✕</button>
+    </div>
+    <div id="modal-form"></div>
+    <button onclick="saveWord()"
+      class="w-full py-3 bg-indigo-600 text-white font-bold text-sm rounded-xl mt-5 active:bg-indigo-700">
+      저장
+    </button>
+  </dialog>
 
   <!-- Toast -->
   <div id="toast" class="fixed bottom-24 left-1/2 -translate-x-1/2 bg-gray-800 text-white text-sm px-4 py-2 rounded-full opacity-0 transition-opacity duration-300 pointer-events-none z-50"></div>

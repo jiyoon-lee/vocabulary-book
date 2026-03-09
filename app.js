@@ -15,13 +15,31 @@ let quizRevealed = false;
 let quizCorrect = 0;
 let quizWrong = 0;
 
+// CRUD state
+let _editingWordId = null;
+let _idCounter = Date.now();
+function nextId() { return ++_idCounter; }
+
+// ─── Local Data Storage ────────────────────────────────────────────────────────
+const LOCAL_DATA_KEY = 'vocab_data';
+
+function saveData() {
+  localStorage.setItem(LOCAL_DATA_KEY, JSON.stringify(allData));
+}
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 async function init() {
   try {
-    const res = await fetch('data/words.json');
-    allData = await res.json();
+    const local = localStorage.getItem(LOCAL_DATA_KEY);
+    if (local) {
+      allData = JSON.parse(local);
+    } else {
+      const res = await fetch('data/words.json');
+      allData = await res.json();
+      saveData();
+    }
   } catch (e) {
-    // If fetch fails (file:// protocol), show message
+    console.error('데이터 로드 실패:', e);
     document.getElementById('category-list').innerHTML =
       '<p class="text-red-500 text-sm text-center">데이터를 불러오지 못했습니다.<br>GitHub Pages 또는 로컬 서버에서 실행해 주세요.</p>';
     return;
@@ -160,7 +178,7 @@ function renderWordList() {
   Object.keys(_items).forEach(k => delete _items[k]);
   const container = document.getElementById('word-list');
   container.innerHTML = currentCategory.words.map((word, idx) =>
-    renderWordCard(word, idx + 1, false)
+    renderWordCard(word, idx + 1, false, true)
   ).join('');
   // 채점 버튼: hide 모드일 때만 표시
   const gradeWrap = document.getElementById('grade-btn-wrap');
@@ -171,7 +189,7 @@ function renderWordList() {
   }
 }
 
-function renderWordCard(word, num, isRelated) {
+function renderWordCard(word, num, isRelated, showActions = false) {
   const key = `w${word.id}`;
 
   // English word section
@@ -218,11 +236,18 @@ function renderWordCard(word, num, isRelated) {
         `<div class="word-related">${renderWordCard(rel, null, true)}</div>`
       ).join('')}</div>`;
 
+  const actionsHtml = (showActions && !isRelated) ? `
+    <div class="flex gap-2 mt-3 justify-end">
+      <button onclick="openEditWord(${word.id})" class="text-xs text-gray-500 px-2 py-1 rounded-lg border border-gray-200 active:bg-gray-50">수정</button>
+      <button onclick="deleteWord(${word.id})" class="text-xs text-red-400 px-2 py-1 rounded-lg border border-red-200 active:bg-red-50">삭제</button>
+    </div>` : '';
+
   return `
     <div class="word-card">
       ${wordHtml}
       <div class="mt-1">${meaningsHtml}</div>
       ${relatedHtml}
+      ${actionsHtml}
     </div>`;
 }
 
@@ -433,6 +458,151 @@ function renderQuizCard(mode) {
 
 function escapeJs(str) {
   return str.replace(/'/g, "\\'");
+}
+
+function escHtml(s) {
+  return String(s || '').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+}
+
+// ─── Word CRUD ────────────────────────────────────────────────────────────────
+function openAddWord() {
+  _editingWordId = null;
+  showWordModal('단어 추가', { word: '', meanings: [{ partOfSpeech: '', definitions: [''] }], related: [] });
+}
+
+function openEditWord(wordId) {
+  _editingWordId = wordId;
+  const word = currentCategory.words.find(w => w.id === wordId);
+  if (!word) return;
+  showWordModal('단어 수정', word);
+}
+
+function showWordModal(title, word) {
+  document.getElementById('modal-title').textContent = title;
+  document.getElementById('modal-form').innerHTML = buildWordForm(word);
+  document.getElementById('word-modal').showModal();
+}
+
+function closeWordModal() {
+  document.getElementById('word-modal').close();
+}
+
+function meaningRowHtml(pos, defs) {
+  return `<div class="meaning-row flex gap-1 items-center">
+    <input type="text" placeholder="품사" value="${escHtml(pos)}"
+      class="w-16 border border-gray-200 rounded-lg px-2 py-1.5 text-xs focus:outline-none focus:border-indigo-400 pos-input">
+    <input type="text" placeholder="뜻 (콤마로 구분)" value="${escHtml(defs)}"
+      class="flex-1 border border-gray-200 rounded-lg px-2 py-1.5 text-xs focus:outline-none focus:border-indigo-400 def-input">
+    <button type="button" onclick="this.closest('.meaning-row').remove()" class="text-red-400 text-sm px-1 flex-shrink-0">✕</button>
+  </div>`;
+}
+
+function relatedItemHtml(rWord, meaningsHtml) {
+  return `<div class="related-item border border-gray-100 rounded-xl p-3 mb-2 bg-gray-50">
+    <div class="flex items-center gap-2 mb-2">
+      <input type="text" placeholder="연계 단어" value="${escHtml(rWord)}"
+        class="flex-1 border border-gray-200 rounded-lg px-3 py-1.5 text-sm focus:outline-none focus:border-indigo-400 related-word-input bg-white">
+      <button type="button" onclick="this.closest('.related-item').remove()" class="text-red-400 text-xs px-2 py-1 border border-red-200 rounded-lg flex-shrink-0">삭제</button>
+    </div>
+    <div class="related-meanings space-y-1">${meaningsHtml}</div>
+    <button type="button" onclick="addRelatedMeaning(this)" class="text-xs text-indigo-500 mt-1">+ 뜻 추가</button>
+  </div>`;
+}
+
+function buildWordForm(word) {
+  const meaningsHtml = (word.meanings || []).map(m =>
+    meaningRowHtml(m.partOfSpeech, (m.definitions || []).join(', '))
+  ).join('');
+
+  const relatedHtml = (word.related || []).map(r => {
+    const rMeaningsHtml = (r.meanings || []).map(m =>
+      meaningRowHtml(m.partOfSpeech, (m.definitions || []).join(', '))
+    ).join('');
+    return relatedItemHtml(r.word, rMeaningsHtml);
+  }).join('');
+
+  return `<div class="space-y-4">
+    <div>
+      <label class="text-xs font-semibold text-gray-500 mb-1 block">영단어 *</label>
+      <input id="form-word" type="text" placeholder="영단어" value="${escHtml(word.word)}"
+        class="w-full border border-gray-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-indigo-400">
+    </div>
+    <div>
+      <label class="text-xs font-semibold text-gray-500 mb-1 block">뜻 *</label>
+      <div id="form-meanings" class="space-y-1">${meaningsHtml}</div>
+      <button type="button" onclick="addMeaningRow()" class="text-xs text-indigo-500 mt-1">+ 뜻 추가</button>
+    </div>
+    <div>
+      <label class="text-xs font-semibold text-gray-500 mb-1 block">연계 단어</label>
+      <div id="form-related">${relatedHtml}</div>
+      <button type="button" onclick="addRelatedRow()" class="text-xs text-indigo-500 mt-1">+ 연계 단어 추가</button>
+    </div>
+  </div>`;
+}
+
+function addMeaningRow() {
+  document.getElementById('form-meanings').insertAdjacentHTML('beforeend', meaningRowHtml('', ''));
+}
+
+function addRelatedRow() {
+  document.getElementById('form-related').insertAdjacentHTML('beforeend', relatedItemHtml('', meaningRowHtml('', '')));
+}
+
+function addRelatedMeaning(btn) {
+  btn.previousElementSibling.insertAdjacentHTML('beforeend', meaningRowHtml('', ''));
+}
+
+function collectMeanings(container) {
+  const meanings = [];
+  container.querySelectorAll('.meaning-row').forEach(row => {
+    const pos = row.querySelector('.pos-input').value.trim();
+    const defs = row.querySelector('.def-input').value.trim();
+    if (defs) meanings.push({ partOfSpeech: pos, definitions: defs.split(',').map(d => d.trim()).filter(Boolean) });
+  });
+  return meanings;
+}
+
+function saveWord() {
+  const wordText = document.getElementById('form-word').value.trim();
+  if (!wordText) { showToast('영단어를 입력하세요.'); return; }
+
+  const meanings = collectMeanings(document.getElementById('form-meanings'));
+  if (meanings.length === 0) { showToast('뜻을 하나 이상 입력하세요.'); return; }
+
+  const related = [];
+  document.querySelectorAll('#form-related .related-item').forEach(item => {
+    const rWord = item.querySelector('.related-word-input').value.trim();
+    if (!rWord) return;
+    const rMeanings = collectMeanings(item);
+    if (rMeanings.length > 0) related.push({ id: nextId(), word: rWord, meanings: rMeanings });
+  });
+
+  const cat = allData.categories.find(c => c.id === currentCategory.id);
+  if (_editingWordId === null) {
+    cat.words.push({ id: nextId(), word: wordText, meanings, related });
+  } else {
+    const idx = cat.words.findIndex(w => w.id === _editingWordId);
+    if (idx !== -1) {
+      const oldRelated = cat.words[idx].related || [];
+      related.forEach((r, i) => { if (oldRelated[i]) r.id = oldRelated[i].id; });
+      cat.words[idx] = { id: _editingWordId, word: wordText, meanings, related };
+    }
+  }
+  currentCategory = cat;
+  saveData();
+  closeWordModal();
+  renderWordList();
+  showToast(_editingWordId === null ? '추가됐습니다.' : '수정됐습니다.');
+}
+
+function deleteWord(wordId) {
+  if (!confirm('이 단어를 삭제할까요?')) return;
+  const cat = allData.categories.find(c => c.id === currentCategory.id);
+  cat.words = cat.words.filter(w => w.id !== wordId);
+  currentCategory = cat;
+  saveData();
+  renderWordList();
+  showToast('삭제됐습니다.');
 }
 
 function normalize(str) {
