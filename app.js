@@ -24,27 +24,42 @@ function nextId() { return ++_idCounter; }
 let _drag = null;
 
 // ─── Local Data Storage ────────────────────────────────────────────────────────
-const LOCAL_DATA_KEY = 'vocab_data';
+const LOCAL_DATA_KEY = 'vocab_data';     // 전체 스냅샷 (하위 호환)
+const CUSTOMS_KEY    = 'vocab_customs';  // {catId: [사용자 추가 단어, ...]}
+const ORDER_KEY      = 'vocab_order';    // {catId: [wordId, ...]} 순서
+
+function _saveCustomsAndOrder() {
+  const customs = {};
+  const order = {};
+  allData.categories.forEach(cat => {
+    const custom = cat.words.filter(w => w.id > 1000);
+    if (custom.length > 0) customs[cat.id] = custom;
+    order[cat.id] = cat.words.map(w => w.id);
+  });
+  localStorage.setItem(CUSTOMS_KEY, JSON.stringify(customs));
+  localStorage.setItem(ORDER_KEY, JSON.stringify(order));
+}
 
 function saveData() {
   localStorage.setItem(LOCAL_DATA_KEY, JSON.stringify(allData));
+  _saveCustomsAndOrder();
 }
 
 async function reloadFromJson() {
-  if (!confirm('words.json에서 데이터를 다시 불러옵니다.\n직접 추가/수정한 단어는 유지됩니다.')) return;
+  if (!confirm('words.json에서 데이터를 다시 불러옵니다.\n직접 추가한 단어는 유지됩니다.')) return;
   try {
     const res = await fetch('data/words.json');
     const fresh = await res.json();
-    // Merge: keep locally-added words (id > 1000), replace JSON-sourced categories
-    const localCats = allData ? allData.categories : [];
-    fresh.categories.forEach(freshCat => {
-      const localCat = localCats.find(c => c.id === freshCat.id);
-      if (localCat) {
-        const localOnly = localCat.words.filter(w => w.id > 1000);
-        freshCat.words = [...freshCat.words, ...localOnly];
-      }
+    const customs = {};
+    allData.categories.forEach(cat => {
+      const custom = cat.words.filter(w => w.id > 1000);
+      if (custom.length > 0) customs[cat.id] = custom;
     });
     allData = fresh;
+    allData.categories.forEach(cat => {
+      const added = customs[cat.id] || [];
+      if (added.length > 0) cat.words = [...cat.words, ...added];
+    });
     saveData();
     renderHome();
     showToast('데이터를 새로고침했습니다.');
@@ -60,28 +75,65 @@ async function init() {
     const res = await fetch('data/words.json');
     const fresh = await res.json();
 
-    const local = localStorage.getItem(LOCAL_DATA_KEY);
-    if (local) {
-      allData = JSON.parse(local);
-      // 새 카테고리가 생겼으면 자동으로 추가
-      let changed = false;
-      fresh.categories.forEach(freshCat => {
-        const exists = allData.categories.find(c => c.id === freshCat.id);
-        if (!exists) {
-          allData.categories.push(freshCat);
-          changed = true;
+    // 항상 최신 JSON을 베이스로 사용
+    allData = fresh;
+
+    // 사용자 추가 단어 복원
+    let customs = {};
+    let order = {};
+    try {
+      const customsRaw = localStorage.getItem(CUSTOMS_KEY);
+      if (customsRaw) {
+        customs = JSON.parse(customsRaw);
+      } else {
+        // 하위 호환: 구 버전 전체 스냅샷에서 추출
+        const legacyRaw = localStorage.getItem(LOCAL_DATA_KEY);
+        if (legacyRaw) {
+          const legacy = JSON.parse(legacyRaw);
+          legacy.categories.forEach(cat => {
+            const added = cat.words.filter(w => w.id > 1000);
+            if (added.length > 0) customs[cat.id] = added;
+          });
         }
-      });
-      if (changed) saveData();
-    } else {
-      allData = fresh;
-      saveData();
+      }
+      const orderRaw = localStorage.getItem(ORDER_KEY);
+      if (orderRaw) order = JSON.parse(orderRaw);
+    } catch (e) {
+      console.error('사용자 데이터 로드 실패:', e);
     }
+
+    // customs 적용 + 순서 복원
+    allData.categories.forEach(cat => {
+      const added = customs[cat.id] || [];
+      if (added.length > 0) {
+        const existingIds = new Set(cat.words.map(w => w.id));
+        cat.words = [...cat.words, ...added.filter(w => !existingIds.has(w.id))];
+      }
+      const catOrder = order[cat.id];
+      if (catOrder && catOrder.length > 0) {
+        const wordMap = new Map(cat.words.map(w => [w.id, w]));
+        const ordered = catOrder.map(id => wordMap.get(id)).filter(Boolean);
+        const orderedIds = new Set(catOrder);
+        const unordered = cat.words.filter(w => !orderedIds.has(w.id));
+        cat.words = [...ordered, ...unordered];
+      }
+    });
+
+    saveData();
   } catch (e) {
-    console.error('데이터 로드 실패:', e);
-    document.getElementById('category-list').innerHTML =
-      '<p class="text-red-500 text-sm text-center">데이터를 불러오지 못했습니다.<br>GitHub Pages 또는 로컬 서버에서 실행해 주세요.</p>';
-    return;
+    // 네트워크 실패 시 기존 localStorage 사용
+    console.error('JSON 로드 실패, localStorage로 대체:', e);
+    try {
+      const raw = localStorage.getItem(LOCAL_DATA_KEY);
+      if (raw) allData = JSON.parse(raw);
+    } catch (e2) {
+      console.error(e2);
+    }
+    if (!allData) {
+      document.getElementById('category-list').innerHTML =
+        '<p class="text-red-500 text-sm text-center">데이터를 불러오지 못했습니다.<br>GitHub Pages 또는 로컬 서버에서 실행해 주세요.</p>';
+      return;
+    }
   }
   renderHome();
 }
