@@ -195,7 +195,7 @@ function renderWordCard(word, num, isRelated) {
     if (hideState.ko) {
       _items[mKey] = { word: word.word, type: 'ko', partOfSpeech: m.partOfSpeech, correctAnswer: m.definitions, userAnswer: null, isCorrect: null, answered: false };
       return `
-        <div class="flex items-start gap-1 mt-0.5">
+        <div class="flex items-center gap-1 mt-0.5">
           <span class="pos-badge">${m.partOfSpeech}</span>
           <div id="iw-${mKey}" class="inline-input-wrap flex-1">
             <div class="hidden-tap" onclick="activateInput('${mKey}','ko')">
@@ -205,7 +205,7 @@ function renderWordCard(word, num, isRelated) {
         </div>`;
     }
     return `
-      <div class="flex items-start gap-1 mt-0.5">
+      <div class="flex items-center gap-1 mt-0.5">
         <span class="pos-badge">${m.partOfSpeech}</span>
         <span class="meaning-text">${m.definitions.join(', ')}</span>
       </div>`;
