@@ -8,15 +8,15 @@
           "id": 1,
           "word": "regret",
           "meanings": [
-            { "partOfSpeech": "동사", "definitions": ["후회하다", "유감으로 생각하다"] },
-            { "partOfSpeech": "명사", "definitions": ["후회", "유감"] }
+            { "partOfSpeech": "v.", "definitions": ["후회하다", "유감으로 생각하다"] },
+            { "partOfSpeech": "n.", "definitions": ["후회", "유감"] }
           ],
           "related": [
             {
               "id": 101,
               "word": "regretful",
               "meanings": [
-                { "partOfSpeech": "형용사", "definitions": ["후회하는", "유감으로 생각하는"] }
+                { "partOfSpeech": "adj.", "definitions": ["후회하는", "유감으로 생각하는"] }
               ]
             }
           ]
@@ -25,21 +25,21 @@
           "id": 2,
           "word": "decide",
           "meanings": [
-            { "partOfSpeech": "동사", "definitions": ["결정하다", "결심하다"] }
+            { "partOfSpeech": "v.", "definitions": ["결정하다", "결심하다"] }
           ],
           "related": [
             {
               "id": 201,
               "word": "decision",
               "meanings": [
-                { "partOfSpeech": "명사", "definitions": ["결정", "판단"] }
+                { "partOfSpeech": "n.", "definitions": ["결정", "판단"] }
               ]
             },
             {
               "id": 202,
               "word": "decisive",
               "meanings": [
-                { "partOfSpeech": "형용사", "definitions": ["결정적인", "결단력 있는"] }
+                { "partOfSpeech": "adj.", "definitions": ["결정적인", "결단력 있는"] }
               ]
             }
           ]
@@ -48,14 +48,14 @@
           "id": 3,
           "word": "achieve",
           "meanings": [
-            { "partOfSpeech": "동사", "definitions": ["달성하다", "성취하다"] }
+            { "partOfSpeech": "v.", "definitions": ["달성하다", "성취하다"] }
           ],
           "related": [
             {
               "id": 301,
               "word": "achievement",
               "meanings": [
-                { "partOfSpeech": "명사", "definitions": ["성취", "업적"] }
+                { "partOfSpeech": "n.", "definitions": ["성취", "업적"] }
               ]
             }
           ]
@@ -64,21 +64,21 @@
           "id": 4,
           "word": "persist",
           "meanings": [
-            { "partOfSpeech": "동사", "definitions": ["지속하다", "고집하다"] }
+            { "partOfSpeech": "v.", "definitions": ["지속하다", "고집하다"] }
           ],
           "related": [
             {
               "id": 401,
               "word": "persistent",
               "meanings": [
-                { "partOfSpeech": "형용사", "definitions": ["지속적인", "끈질긴"] }
+                { "partOfSpeech": "adj.", "definitions": ["지속적인", "끈질긴"] }
               ]
             },
             {
               "id": 402,
               "word": "persistence",
               "meanings": [
-                { "partOfSpeech": "명사", "definitions": ["지속성", "끈기"] }
+                { "partOfSpeech": "n.", "definitions": ["지속성", "끈기"] }
               ]
             }
           ]
@@ -87,14 +87,14 @@
           "id": 5,
           "word": "significant",
           "meanings": [
-            { "partOfSpeech": "형용사", "definitions": ["중요한", "상당한", "의미 있는"] }
+            { "partOfSpeech": "adj.", "definitions": ["중요한", "상당한", "의미 있는"] }
           ],
           "related": [
             {
               "id": 501,
               "word": "significance",
               "meanings": [
-                { "partOfSpeech": "명사", "definitions": ["중요성", "의미"] }
+                { "partOfSpeech": "n.", "definitions": ["중요성", "의미"] }
               ]
             }
           ]
@@ -109,14 +109,14 @@
           "id": 6,
           "word": "appreciate",
           "meanings": [
-            { "partOfSpeech": "동사", "definitions": ["감사하다", "인식하다", "감상하다"] }
+            { "partOfSpeech": "v.", "definitions": ["감사하다", "인식하다", "감상하다"] }
           ],
           "related": [
             {
               "id": 601,
               "word": "appreciation",
               "meanings": [
-                { "partOfSpeech": "명사", "definitions": ["감사", "감상", "인식"] }
+                { "partOfSpeech": "n.", "definitions": ["감사", "감상", "인식"] }
               ]
             }
           ]
@@ -125,14 +125,14 @@
           "id": 7,
           "word": "consequence",
           "meanings": [
-            { "partOfSpeech": "명사", "definitions": ["결과", "중요성"] }
+            { "partOfSpeech": "n.", "definitions": ["결과", "중요성"] }
           ],
           "related": [
             {
               "id": 701,
               "word": "consequent",
               "meanings": [
-                { "partOfSpeech": "형용사", "definitions": ["결과로 생기는", "필연적인"] }
+                { "partOfSpeech": "adj.", "definitions": ["결과로 생기는", "필연적인"] }
               ]
             }
           ]
@@ -141,14 +141,14 @@
           "id": 8,
           "word": "establish",
           "meanings": [
-            { "partOfSpeech": "동사", "definitions": ["설립하다", "확립하다", "증명하다"] }
+            { "partOfSpeech": "v.", "definitions": ["설립하다", "확립하다", "증명하다"] }
           ],
           "related": [
             {
               "id": 801,
               "word": "establishment",
               "meanings": [
-                { "partOfSpeech": "명사", "definitions": ["설립", "기관", "기득권층"] }
+                { "partOfSpeech": "n.", "definitions": ["설립", "기관", "기득권층"] }
               ]
             }
           ]
