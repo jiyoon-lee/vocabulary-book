@@ -89,7 +89,6 @@ function renderHome() {
       </button>`;
   }).join('');
 
-  renderScoreSummary();
 }
 
 function countWords(cat) {
@@ -487,14 +486,18 @@ function renderQuizResult() {
   const color = pct >= 80 ? 'bg-green-100 text-green-600' : pct >= 50 ? 'bg-yellow-100 text-yellow-600' : 'bg-red-100 text-red-500';
   const emoji = pct >= 80 ? '🎉' : pct >= 50 ? '😊' : '💪';
 
-  saveScore({
+  const now = new Date();
+  saveHistoryRecord({
+    id: now.getTime(),
+    date: now.toLocaleDateString('ko-KR'),
+    time: now.toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' }),
     category: currentCategory.name,
     mode: currentMode === 'quiz-en' ? '뜻→영어' : '영어→뜻',
     correct: quizCorrect,
     wrong: quizWrong,
     total,
     pct,
-    date: new Date().toLocaleDateString('ko-KR')
+    items: []   // 퀴즈 탭은 문항별 상세 없음
   });
 
   document.getElementById('quiz-container').innerHTML = `
@@ -594,6 +597,25 @@ function renderHistoryDetail(record) {
   const pctColor = record.pct >= 80 ? 'bg-green-100 text-green-600' : record.pct >= 50 ? 'bg-yellow-100 text-yellow-600' : 'bg-red-100 text-red-500';
   const emoji = record.pct >= 80 ? '🎉' : record.pct >= 50 ? '😊' : '💪';
 
+  if (!record.items || record.items.length === 0) {
+    container.innerHTML = `
+    <div class="text-center mb-6">
+      <div class="result-circle ${pctColor} mb-3">
+        <div class="text-3xl">${emoji}</div>
+        <div class="text-2xl font-bold">${record.pct}%</div>
+      </div>
+      <div class="text-sm font-semibold text-gray-700">${record.category} · ${record.mode}</div>
+      <div class="text-xs text-gray-400 mt-1">${record.date} ${record.time}</div>
+      <div class="flex justify-center gap-4 mt-3 text-sm">
+        <span>전체 <strong>${record.total}</strong></span>
+        <span class="text-green-600">정답 <strong>${record.correct}</strong></span>
+        <span class="text-red-500">오답 <strong>${record.total - record.correct}</strong></span>
+      </div>
+    </div>
+    <div class="text-center text-sm text-gray-400 py-6">문항별 기록 없음</div>`;
+    return;
+  }
+
   const rows = record.items.map(item => {
     const icon = item.isCorrect
       ? `<span class="result-icon correct">O</span>`
@@ -641,58 +663,6 @@ function clearHistory() {
   }
 }
 
-// ─── Scores ───────────────────────────────────────────────────────────────────
-const SCORE_KEY = 'vocab_scores';
-
-function loadScores() {
-  try { return JSON.parse(localStorage.getItem(SCORE_KEY)) || []; }
-  catch { return []; }
-}
-
-function saveScore(entry) {
-  const scores = loadScores();
-  scores.unshift(entry);
-  if (scores.length > 30) scores.splice(30);
-  localStorage.setItem(SCORE_KEY, JSON.stringify(scores));
-}
-
-function clearScores() {
-  if (confirm('퀴즈 기록을 모두 삭제할까요?')) {
-    localStorage.removeItem(SCORE_KEY);
-    renderScoreSummary();
-    showToast('기록이 삭제되었습니다.');
-  }
-}
-
-function renderScoreSummary() {
-  const scores = loadScores();
-  const container = document.getElementById('score-summary');
-  const empty = document.getElementById('score-empty');
-  const clearBtn = document.getElementById('btn-clear-scores');
-
-  if (scores.length === 0) {
-    container.innerHTML = '';
-    empty.classList.remove('hidden');
-    clearBtn.classList.add('hidden');
-    return;
-  }
-
-  empty.classList.add('hidden');
-  clearBtn.classList.remove('hidden');
-
-  container.innerHTML = scores.slice(0, 5).map(s => {
-    const color = s.pct >= 80 ? 'text-green-600 bg-green-50' : s.pct >= 50 ? 'text-yellow-600 bg-yellow-50' : 'text-red-500 bg-red-50';
-    return `
-      <div class="score-badge">
-        <div>
-          <div class="text-sm font-medium text-gray-700">${s.category} · ${s.mode}</div>
-          <div class="text-xs text-gray-400">${s.date} &nbsp; ${s.correct}/${s.total}개 정답</div>
-        </div>
-        <span class="text-sm font-bold px-2 py-1 rounded-lg ${color}">${s.pct}%</span>
-      </div>
-    `;
-  }).join('');
-}
 
 // ─── Toast ────────────────────────────────────────────────────────────────────
 function showToast(msg) {
