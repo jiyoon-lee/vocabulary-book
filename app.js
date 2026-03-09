@@ -20,6 +20,9 @@ let _editingWordId = null;
 let _idCounter = Date.now();
 function nextId() { return ++_idCounter; }
 
+// Drag state
+let _drag = null;
+
 // ─── Local Data Storage ────────────────────────────────────────────────────────
 const LOCAL_DATA_KEY = 'vocab_data';
 
@@ -223,10 +226,12 @@ function renderWordList() {
   } else {
     gradeWrap.classList.add('hidden');
   }
+  initDragDrop();
 }
 
 function renderWordCard(word, num, isRelated, showActions = false) {
   const key = `w${word.id}`;
+  const isDraggable = showActions && !isRelated;
 
   // English word section
   let wordHtml;
@@ -272,11 +277,33 @@ function renderWordCard(word, num, isRelated, showActions = false) {
         `<div class="word-related">${renderWordCard(rel, null, true)}</div>`
       ).join('')}</div>`;
 
-  const actionsHtml = (showActions && !isRelated) ? `
+  const actionsHtml = isDraggable ? `
     <div class="flex gap-2 mt-3 justify-end">
       <button onclick="openEditWord(${word.id})" class="text-xs text-gray-500 px-2 py-1 rounded-lg border border-gray-200 active:bg-gray-50">수정</button>
       <button onclick="deleteWord(${word.id})" class="text-xs text-red-400 px-2 py-1 rounded-lg border border-red-200 active:bg-red-50">삭제</button>
     </div>` : '';
+
+  const dragHandle = `
+    <div class="drag-handle" style="touch-action:none">
+      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+        <circle cx="7" cy="4" r="1.5"/><circle cx="13" cy="4" r="1.5"/>
+        <circle cx="7" cy="10" r="1.5"/><circle cx="13" cy="10" r="1.5"/>
+        <circle cx="7" cy="16" r="1.5"/><circle cx="13" cy="16" r="1.5"/>
+      </svg>
+    </div>`;
+
+  if (isDraggable) {
+    return `
+      <div class="word-card flex items-start gap-2" data-word-id="${word.id}">
+        ${dragHandle}
+        <div class="flex-1 min-w-0">
+          ${wordHtml}
+          <div class="mt-1">${meaningsHtml}</div>
+          ${relatedHtml}
+          ${actionsHtml}
+        </div>
+      </div>`;
+  }
 
   return `
     <div class="word-card">
@@ -646,6 +673,95 @@ function deleteWord(wordId) {
   saveData();
   renderWordList();
   showToast('삭제됐습니다.');
+}
+
+// ─── Drag & Drop ──────────────────────────────────────────────────────────────
+function initDragDrop() {
+  const container = document.getElementById('word-list');
+  container.querySelectorAll('.drag-handle').forEach(handle => {
+    handle.addEventListener('touchstart', onDragStart, { passive: false });
+  });
+}
+
+function onDragStart(e) {
+  e.preventDefault();
+  const card = e.currentTarget.closest('[data-word-id]');
+  if (!card) return;
+  const touch = e.touches[0];
+  const rect = card.getBoundingClientRect();
+
+  const clone = card.cloneNode(true);
+  clone.style.cssText = `position:fixed;z-index:1000;left:${rect.left}px;top:${rect.top}px;width:${rect.width}px;opacity:0.9;pointer-events:none;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.2);`;
+  document.body.appendChild(clone);
+  card.classList.add('dragging');
+
+  _drag = {
+    wordId: parseInt(card.dataset.wordId),
+    el: card,
+    clone,
+    offsetY: touch.clientY - rect.top,
+  };
+
+  document.addEventListener('touchmove', onDragMove, { passive: false });
+  document.addEventListener('touchend', onDragEnd);
+}
+
+function onDragMove(e) {
+  e.preventDefault();
+  if (!_drag) return;
+  const touch = e.touches[0];
+  _drag.clone.style.top = (touch.clientY - _drag.offsetY) + 'px';
+
+  const container = document.getElementById('word-list');
+  const cards = [...container.querySelectorAll('[data-word-id]')];
+  cards.forEach(c => c.classList.remove('drag-over'));
+  for (const card of cards) {
+    if (card === _drag.el) continue;
+    const rect = card.getBoundingClientRect();
+    if (touch.clientY >= rect.top && touch.clientY < rect.bottom) {
+      card.classList.add('drag-over');
+      break;
+    }
+  }
+}
+
+function onDragEnd(e) {
+  if (!_drag) return;
+  const touch = e.changedTouches[0];
+
+  const container = document.getElementById('word-list');
+  const cards = [...container.querySelectorAll('[data-word-id]')];
+  cards.forEach(c => c.classList.remove('drag-over'));
+
+  // Find drop index
+  let targetIdx = cards.length;
+  for (let i = 0; i < cards.length; i++) {
+    const rect = cards[i].getBoundingClientRect();
+    if (touch.clientY < rect.top + rect.height / 2) {
+      targetIdx = i;
+      break;
+    }
+  }
+
+  // Reorder
+  const cat = allData.categories.find(c => c.id === currentCategory.id);
+  const fromIdx = cat.words.findIndex(w => w.id === _drag.wordId);
+  if (fromIdx !== -1) {
+    let toIdx = targetIdx > fromIdx ? targetIdx - 1 : targetIdx;
+    if (fromIdx !== toIdx) {
+      const [word] = cat.words.splice(fromIdx, 1);
+      cat.words.splice(toIdx, 0, word);
+      currentCategory = cat;
+      saveData();
+    }
+  }
+
+  _drag.clone.remove();
+  _drag.el.classList.remove('dragging');
+  _drag = null;
+  document.removeEventListener('touchmove', onDragMove);
+  document.removeEventListener('touchend', onDragEnd);
+  renderWordList();
 }
 
 function normalize(str) {
