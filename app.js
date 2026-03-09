@@ -1,5 +1,8 @@
 // ─── State ───────────────────────────────────────────────────────────────────
 let allData = null;
+
+// Inline quiz answer registry (avoids JSON escaping in onclick)
+const _ans = {};
 let currentCategory = null;
 let currentMode = 'list';   // 'list' | 'quiz-en' | 'quiz-ko'
 let hideState = { en: false, ko: false };
@@ -139,61 +142,113 @@ function updateHideButtons() {
 
 function renderWordList() {
   updateHideButtons();
+  // Clear answer registry
+  Object.keys(_ans).forEach(k => delete _ans[k]);
   const container = document.getElementById('word-list');
-  const words = currentCategory.words;
-
-  container.innerHTML = words.map((word, idx) => `
-    <div class="word-card ${hideState.en ? 'hidden-word' : ''} ${hideState.ko ? 'hidden-meaning' : ''}">
-      <div class="flex items-start justify-between">
-        <div class="flex-1">
-          <div class="word-main" onclick="revealCard(this)">${idx + 1}. ${word.word}</div>
-          <div class="mt-1">
-            ${renderMeanings(word.meanings)}
-          </div>
-        </div>
-      </div>
-      ${word.related && word.related.length > 0 ? `
-        <div class="mt-3 space-y-2">
-          ${word.related.map(rel => `
-            <div class="word-related">
-              <div class="word-main" onclick="revealCard(this)">${rel.word}</div>
-              <div class="mt-1">${renderMeanings(rel.meanings)}</div>
-            </div>
-          `).join('')}
-        </div>
-      ` : ''}
-    </div>
-  `).join('');
+  container.innerHTML = currentCategory.words.map((word, idx) =>
+    renderWordCard(word, idx + 1, false)
+  ).join('');
 }
 
-function renderMeanings(meanings) {
-  return meanings.map(m => `
-    <div class="flex items-start gap-1 mt-0.5">
-      <span class="pos-badge">${m.partOfSpeech}</span>
-      <span class="meaning-text">${m.definitions.join(', ')}</span>
-    </div>
-  `).join('');
-}
+function renderWordCard(word, num, isRelated) {
+  const key = `w${word.id}`;
 
-function revealCard(el) {
-  // Tap on hidden word/meaning to temporarily reveal
-  const card = el.closest('.word-card');
-  if (!card) return;
-
+  // English word section
+  let wordHtml;
   if (hideState.en) {
-    card.classList.toggle('reveal-en');
-    const isRevealed = card.classList.contains('reveal-en');
-    card.querySelectorAll('.word-main').forEach(w => {
-      w.style.color = isRevealed ? '' : '';
-      w.style.background = isRevealed ? '' : '';
-    });
-    // Toggle hidden class temporarily
-    card.classList.toggle('hidden-word', !isRevealed);
+    _ans[key] = word.word;
+    const prefix = !isRelated ? `<span class="text-gray-400 text-sm mr-1">${num}.</span>` : '';
+    wordHtml = `
+      <div id="iw-${key}" class="inline-input-wrap">
+        <div class="hidden-tap" onclick="activateInput('${key}','en')">
+          ${prefix}<span class="tap-hint">영단어 입력...</span>
+        </div>
+      </div>`;
+  } else {
+    wordHtml = `<div class="word-main">${!isRelated ? num + '. ' : ''}${word.word}</div>`;
   }
-  if (hideState.ko) {
-    card.classList.toggle('reveal-ko');
-    const isRevealed = card.classList.contains('reveal-ko');
-    card.classList.toggle('hidden-meaning', !isRevealed);
+
+  // Meanings section
+  const meaningsHtml = word.meanings.map((m, mi) => {
+    const mKey = `m${word.id}_${mi}`;
+    if (hideState.ko) {
+      _ans[mKey] = m.definitions;
+      return `
+        <div class="flex items-start gap-1 mt-0.5">
+          <span class="pos-badge">${m.partOfSpeech}</span>
+          <div id="iw-${mKey}" class="inline-input-wrap flex-1">
+            <div class="hidden-tap" onclick="activateInput('${mKey}','ko')">
+              <span class="tap-hint">뜻 입력...</span>
+            </div>
+          </div>
+        </div>`;
+    }
+    return `
+      <div class="flex items-start gap-1 mt-0.5">
+        <span class="pos-badge">${m.partOfSpeech}</span>
+        <span class="meaning-text">${m.definitions.join(', ')}</span>
+      </div>`;
+  }).join('');
+
+  // Related words
+  const relatedHtml = !isRelated && word.related && word.related.length > 0
+    ? `<div class="mt-3 space-y-2">${word.related.map(rel =>
+        `<div class="word-related">${renderWordCard(rel, null, true)}</div>`
+      ).join('')}</div>`
+    : '';
+
+  return `
+    <div class="word-card">
+      ${wordHtml}
+      <div class="mt-1">${meaningsHtml}</div>
+      ${relatedHtml}
+    </div>`;
+}
+
+function activateInput(key, type) {
+  const wrap = document.getElementById('iw-' + key);
+  if (!wrap) return;
+  const placeholder = type === 'en' ? '영단어를 입력하세요' : '뜻을 입력하세요';
+  wrap.innerHTML = `
+    <div class="flex gap-1">
+      <input type="text" placeholder="${placeholder}"
+        class="flex-1 border border-gray-200 rounded-lg px-3 py-1.5 text-sm focus:outline-none focus:border-indigo-400"
+        onkeydown="if(event.key==='Enter') checkInlineInput(this,'${key}','${type}')">
+      <button onclick="checkInlineInput(this.previousElementSibling,'${key}','${type}')"
+        class="px-3 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-semibold active:bg-indigo-700">확인</button>
+    </div>
+    <div id="fb-${key}" class="hidden mt-1 text-xs rounded px-2 py-0.5"></div>`;
+  wrap.querySelector('input').focus();
+}
+
+function checkInlineInput(inputEl, key, type) {
+  const userAnswer = normalize(inputEl.value);
+  if (!userAnswer) return;
+  const answer = _ans[key];
+
+  let isCorrect;
+  if (type === 'en') {
+    isCorrect = userAnswer === normalize(answer);
+  } else {
+    isCorrect = answer.some(def =>
+      normalize(def) === userAnswer ||
+      normalize(def).includes(userAnswer) ||
+      userAnswer.includes(normalize(def))
+    );
+  }
+
+  inputEl.disabled = true;
+  inputEl.classList.add(isCorrect ? 'border-green-400' : 'border-red-400');
+
+  const fb = document.getElementById('fb-' + key);
+  fb.classList.remove('hidden');
+  if (isCorrect) {
+    fb.textContent = '정답!';
+    fb.className = 'mt-1 text-xs rounded px-2 py-0.5 text-green-600 bg-green-50';
+  } else {
+    const correct = type === 'en' ? answer : answer.join(', ');
+    fb.textContent = `정답: ${correct}`;
+    fb.className = 'mt-1 text-xs rounded px-2 py-0.5 text-red-500 bg-red-50';
   }
 }
 

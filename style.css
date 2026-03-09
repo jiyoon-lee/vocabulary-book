@@ -47,21 +47,31 @@
   line-height: 1.5;
 }
 
-/* Hide states */
-.hidden-word .word-main {
-  background: #c7d2fe;
-  color: transparent;
-  border-radius: 4px;
-  user-select: none;
-  cursor: pointer;
+/* Inline input (list hide mode) */
+.inline-input-wrap {
+  display: block;
 }
 
-.hidden-meaning .meaning-text {
-  background: #e5e7eb;
-  color: transparent;
-  border-radius: 4px;
-  user-select: none;
+.hidden-tap {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #e0e7ff;
+  border-radius: 8px;
+  padding: 4px 12px;
   cursor: pointer;
+  transition: background 0.15s;
+  min-width: 120px;
+}
+
+.hidden-tap:active {
+  background: #c7d2fe;
+}
+
+.tap-hint {
+  font-size: 0.8rem;
+  color: #6366f1;
+  font-style: italic;
 }
 
 /* Quiz card */
