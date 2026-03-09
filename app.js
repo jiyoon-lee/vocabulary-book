@@ -27,6 +27,30 @@ function saveData() {
   localStorage.setItem(LOCAL_DATA_KEY, JSON.stringify(allData));
 }
 
+async function reloadFromJson() {
+  if (!confirm('words.json에서 데이터를 다시 불러옵니다.\n직접 추가/수정한 단어는 유지됩니다.')) return;
+  try {
+    const res = await fetch('data/words.json');
+    const fresh = await res.json();
+    // Merge: keep locally-added words (id > 1000), replace JSON-sourced categories
+    const localCats = allData ? allData.categories : [];
+    fresh.categories.forEach(freshCat => {
+      const localCat = localCats.find(c => c.id === freshCat.id);
+      if (localCat) {
+        const localOnly = localCat.words.filter(w => w.id > 1000);
+        freshCat.words = [...freshCat.words, ...localOnly];
+      }
+    });
+    allData = fresh;
+    saveData();
+    renderHome();
+    showToast('데이터를 새로고침했습니다.');
+  } catch (e) {
+    console.error(e);
+    showToast('새로고침 실패. 네트워크를 확인해 주세요.');
+  }
+}
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 async function init() {
   try {
