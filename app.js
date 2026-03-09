@@ -28,6 +28,82 @@ const LOCAL_DATA_KEY = 'vocab_data';     // 전체 스냅샷 (하위 호환)
 const CUSTOMS_KEY    = 'vocab_customs';  // {catId: [사용자 추가 단어, ...]}
 const ORDER_KEY      = 'vocab_order';    // {catId: [wordId, ...]} 순서
 
+// ─── GitHub Sync ───────────────────────────────────────────────────────────────
+const GH_TOKEN_KEY  = 'gh_token';
+const GH_OWNER      = 'jiyoon-lee';
+const GH_REPO       = 'vocabulary-book';
+const GH_CUSTOM_PATH = 'data/custom-words.json';
+const GH_RAW_URL    = `https://raw.githubusercontent.com/${GH_OWNER}/${GH_REPO}/master/${GH_CUSTOM_PATH}`;
+const GH_API_URL    = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_CUSTOM_PATH}`;
+
+async function loadCustomsFromGitHub() {
+  try {
+    const res = await fetch(GH_RAW_URL + '?cb=' + Date.now());
+    if (!res.ok) return null;
+    const data = await res.json();
+    return (data && typeof data === 'object' && !Array.isArray(data)) ? data : null;
+  } catch {
+    return null;
+  }
+}
+
+function _toBase64(str) {
+  const bytes = new TextEncoder().encode(str);
+  let binary = '';
+  bytes.forEach(b => { binary += String.fromCharCode(b); });
+  return btoa(binary);
+}
+
+async function syncCustomsToGitHub() {
+  const token = localStorage.getItem(GH_TOKEN_KEY);
+  if (!token) return;
+
+  const customs = _getCustomWords();
+  const content = _toBase64(JSON.stringify(customs, null, 2));
+
+  try {
+    const metaRes = await fetch(GH_API_URL, {
+      headers: { Authorization: `token ${token}` }
+    });
+    let sha;
+    if (metaRes.ok) {
+      sha = (await metaRes.json()).sha;
+    } else if (metaRes.status !== 404) {
+      showToast('GitHub 접근 오류 (토큰 확인 필요)');
+      return;
+    }
+
+    const body = { message: 'Update custom words', content };
+    if (sha) body.sha = sha;
+
+    const putRes = await fetch(GH_API_URL, {
+      method: 'PUT',
+      headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+
+    if (!putRes.ok) {
+      const err = await putRes.json();
+      console.error('GitHub sync failed:', err);
+      showToast('GitHub 저장 실패: ' + (err.message || ''));
+    }
+  } catch (e) {
+    console.error('GitHub sync error:', e);
+  }
+}
+
+function saveGhToken() {
+  const token = document.getElementById('gh-token-input').value.trim();
+  if (token) {
+    localStorage.setItem(GH_TOKEN_KEY, token);
+    showToast('토큰이 저장됐습니다. 동기화 중...');
+    syncCustomsToGitHub();
+  } else {
+    localStorage.removeItem(GH_TOKEN_KEY);
+    showToast('토큰이 삭제됐습니다.');
+  }
+}
+
 function _saveCustomsAndOrder() {
   const customs = {};
   const order = {};
@@ -78,28 +154,38 @@ async function init() {
     // 항상 최신 JSON을 베이스로 사용
     allData = fresh;
 
-    // 사용자 추가 단어 복원
+    // 사용자 추가 단어 복원 (GitHub 우선, localStorage 폴백)
     let customs = {};
     let order = {};
-    try {
-      const customsRaw = localStorage.getItem(CUSTOMS_KEY);
-      if (customsRaw) {
-        customs = JSON.parse(customsRaw);
-      } else {
-        // 하위 호환: 구 버전 전체 스냅샷에서 추출
-        const legacyRaw = localStorage.getItem(LOCAL_DATA_KEY);
-        if (legacyRaw) {
-          const legacy = JSON.parse(legacyRaw);
-          legacy.categories.forEach(cat => {
-            const added = cat.words.filter(w => w.id > 1000);
-            if (added.length > 0) customs[cat.id] = added;
-          });
+
+    const ghCustoms = await loadCustomsFromGitHub();
+    if (ghCustoms && Object.keys(ghCustoms).length > 0) {
+      customs = ghCustoms;
+    } else {
+      try {
+        const customsRaw = localStorage.getItem(CUSTOMS_KEY);
+        if (customsRaw) {
+          customs = JSON.parse(customsRaw);
+        } else {
+          // 하위 호환: 구 버전 전체 스냅샷에서 추출
+          const legacyRaw = localStorage.getItem(LOCAL_DATA_KEY);
+          if (legacyRaw) {
+            const legacy = JSON.parse(legacyRaw);
+            legacy.categories.forEach(cat => {
+              const added = cat.words.filter(w => w.id > 1000);
+              if (added.length > 0) customs[cat.id] = added;
+            });
+          }
         }
+      } catch (e) {
+        console.error('사용자 데이터 로드 실패:', e);
       }
+    }
+    try {
       const orderRaw = localStorage.getItem(ORDER_KEY);
       if (orderRaw) order = JSON.parse(orderRaw);
     } catch (e) {
-      console.error('사용자 데이터 로드 실패:', e);
+      console.error('order 로드 실패:', e);
     }
 
     // customs 적용 + 순서 복원
@@ -726,6 +812,7 @@ function saveWord() {
   closeWordModal();
   renderWordList();
   showToast(_editingWordId === null ? '추가됐습니다.' : '수정됐습니다.');
+  syncCustomsToGitHub();
 }
 
 function deleteWord(wordId) {
@@ -736,6 +823,7 @@ function deleteWord(wordId) {
   saveData();
   renderWordList();
   showToast('삭제됐습니다.');
+  syncCustomsToGitHub();
 }
 
 // ─── Drag & Drop ──────────────────────────────────────────────────────────────
@@ -1072,6 +1160,8 @@ function toggleBackupPanel() {
     if (Object.keys(customs).length > 0) {
       document.getElementById('backup-text').value = JSON.stringify(customs);
     }
+    const token = localStorage.getItem(GH_TOKEN_KEY);
+    if (token) document.getElementById('gh-token-input').value = token;
   }
 }
 
