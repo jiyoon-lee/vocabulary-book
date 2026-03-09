@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
-    <title>영단어 단어장1</title>
+    <title>영단어 단어장</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -138,12 +138,23 @@
 
             <!-- GitHub 자동 동기화 -->
             <div class="border-t border-gray-100 pt-3 mt-3">
-              <p class="text-xs font-semibold text-gray-600 mb-1">GitHub 자동 동기화</p>
-              <p class="text-xs text-gray-400 mb-2">Personal Access Token(repo 권한)을 저장하면 단어 추가·삭제 시 자동으로 GitHub에 저장되어, 배포 후에도 단어가 유지됩니다.</p>
-              <input id="gh-token-input" type="password" placeholder="ghp_..."
-                class="w-full text-xs border border-gray-200 rounded-lg px-2 py-1.5 mb-2 focus:outline-none focus:border-indigo-400">
-              <button onclick="saveGhToken()"
-                class="w-full py-2 text-xs font-semibold rounded-lg border border-gray-200 text-gray-700 bg-white active:bg-gray-50">
+              <p class="text-xs font-semibold text-gray-600 mb-1">
+                GitHub 자동 동기화
+              </p>
+              <p class="text-xs text-gray-400 mb-2">
+                Personal Access Token(repo 권한)을 저장하면 단어 추가·삭제 시
+                자동으로 GitHub에 저장되어, 배포 후에도 단어가 유지됩니다.
+              </p>
+              <input
+                id="gh-token-input"
+                type="password"
+                placeholder="ghp_..."
+                class="w-full text-xs border border-gray-200 rounded-lg px-2 py-1.5 mb-2 focus:outline-none focus:border-indigo-400"
+              />
+              <button
+                onclick="saveGhToken()"
+                class="w-full py-2 text-xs font-semibold rounded-lg border border-gray-200 text-gray-700 bg-white active:bg-gray-50"
+              >
                 토큰 저장
               </button>
             </div>
