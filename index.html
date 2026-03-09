@@ -47,6 +47,31 @@
           단어 데이터 새로고침
         </button>
 
+        <!-- 백업/복원 -->
+        <button onclick="toggleBackupPanel()"
+          class="w-full mt-2 py-2 text-xs text-gray-400 flex items-center justify-center gap-1 active:text-gray-600">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4"/>
+          </svg>
+          내 단어 백업 / 복원
+        </button>
+        <div id="backup-panel" class="hidden mt-2 bg-white rounded-xl p-4 shadow-sm border border-gray-100">
+          <p class="text-xs text-gray-500 mb-2">내가 추가한 단어를 백업해두면 데이터가 지워져도 복원할 수 있습니다.</p>
+          <textarea id="backup-text"
+            class="w-full h-28 text-xs border border-gray-200 rounded-lg p-2 resize-none focus:outline-none focus:border-indigo-400"
+            placeholder="내보내기를 눌러 백업 코드를 확인하거나&#10;백업 코드를 붙여넣고 가져오기를 누르세요"></textarea>
+          <div class="flex gap-2 mt-2">
+            <button onclick="exportBackup()"
+              class="flex-1 py-2 text-xs font-semibold rounded-lg bg-indigo-600 text-white active:bg-indigo-700">
+              내보내기
+            </button>
+            <button onclick="importBackup()"
+              class="flex-1 py-2 text-xs font-semibold rounded-lg border border-indigo-200 text-indigo-600 bg-white active:bg-indigo-50">
+              가져오기
+            </button>
+          </div>
+        </div>
+
       </div>
     </div>
 

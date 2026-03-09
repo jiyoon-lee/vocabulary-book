@@ -1043,6 +1043,63 @@ function clearHistory() {
 }
 
 
+// ─── Backup / Restore ─────────────────────────────────────────────────────────
+function _getCustomWords() {
+  const customs = {};
+  allData.categories.forEach(cat => {
+    const custom = cat.words.filter(w => w.id > 1000);
+    if (custom.length > 0) customs[cat.id] = custom;
+  });
+  return customs;
+}
+
+function toggleBackupPanel() {
+  const panel = document.getElementById('backup-panel');
+  const isNowVisible = panel.classList.toggle('hidden') === false;
+  if (isNowVisible) {
+    const customs = _getCustomWords();
+    if (Object.keys(customs).length > 0) {
+      document.getElementById('backup-text').value = JSON.stringify(customs);
+    }
+  }
+}
+
+function exportBackup() {
+  const customs = _getCustomWords();
+  if (Object.keys(customs).length === 0) {
+    showToast('추가한 단어가 없습니다.');
+    return;
+  }
+  const backupStr = JSON.stringify(customs);
+  document.getElementById('backup-text').value = backupStr;
+  navigator.clipboard.writeText(backupStr)
+    .then(() => showToast('클립보드에 복사됐습니다.'))
+    .catch(() => showToast('코드를 직접 선택해서 복사하세요.'));
+}
+
+function importBackup() {
+  const backupStr = document.getElementById('backup-text').value.trim();
+  if (!backupStr) { showToast('백업 코드를 붙여넣으세요.'); return; }
+  try {
+    const customs = JSON.parse(backupStr);
+    if (typeof customs !== 'object' || Array.isArray(customs)) throw new Error('invalid');
+    let count = 0;
+    allData.categories.forEach(cat => {
+      const added = customs[cat.id] || customs[String(cat.id)] || [];
+      const existingIds = new Set(cat.words.map(w => w.id));
+      const newWords = added.filter(w => w.id && !existingIds.has(w.id));
+      cat.words.push(...newWords);
+      count += newWords.length;
+    });
+    saveData();
+    renderHome();
+    document.getElementById('backup-panel').classList.add('hidden');
+    showToast(`${count}개 단어를 복원했습니다.`);
+  } catch {
+    showToast('올바른 백업 코드가 아닙니다.');
+  }
+}
+
 // ─── Toast ────────────────────────────────────────────────────────────────────
 function showToast(msg) {
   const toast = document.getElementById('toast');
