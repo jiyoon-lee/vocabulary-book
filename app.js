@@ -408,20 +408,10 @@ function renderQuizCard(mode) {
       <div id="quiz-feedback" class="hidden mt-3 text-center text-sm font-medium rounded-xl py-2"></div>
     </div>
 
-    <div id="quiz-btns" class="hidden mt-4 grid grid-cols-2 gap-3">
+    <div id="quiz-next" class="hidden mt-4">
       <button onclick="markQuiz(false)"
-        class="py-3 rounded-xl bg-red-50 text-red-500 font-semibold text-sm active:bg-red-100 transition-colors flex items-center justify-center gap-1">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-        </svg>
-        틀렸어요
-      </button>
-      <button onclick="markQuiz(true)"
-        class="py-3 rounded-xl bg-green-50 text-green-600 font-semibold text-sm active:bg-green-100 transition-colors flex items-center justify-center gap-1">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-        </svg>
-        맞았어요
+        class="w-full py-3 rounded-xl border border-gray-200 text-gray-600 font-semibold text-sm active:bg-gray-50">
+        다음 ›
       </button>
     </div>
 
@@ -441,13 +431,6 @@ function renderQuizCard(mode) {
   }
 }
 
-function revealQuiz() {
-  if (quizRevealed) return;
-  quizRevealed = true;
-  document.getElementById('quiz-answer').classList.remove('hidden');
-  document.getElementById('quiz-input-area').classList.add('hidden');
-  document.getElementById('quiz-btns').classList.remove('hidden');
-}
 
 function escapeJs(str) {
   return str.replace(/'/g, "\\'");
@@ -475,21 +458,19 @@ function checkAnswer() {
     isCorrect = allDefs.some(def => normalize(def) === userAnswer || normalize(def).includes(userAnswer) || userAnswer.includes(normalize(def)));
   }
 
-  // 정답 보여주기
   quizRevealed = true;
-  document.getElementById('quiz-answer').classList.remove('hidden');
-  document.getElementById('quiz-btns').classList.remove('hidden');
   input.disabled = true;
+  document.getElementById('quiz-answer').classList.remove('hidden');
 
   feedback.classList.remove('hidden');
   if (isCorrect) {
-    feedback.textContent = '정답이에요! 🎉';
+    feedback.textContent = '정답이에요!';
     feedback.className = 'mt-3 text-center text-sm font-medium rounded-xl py-2 bg-green-50 text-green-600';
-    // 자동으로 정답 처리
     setTimeout(() => markQuiz(true), 800);
   } else {
-    feedback.textContent = `틀렸어요. 정답을 확인하세요.`;
+    feedback.textContent = '틀렸어요. 정답을 확인하세요.';
     feedback.className = 'mt-3 text-center text-sm font-medium rounded-xl py-2 bg-red-50 text-red-500';
+    document.getElementById('quiz-next').classList.remove('hidden');
   }
 }
 
