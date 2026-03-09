@@ -679,7 +679,7 @@ function deleteWord(wordId) {
 function initDragDrop() {
   const container = document.getElementById('word-list');
   container.querySelectorAll('.drag-handle').forEach(handle => {
-    handle.addEventListener('touchstart', onDragStart, { passive: false });
+    handle.addEventListener('pointerdown', onDragStart);
   });
 }
 
@@ -687,11 +687,10 @@ function onDragStart(e) {
   e.preventDefault();
   const card = e.currentTarget.closest('[data-word-id]');
   if (!card) return;
-  const touch = e.touches[0];
   const rect = card.getBoundingClientRect();
 
   const clone = card.cloneNode(true);
-  clone.style.cssText = `position:fixed;z-index:1000;left:${rect.left}px;top:${rect.top}px;width:${rect.width}px;opacity:0.9;pointer-events:none;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.2);`;
+  clone.style.cssText = `position:fixed;z-index:1000;left:${rect.left}px;top:${rect.top}px;width:${rect.width}px;opacity:0.9;pointer-events:none;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.2);background:white;`;
   document.body.appendChild(clone);
   card.classList.add('dragging');
 
@@ -699,18 +698,17 @@ function onDragStart(e) {
     wordId: parseInt(card.dataset.wordId),
     el: card,
     clone,
-    offsetY: touch.clientY - rect.top,
+    offsetY: e.clientY - rect.top,
   };
 
-  document.addEventListener('touchmove', onDragMove, { passive: false });
-  document.addEventListener('touchend', onDragEnd);
+  document.addEventListener('pointermove', onDragMove);
+  document.addEventListener('pointerup', onDragEnd);
+  document.addEventListener('pointercancel', onDragEnd);
 }
 
 function onDragMove(e) {
-  e.preventDefault();
   if (!_drag) return;
-  const touch = e.touches[0];
-  _drag.clone.style.top = (touch.clientY - _drag.offsetY) + 'px';
+  _drag.clone.style.top = (e.clientY - _drag.offsetY) + 'px';
 
   const container = document.getElementById('word-list');
   const cards = [...container.querySelectorAll('[data-word-id]')];
@@ -718,7 +716,7 @@ function onDragMove(e) {
   for (const card of cards) {
     if (card === _drag.el) continue;
     const rect = card.getBoundingClientRect();
-    if (touch.clientY >= rect.top && touch.clientY < rect.bottom) {
+    if (e.clientY >= rect.top && e.clientY < rect.bottom) {
       card.classList.add('drag-over');
       break;
     }
@@ -727,7 +725,6 @@ function onDragMove(e) {
 
 function onDragEnd(e) {
   if (!_drag) return;
-  const touch = e.changedTouches[0];
 
   const container = document.getElementById('word-list');
   const cards = [...container.querySelectorAll('[data-word-id]')];
@@ -737,7 +734,7 @@ function onDragEnd(e) {
   let targetIdx = cards.length;
   for (let i = 0; i < cards.length; i++) {
     const rect = cards[i].getBoundingClientRect();
-    if (touch.clientY < rect.top + rect.height / 2) {
+    if (e.clientY < rect.top + rect.height / 2) {
       targetIdx = i;
       break;
     }
@@ -759,8 +756,9 @@ function onDragEnd(e) {
   _drag.clone.remove();
   _drag.el.classList.remove('dragging');
   _drag = null;
-  document.removeEventListener('touchmove', onDragMove);
-  document.removeEventListener('touchend', onDragEnd);
+  document.removeEventListener('pointermove', onDragMove);
+  document.removeEventListener('pointerup', onDragEnd);
+  document.removeEventListener('pointercancel', onDragEnd);
   renderWordList();
 }
 
