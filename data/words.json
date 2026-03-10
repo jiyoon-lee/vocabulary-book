@@ -4088,6 +4088,51 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737026,
+          "word": "rise",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "일어나다",
+                "상승하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "상승"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773124737024,
+              "word": "sunrise",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "일출"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773124737025,
+              "word": "sunset",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "일몰"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
