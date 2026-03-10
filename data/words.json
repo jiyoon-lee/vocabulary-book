@@ -3174,6 +3174,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103303,
+          "word": "fix",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "고정시키다; 수리하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
