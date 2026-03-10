@@ -4133,6 +4133,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773124737028,
+          "word": "warn",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "경고하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773124737027,
+              "word": "warning",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "경고"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
