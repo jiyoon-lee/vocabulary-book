@@ -2890,6 +2890,45 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103284,
+          "word": "encourage",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "격려하다",
+                "장려하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103282,
+              "word": "courage",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "용기"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773113103283,
+              "word": "encouragement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "격려"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
