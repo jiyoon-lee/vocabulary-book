@@ -1455,6 +1455,14 @@ function importBackup() {
   }
 }
 
+// ─── Modal Enter key ──────────────────────────────────────────────────────────
+document.getElementById('word-modal').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && !e.isComposing && e.target.tagName !== 'TEXTAREA') {
+    e.preventDefault();
+    saveWord();
+  }
+});
+
 // ─── Toast ────────────────────────────────────────────────────────────────────
 function showToast(msg) {
   const toast = document.getElementById("toast");
