@@ -47,6 +47,23 @@
           </p>
           <div id="category-list" class="space-y-3"></div>
 
+          <!-- Add category -->
+          <div id="add-category-form" class="hidden mt-3">
+            <div class="flex gap-2">
+              <input id="new-category-name" type="text" placeholder="카테고리 이름 (예: 3강)"
+                class="flex-1 border border-gray-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-indigo-400"
+                onkeydown="if(event.key==='Enter') saveCategory()"
+                onkeydown="if(event.key==='Escape') closeCategoryForm()">
+              <button onclick="saveCategory()" class="px-4 py-2 bg-indigo-600 text-white rounded-xl text-sm font-semibold active:bg-indigo-700">추가</button>
+              <button onclick="closeCategoryForm()" class="px-3 py-2 border border-gray-200 rounded-xl text-sm text-gray-500 active:bg-gray-50">취소</button>
+            </div>
+          </div>
+          <button onclick="openCategoryForm()"
+            id="btn-add-category"
+            class="w-full mt-3 py-2.5 rounded-xl border border-dashed border-gray-300 text-gray-400 text-sm flex items-center justify-center gap-1 active:bg-gray-50">
+            + 카테고리 추가
+          </button>
+
           <!-- History link -->
           <button
             onclick="showView('history')"

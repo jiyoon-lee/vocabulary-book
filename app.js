@@ -273,6 +273,14 @@ function renderHome() {
   list.innerHTML = allData.categories
     .map((cat) => {
       const wordCount = countWords(cat);
+      const isCustomCat = cat.id > 1000;
+      const deleteBtn = isCustomCat
+        ? `<button onclick="event.stopPropagation();deleteCategory(${cat.id})" class="p-1 text-gray-300 active:text-red-400">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>`
+        : '';
       return `
       <button onclick="openCategory(${cat.id})"
         class="w-full bg-white rounded-xl p-4 shadow-sm flex items-center justify-between active:bg-gray-50 transition-colors">
@@ -285,12 +293,50 @@ function renderHome() {
             <div class="text-xs text-gray-400">단어 ${wordCount}개</div>
           </div>
         </div>
-        <svg class="w-5 h-5 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-        </svg>
+        <div class="flex items-center gap-1">
+          ${deleteBtn}
+          <svg class="w-5 h-5 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </div>
       </button>`;
     })
     .join("");
+}
+
+function openCategoryForm() {
+  document.getElementById("add-category-form").classList.remove("hidden");
+  document.getElementById("btn-add-category").classList.add("hidden");
+  setTimeout(() => document.getElementById("new-category-name").focus(), 50);
+}
+
+function closeCategoryForm() {
+  document.getElementById("add-category-form").classList.add("hidden");
+  document.getElementById("btn-add-category").classList.remove("hidden");
+  document.getElementById("new-category-name").value = "";
+}
+
+function saveCategory() {
+  const name = document.getElementById("new-category-name").value.trim();
+  if (!name) return;
+  const newCat = { id: nextId(), name, words: [] };
+  allData.categories.push(newCat);
+  saveData();
+  syncToGitHub();
+  closeCategoryForm();
+  renderHome();
+  showToast(`'${name}' 카테고리가 추가됐습니다.`);
+}
+
+function deleteCategory(catId) {
+  const cat = allData.categories.find(c => c.id === catId);
+  if (!cat) return;
+  if (!confirm(`'${cat.name}' 카테고리와 단어 ${cat.words.length}개를 삭제할까요?`)) return;
+  allData.categories = allData.categories.filter(c => c.id !== catId);
+  saveData();
+  syncToGitHub();
+  renderHome();
+  showToast("카테고리가 삭제됐습니다.");
 }
 
 function countWords(cat) {
