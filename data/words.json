@@ -1947,6 +1947,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260441,
+          "word": "disappear",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "사라지다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260440,
+              "word": "appear",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "나타나다; ~처럼 보이다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
