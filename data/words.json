@@ -3108,6 +3108,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103298,
+          "word": "freeze",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "얼다",
+                "얼리다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
