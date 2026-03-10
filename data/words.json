@@ -2343,6 +2343,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773112939200,
+          "word": "struggle",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "싸우다; 노력하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
