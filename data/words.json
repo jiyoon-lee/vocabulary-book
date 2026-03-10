@@ -4440,6 +4440,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773124737047,
+          "word": "scold",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "꾸짖다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
