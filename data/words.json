@@ -2143,6 +2143,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260453,
+          "word": "knock",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "치다",
+                "두드리다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
