@@ -2231,6 +2231,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260459,
+          "word": "admire",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "감탄하다; 칭찬하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
