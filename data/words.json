@@ -3187,6 +3187,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103304,
+          "word": "throw",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "던지다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
