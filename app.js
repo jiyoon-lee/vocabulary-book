@@ -322,18 +322,16 @@ function renderWordCard(word, num, isRelated, showActions = false) {
         </div>
       </div>`;
   } else {
-    if (hideState.ko) {
-      const mKeys = word.meanings.map((_, mi) => `m${word.id}_${mi}`);
-      const keysArg = JSON.stringify(mKeys);
-      wordHtml = `
-        <div class="word-main flex items-center justify-between gap-2">
-          <span>${isRelated ? '' : num + '. '}${word.word}</span>
-          <button onclick="showAllAnswers(${keysArg.replace(/"/g, "'")})" class="shrink-0 text-xs text-gray-400 border border-gray-200 rounded px-1.5 py-0.5 active:bg-gray-50">정답보기</button>
-        </div>`;
-    } else {
-      wordHtml = `<div class="word-main">${isRelated ? '' : num + '. '}${word.word}</div>`;
-    }
+    wordHtml = `<div class="word-main">${isRelated ? '' : num + '. '}${word.word}</div>`;
   }
+
+  // Peek button (top of card, hide mode only, not for related words)
+  const allHiddenKeys = [];
+  if (hideState.en) allHiddenKeys.push(key);
+  if (hideState.ko) word.meanings.forEach((_, mi) => allHiddenKeys.push(`m${word.id}_${mi}`));
+  const peekBtn = !isRelated && allHiddenKeys.length > 0
+    ? `<button onclick="showAllAnswers(${JSON.stringify(allHiddenKeys).replace(/"/g, "'")})" class="float-right text-xs text-gray-400 border border-gray-200 rounded px-1.5 py-0.5 active:bg-gray-50 mb-1">정답보기</button>`
+    : '';
 
   // Meanings section
   const meaningsHtml = word.meanings.map((m, mi) => {
@@ -354,7 +352,6 @@ function renderWordCard(word, num, isRelated, showActions = false) {
       <div class="flex items-center gap-1 mt-0.5">
         <span class="pos-badge">${m.partOfSpeech}</span>
         <span class="meaning-text">${m.definitions.join(', ')}</span>
-        ${hideState.en ? `<button onclick="showAnswer('${key}')" class="shrink-0 text-xs text-gray-400 border border-gray-200 rounded px-1.5 py-0.5 active:bg-gray-50">정답보기</button>` : ''}
       </div>`;
   }).join('');
 
@@ -385,7 +382,7 @@ function renderWordCard(word, num, isRelated, showActions = false) {
       <div class="word-card flex items-start gap-2" data-word-id="${word.id}">
         ${dragHandle}
         <div class="flex-1 min-w-0">
-          ${wordHtml}
+          ${peekBtn}${wordHtml}
           <div class="mt-1">${meaningsHtml}</div>
           ${relatedHtml}
           ${actionsHtml}
@@ -395,7 +392,7 @@ function renderWordCard(word, num, isRelated, showActions = false) {
 
   return `
     <div class="word-card">
-      ${wordHtml}
+      ${peekBtn}${wordHtml}
       <div class="mt-1">${meaningsHtml}</div>
       ${relatedHtml}
       ${actionsHtml}
