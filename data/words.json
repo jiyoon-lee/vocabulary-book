@@ -3068,6 +3068,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103295,
+          "word": "edit",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "편집하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
