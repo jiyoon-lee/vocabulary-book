@@ -1696,6 +1696,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260422,
+          "word": "deliver",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "배달하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
