@@ -3738,6 +3738,53 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773120766834,
+          "word": "concern",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~에 관계하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "걱정",
+                "관심",
+                "염려"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773120766832,
+              "word": "concerned",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "관계하는",
+                    "걱장하고 있는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773120766833,
+              "word": "concerning",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~에 관하여"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
