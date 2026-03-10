@@ -1134,7 +1134,7 @@ function onDragEnd(e) {
 }
 
 function normalize(str) {
-  return str.trim().toLowerCase().replace(/\s+/g, " ");
+  return str.trim().toLowerCase().replace(/\s+/g, "");
 }
 
 function checkAnswer() {
