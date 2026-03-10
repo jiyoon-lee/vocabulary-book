@@ -2356,6 +2356,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773112939201,
+          "word": "owe",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~에게 빚지다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
