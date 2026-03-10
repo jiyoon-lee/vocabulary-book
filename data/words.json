@@ -2698,6 +2698,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103269,
+          "word": "construct",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "건설하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103268,
+              "word": "construction",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "건설"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
