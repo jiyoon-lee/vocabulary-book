@@ -38,6 +38,7 @@ const GH_OWNER   = 'jiyoon-lee';
 const GH_REPO    = 'vocabulary-book';
 const GH_PATH    = 'data/words.json';
 const GH_API_URL = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_PATH}`;
+const GH_RAW_URL = `https://raw.githubusercontent.com/${GH_OWNER}/${GH_REPO}/master/${GH_PATH}`;
 
 function _toBase64(str) {
   const bytes = new TextEncoder().encode(str);
@@ -126,8 +127,25 @@ async function reloadFromJson() {
 // ─── Init ─────────────────────────────────────────────────────────────────────
 async function init() {
   try {
-    const res = await fetch('data/words.json?cb=' + Date.now());
+    const res = await fetch(GH_RAW_URL + '?cb=' + Date.now());
     allData = await res.json();
+
+    // 커스텀 단어 복원 (localStorage) — GitHub 동기화가 없을 때 fallback
+    try {
+      const customsRaw = localStorage.getItem(CUSTOMS_KEY);
+      if (customsRaw) {
+        const customs = JSON.parse(customsRaw);
+        allData.categories.forEach(cat => {
+          const added = (customs[cat.id] || []).filter(w => w.id > 1000);
+          if (added.length > 0) {
+            const existingIds = new Set(cat.words.map(w => w.id));
+            cat.words = [...cat.words, ...added.filter(w => !existingIds.has(w.id))];
+          }
+        });
+      }
+    } catch (e) {
+      console.error('커스텀 단어 로드 실패:', e);
+    }
 
     // 순서 복원 (localStorage)
     try {
