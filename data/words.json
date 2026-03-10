@@ -3451,6 +3451,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103323,
+          "word": "reach",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~에 도달하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103322,
+              "word": "rich",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "부유한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
