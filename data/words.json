@@ -2477,6 +2477,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103250,
+          "word": "expect",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "기대하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
