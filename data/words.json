@@ -1655,6 +1655,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260420,
+          "word": "advise",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "충고하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260419,
+              "word": "adivice",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "조언",
+                    "충고"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
