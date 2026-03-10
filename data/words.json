@@ -2203,6 +2203,34 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260458,
+          "word": "affect",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~에 영향을 미치다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260457,
+              "word": "effect",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "영향",
+                    "결과",
+                    "효과"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
