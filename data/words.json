@@ -3836,6 +3836,60 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773120766841,
+          "word": "vary",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "바뀌다",
+                "다양하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773120766838,
+              "word": "variation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "변화",
+                    "변형",
+                    "변주(곡)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773120766839,
+              "word": "variety",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "여러 가지",
+                    "각양각색"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773120766840,
+              "word": "various",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "다양한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
