@@ -2623,6 +2623,44 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103262,
+          "word": "export",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "수출하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "수출"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103261,
+              "word": "import",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "수입하다"
+                  ]
+                },
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "수입"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
