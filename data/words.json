@@ -2070,6 +2070,27 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260448,
+          "word": "count",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "세다",
+                "중요하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "계산",
+                "총계"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
