@@ -4356,6 +4356,38 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773124737042,
+          "word": "leave",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "떠나다; 남기다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "작별; 휴가"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773124737041,
+              "word": "maternity leave",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "출산 휴가"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
