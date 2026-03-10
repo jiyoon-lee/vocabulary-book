@@ -35,7 +35,7 @@ const CUSTOMS_KEY = "vocab_customs"; // {catId: [사용자 추가 단어, ...]}
 const ORDER_KEY = "vocab_order"; // {catId: [wordId, ...]} 순서
 
 // ─── GitHub Sync ───────────────────────────────────────────────────────────────
-const GH_TOKEN = "__GH_TOKEN__"; // replaced at deploy time by GitHub Actions
+const GH_TOKEN = globalThis.__VOCAB_TOKEN__ || ''; // injected via config.js by GitHub Actions
 const GH_OWNER = "jiyoon-lee";
 const GH_REPO = "vocabulary-book";
 const GH_PATH = "data/words.json";

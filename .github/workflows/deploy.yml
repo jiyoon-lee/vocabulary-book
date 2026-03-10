@@ -23,8 +23,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Inject GitHub token into app.js
-        run: sed -i "s/__GH_TOKEN__/${{ secrets.VOCAB_GH_TOKEN }}/g" app.js
+      - name: Generate config.js with token
+        run: echo "window.__VOCAB_TOKEN__='${{ secrets.VOCAB_GH_TOKEN }}';" > config.js
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
