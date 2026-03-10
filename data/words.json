@@ -3232,6 +3232,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103307,
+          "word": "join",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "참가하다",
+                "합류하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
