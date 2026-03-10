@@ -3054,6 +3054,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103294,
+          "word": "lean",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "기대하다",
+                "의지하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
