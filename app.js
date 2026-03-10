@@ -275,15 +275,15 @@ function renderHome() {
       const wordCount = countWords(cat);
       const isCustomCat = cat.id > 1000;
       const deleteBtn = isCustomCat
-        ? `<button onclick="event.stopPropagation();deleteCategory(${cat.id})" class="p-1 text-gray-300 active:text-red-400">
+        ? `<div onclick="event.stopPropagation();deleteCategory(${cat.id})" class="p-1 text-gray-300 active:text-red-400 cursor-pointer">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
             </svg>
-          </button>`
+          </div>`
         : '';
       return `
-      <button onclick="openCategory(${cat.id})"
-        class="w-full bg-white rounded-xl p-4 shadow-sm flex items-center justify-between active:bg-gray-50 transition-colors">
+      <div onclick="openCategory(${cat.id})"
+        class="w-full bg-white rounded-xl p-4 shadow-sm flex items-center justify-between active:bg-gray-50 transition-colors cursor-pointer">
         <div class="flex items-center gap-3">
           <div class="w-10 h-10 bg-indigo-100 rounded-xl flex items-center justify-center">
             <span class="text-indigo-600 font-bold text-sm">${cat.name}</span>
@@ -299,7 +299,7 @@ function renderHome() {
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
           </svg>
         </div>
-      </button>`;
+      </div>`;
     })
     .join("");
 }
