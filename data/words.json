@@ -3785,6 +3785,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773120766835,
+          "word": "astonish",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "깜짝 놀라게 하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
