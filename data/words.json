@@ -2176,6 +2176,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260455,
+          "word": "wait",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "기다리다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
