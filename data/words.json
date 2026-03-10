@@ -4540,6 +4540,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737054,
+          "word": "hang",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "걸다",
+                "교수형애 처하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
