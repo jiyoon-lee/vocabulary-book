@@ -2557,6 +2557,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103256,
+          "word": "come",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "오다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
