@@ -402,9 +402,28 @@ function activateInput(key, type) {
         onkeydown="if(event.key==='Enter') checkInlineInput(this,'${key}','${type}')">
       <button onclick="checkInlineInput(this.previousElementSibling,'${key}','${type}')"
         class="px-3 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-semibold active:bg-indigo-700">확인</button>
+      <button onclick="showAnswer('${key}')"
+        class="px-3 py-1.5 border border-gray-200 text-gray-500 rounded-lg text-xs font-semibold active:bg-gray-50">정답</button>
     </div>
     <div id="fb-${key}" class="hidden mt-1 text-xs rounded px-2 py-0.5"></div>`;
   wrap.querySelector('input').focus();
+}
+
+function showAnswer(key) {
+  const item = _items[key];
+  if (!item) return;
+
+  item.answered = true;
+  item.isCorrect = false;
+
+  const inputEl = document.querySelector(`#iw-${key} input`);
+  if (inputEl) inputEl.classList.add('border-red-300');
+
+  const correct = Array.isArray(item.correctAnswer) ? item.correctAnswer.join(', ') : item.correctAnswer;
+  const fb = document.getElementById('fb-' + key);
+  fb.textContent = `정답: ${correct}`;
+  fb.className = 'mt-1 text-xs rounded px-2 py-0.5 text-red-500 bg-red-50';
+  fb.classList.remove('hidden');
 }
 
 function checkInlineInput(inputEl, key, type) {
