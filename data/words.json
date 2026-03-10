@@ -2188,7 +2188,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773107260456,
+              "word": "waiter",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "웨이터",
+                    "종업원"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
