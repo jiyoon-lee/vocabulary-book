@@ -2503,6 +2503,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103253,
+          "word": "break",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "깨트리다",
+                "부수다; 고장 나다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103252,
+              "word": "break a leg",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "행운을 빌다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
