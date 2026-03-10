@@ -3600,6 +3600,26 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103334,
+          "word": "cure",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "치료하다",
+                "고치다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "치료법"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
