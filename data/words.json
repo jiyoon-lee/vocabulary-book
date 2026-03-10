@@ -4232,6 +4232,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737033,
+          "word": "display",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "전시하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "표시; 진열"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
