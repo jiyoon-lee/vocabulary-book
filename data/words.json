@@ -3272,6 +3272,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103310,
+          "word": "buy",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 사다",
+                "구입하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
