@@ -2490,6 +2490,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103251,
+          "word": "argue",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "논쟁하다; 주장하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
