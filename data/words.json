@@ -4580,6 +4580,27 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773124737057,
+          "word": "fit",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~에 맞다",
+                "적합하다"
+              ]
+            },
+            {
+              "partOfSpeech": "형용사",
+              "definitions": [
+                "알맞은",
+                "적당한"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
