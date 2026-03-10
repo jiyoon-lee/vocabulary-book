@@ -3081,6 +3081,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103297,
+          "word": "rush",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "서두르다",
+                "돌진하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103296,
+              "word": "rush hour",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "출퇴근이나 통학 따위로 교통이 몹시 혼잡한 시간"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
