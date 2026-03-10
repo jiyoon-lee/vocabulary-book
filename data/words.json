@@ -3935,6 +3935,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773120766845,
+          "word": "block",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "막다",
+                "패쇄하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
