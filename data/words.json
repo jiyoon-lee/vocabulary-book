@@ -2329,7 +2329,22 @@
     {
       "id": 1773112930153,
       "name": "3강",
-      "words": []
+      "words": [
+        {
+          "id": 1773112939199,
+          "word": "burst",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "파열하다",
+                "폭발하다"
+              ]
+            }
+          ],
+          "related": []
+        }
+      ]
     }
   ]
 }
