@@ -4029,6 +4029,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737021,
+          "word": "announce",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 발표하다; ~을 선언하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773124737020,
+              "word": "announcer",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "아나운서",
+                    "진행자"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
