@@ -23,6 +23,10 @@ function nextId() { return ++_idCounter; }
 // Drag state
 let _drag = null;
 
+// Peek (정답보기) state
+const _origHtml = {};   // key -> original iw- div innerHTML
+const _revealedCards = new Set();  // wordId -> revealed
+
 // ─── Local Data Storage ────────────────────────────────────────────────────────
 const LOCAL_DATA_KEY = 'vocab_data';     // 전체 스냅샷 (하위 호환)
 const CUSTOMS_KEY    = 'vocab_customs';  // {catId: [사용자 추가 단어, ...]}
@@ -292,6 +296,8 @@ function updateHideButtons() {
 function renderWordList() {
   updateHideButtons();
   Object.keys(_items).forEach(k => delete _items[k]);
+  Object.keys(_origHtml).forEach(k => delete _origHtml[k]);
+  _revealedCards.clear();
   const container = document.getElementById('word-list');
   container.innerHTML = currentCategory.words.map((word, idx) =>
     renderWordCard(word, idx + 1, false, true)
@@ -334,7 +340,7 @@ function renderWordCard(word, num, isRelated, showActions = false) {
   };
   collectKeys(word);
   const peekBtn = !isRelated && allHiddenKeys.length > 0
-    ? `<button onclick="showAllAnswers(${JSON.stringify(allHiddenKeys).replace(/"/g, "'")})" class="float-right text-xs text-gray-400 border border-gray-200 rounded px-1.5 py-0.5 active:bg-gray-50 mb-1">정답보기</button>`
+    ? `<button id="peek-btn-${word.id}" onclick="toggleCardAnswers(${word.id},${JSON.stringify(allHiddenKeys).replaceAll('"', "'")})" class="float-right text-xs text-gray-400 border border-gray-200 rounded px-1.5 py-0.5 active:bg-gray-50 mb-1">정답보기</button>`
     : '';
 
   // Meanings section
@@ -423,28 +429,38 @@ function showAnswer(key) {
   const item = _items[key];
   if (!item) return;
 
+  const wrap = document.getElementById('iw-' + key);
+  if (!wrap) return;
+
+  if (!_origHtml[key]) _origHtml[key] = wrap.innerHTML;
+
   item.answered = true;
   item.isCorrect = false;
 
   const correct = Array.isArray(item.correctAnswer) ? item.correctAnswer.join(', ') : item.correctAnswer;
-
-  // If input already activated, show in feedback div
-  const fb = document.getElementById('fb-' + key);
-  if (fb) {
-    const inputEl = document.querySelector(`#iw-${key} input`);
-    if (inputEl) inputEl.classList.add('border-red-300');
-    fb.textContent = `정답: ${correct}`;
-    fb.className = 'mt-1 text-xs rounded px-2 py-0.5 text-red-500 bg-red-50';
-    fb.classList.remove('hidden');
-  } else {
-    // Replace the hidden-tap placeholder with the answer
-    const wrap = document.getElementById('iw-' + key);
-    if (wrap) wrap.innerHTML = `<span class="text-red-400 text-sm">${correct}</span>`;
-  }
+  wrap.innerHTML = `<span class="text-red-400 text-sm">${correct}</span>`;
 }
 
-function showAllAnswers(keys) {
-  keys.forEach(key => showAnswer(key));
+function hideAnswer(key) {
+  const item = _items[key];
+  const wrap = document.getElementById('iw-' + key);
+  if (!wrap || !_origHtml[key]) return;
+
+  wrap.innerHTML = _origHtml[key];
+  if (item) { item.answered = false; item.isCorrect = null; item.userAnswer = null; }
+}
+
+function toggleCardAnswers(wordId, keys) {
+  const btn = document.getElementById(`peek-btn-${wordId}`);
+  if (_revealedCards.has(wordId)) {
+    keys.forEach(hideAnswer);
+    _revealedCards.delete(wordId);
+    if (btn) btn.textContent = '정답보기';
+  } else {
+    keys.forEach(showAnswer);
+    _revealedCards.add(wordId);
+    if (btn) btn.textContent = '가리기';
+  }
 }
 
 function checkInlineInput(inputEl, key, type) {
