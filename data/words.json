@@ -4292,7 +4292,7 @@
         },
         {
           "id": 1773124737037,
-          "word": "hurt",
+          "word": "hunt",
           "meanings": [
             {
               "partOfSpeech": "동사",
@@ -4301,7 +4301,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773124737038,
+              "word": "hunter",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "사냥꾼"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
