@@ -1877,6 +1877,50 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260437,
+          "word": "defend",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "방어하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260435,
+              "word": "attack",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "공격하다"
+                  ]
+                },
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "공격"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773107260436,
+              "word": "defense",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "방어"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
