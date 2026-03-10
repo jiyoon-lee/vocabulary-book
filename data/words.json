@@ -3040,6 +3040,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103293,
+          "word": "scratch",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "할퀴다",
+                "긁다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
