@@ -4315,6 +4315,47 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773124737040,
+          "word": "increase",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "증가하다",
+                "증가시키다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "증가",
+                "인상"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773124737039,
+              "word": "decrease",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "감소하다",
+                    "감소시키다"
+                  ]
+                },
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "감소"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
