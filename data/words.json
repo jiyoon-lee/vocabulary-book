@@ -4178,6 +4178,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737030,
+          "word": "search",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "찾다",
+                "뒤지다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "탐색"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
