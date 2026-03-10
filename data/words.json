@@ -1921,6 +1921,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260439,
+          "word": "pray",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "기도하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260438,
+              "word": "prey",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "먹이"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
