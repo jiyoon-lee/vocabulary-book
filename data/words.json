@@ -4003,6 +4003,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773124737018,
+          "word": "lend",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "빌려주다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
