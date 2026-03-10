@@ -2838,6 +2838,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103279,
+          "word": "protect",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 보호하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103278,
+              "word": "protection",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "보호"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
