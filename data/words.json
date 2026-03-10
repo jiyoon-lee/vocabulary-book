@@ -1682,6 +1682,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260421,
+          "word": "burn",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "타다",
+                "연소하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
