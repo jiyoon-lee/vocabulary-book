@@ -4198,6 +4198,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737031,
+          "word": "bless",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 축복하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
