@@ -3213,6 +3213,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103306,
+          "word": "chnage",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "변하다; ~을 바꾸다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "변화; 거스름돈"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
