@@ -4075,6 +4075,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737023,
+          "word": "raise",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "올리다; 기르다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
