@@ -2091,6 +2091,44 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260451,
+          "word": "relax",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "편히 쉬다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260449,
+              "word": "relaxed",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "편안한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773107260450,
+              "word": "relaxation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "이완"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
