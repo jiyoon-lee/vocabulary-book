@@ -4289,6 +4289,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773124737037,
+          "word": "hurt",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "사냥하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
