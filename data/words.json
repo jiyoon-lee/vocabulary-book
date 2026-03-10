@@ -4016,6 +4016,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737019,
+          "word": "imagine",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "상상하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
