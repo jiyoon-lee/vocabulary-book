@@ -3697,6 +3697,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773120766829,
+          "word": "submit",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "제출하다; 복종하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
