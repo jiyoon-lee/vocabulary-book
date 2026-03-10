@@ -4251,6 +4251,44 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737036,
+          "word": "educate",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "교육하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773124737034,
+              "word": "education",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "교육"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773124737035,
+              "word": "educational",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "교육적인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
