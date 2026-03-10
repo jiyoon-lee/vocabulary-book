@@ -2783,6 +2783,47 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103276,
+          "word": "establish",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "설립하다",
+                "확립하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103274,
+              "word": "establishment",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "설립",
+                    "확립",
+                    "기관"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773113103275,
+              "word": "established",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "확립된"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
