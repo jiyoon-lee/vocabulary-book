@@ -3148,6 +3148,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103302,
+          "word": "laugh",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "웃다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103301,
+              "word": "laughter",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "웃"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
