@@ -4467,6 +4467,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737049,
+          "word": "unite",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "합치다",
+                "결합하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
