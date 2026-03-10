@@ -3522,6 +3522,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103328,
+          "word": "involve",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "관계시키다; 수반하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
