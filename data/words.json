@@ -2570,6 +2570,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103257,
+          "word": "appeear",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "나타나다; ~처럼 보이다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
