@@ -2864,6 +2864,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103280,
+          "word": "entertain",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "즐겁게 하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
