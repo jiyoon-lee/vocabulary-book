@@ -327,8 +327,12 @@ function renderWordCard(word, num, isRelated, showActions = false) {
 
   // Peek button (top of card, hide mode only, not for related words)
   const allHiddenKeys = [];
-  if (hideState.en) allHiddenKeys.push(key);
-  if (hideState.ko) word.meanings.forEach((_, mi) => allHiddenKeys.push(`m${word.id}_${mi}`));
+  const collectKeys = (w) => {
+    if (hideState.en) allHiddenKeys.push(`w${w.id}`);
+    if (hideState.ko) w.meanings.forEach((_, mi) => allHiddenKeys.push(`m${w.id}_${mi}`));
+    if (w.related) w.related.forEach(collectKeys);
+  };
+  collectKeys(word);
   const peekBtn = !isRelated && allHiddenKeys.length > 0
     ? `<button onclick="showAllAnswers(${JSON.stringify(allHiddenKeys).replace(/"/g, "'")})" class="float-right text-xs text-gray-400 border border-gray-200 rounded px-1.5 py-0.5 active:bg-gray-50 mb-1">정답보기</button>`
     : '';
