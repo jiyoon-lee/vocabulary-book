@@ -3535,6 +3535,71 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103333,
+          "word": "consider",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "고려하다; ~로 여기다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103329,
+              "word": "consideration",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "사려",
+                    "숙고",
+                    "고려 사항"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773113103330,
+              "word": "considerate",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "사려 깊은"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773113103331,
+              "word": "considerable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "중요한",
+                    "상당"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773113103332,
+              "word": "consider it done",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "맡겨만 주세요"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
