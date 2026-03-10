@@ -1973,6 +1973,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260443,
+          "word": "travel",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "여행하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260442,
+              "word": "traveler",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "여행자"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
