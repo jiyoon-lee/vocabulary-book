@@ -1999,6 +1999,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260444,
+          "word": "stay",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "머무르다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
