@@ -2421,6 +2421,62 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103249,
+          "word": "waste",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "낭비하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "쓰레기; 낭비"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103246,
+              "word": "waste of time",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "시간 낭비"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773113103247,
+              "word": "waste of energy",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "에너지 낭비"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773113103248,
+              "word": "waste of money",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "돈 낭비"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
