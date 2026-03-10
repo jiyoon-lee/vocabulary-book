@@ -3200,6 +3200,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103305,
+          "word": "war",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "입고 있다; 닳게 하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
