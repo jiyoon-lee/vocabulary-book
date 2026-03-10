@@ -2954,7 +2954,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773113103287,
+              "word": "discovery",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "발견"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
