@@ -2530,6 +2530,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103254,
+          "word": "keep",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "계속하다",
+                "유지하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
