@@ -2012,6 +2012,31 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260445,
+          "word": "live",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "살다"
+              ]
+            },
+            {
+              "partOfSpeech": "형용사",
+              "definitions": [
+                "살아있는"
+              ]
+            },
+            {
+              "partOfSpeech": "부사",
+              "definitions": [
+                "생중계로"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
