@@ -2369,6 +2369,58 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773112939205,
+          "word": "convince",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "납득시키다",
+                "설득하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773112939202,
+              "word": "convincing",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "설득력 있는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773112939203,
+              "word": "convinced",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "확신을 가진"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773112939204,
+              "word": "conviction",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "확신",
+                    "유죄선고"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
