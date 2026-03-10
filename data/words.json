@@ -1768,6 +1768,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260427,
+          "word": "cast",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 던지다; 배역을 맡기다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
