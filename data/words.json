@@ -4388,6 +4388,58 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773124737046,
+          "word": "satisfy",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 만족시키다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773124737043,
+              "word": "satisfaction",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "만족",
+                    "만족감"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773124737044,
+              "word": "satisfactory",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "만족스러운",
+                    "충분한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773124737045,
+              "word": "be satisfied with",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~에 대해 만족하다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
