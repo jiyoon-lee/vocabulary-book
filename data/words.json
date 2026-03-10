@@ -4622,6 +4622,46 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737061,
+          "word": "locate",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 찾아내다",
+                "~의 위치를 가리키다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773124737059,
+              "word": "location",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "장소"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773124737060,
+              "word": "local",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "지역의",
+                    "현지의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
