@@ -3509,6 +3509,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103327,
+          "word": "yawn",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "하품하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
