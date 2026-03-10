@@ -322,7 +322,17 @@ function renderWordCard(word, num, isRelated, showActions = false) {
         </div>
       </div>`;
   } else {
-    wordHtml = `<div class="word-main">${isRelated ? '' : num + '. '}${word.word}</div>`;
+    if (hideState.ko) {
+      const mKeys = word.meanings.map((_, mi) => `m${word.id}_${mi}`);
+      const keysArg = JSON.stringify(mKeys);
+      wordHtml = `
+        <div class="word-main flex items-center justify-between gap-2">
+          <span>${isRelated ? '' : num + '. '}${word.word}</span>
+          <button onclick="showAllAnswers(${keysArg.replace(/"/g, "'")})" class="shrink-0 text-xs text-gray-400 border border-gray-200 rounded px-1.5 py-0.5 active:bg-gray-50">정답보기</button>
+        </div>`;
+    } else {
+      wordHtml = `<div class="word-main">${isRelated ? '' : num + '. '}${word.word}</div>`;
+    }
   }
 
   // Meanings section
@@ -344,6 +354,7 @@ function renderWordCard(word, num, isRelated, showActions = false) {
       <div class="flex items-center gap-1 mt-0.5">
         <span class="pos-badge">${m.partOfSpeech}</span>
         <span class="meaning-text">${m.definitions.join(', ')}</span>
+        ${hideState.en ? `<button onclick="showAnswer('${key}')" class="shrink-0 text-xs text-gray-400 border border-gray-200 rounded px-1.5 py-0.5 active:bg-gray-50">정답보기</button>` : ''}
       </div>`;
   }).join('');
 
@@ -402,8 +413,6 @@ function activateInput(key, type) {
         onkeydown="if(event.key==='Enter') checkInlineInput(this,'${key}','${type}')">
       <button onclick="checkInlineInput(this.previousElementSibling,'${key}','${type}')"
         class="px-3 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-semibold active:bg-indigo-700">확인</button>
-      <button onclick="showAnswer('${key}')"
-        class="px-3 py-1.5 border border-gray-200 text-gray-500 rounded-lg text-xs font-semibold active:bg-gray-50">정답</button>
     </div>
     <div id="fb-${key}" class="hidden mt-1 text-xs rounded px-2 py-0.5"></div>`;
   wrap.querySelector('input').focus();
@@ -416,14 +425,25 @@ function showAnswer(key) {
   item.answered = true;
   item.isCorrect = false;
 
-  const inputEl = document.querySelector(`#iw-${key} input`);
-  if (inputEl) inputEl.classList.add('border-red-300');
-
   const correct = Array.isArray(item.correctAnswer) ? item.correctAnswer.join(', ') : item.correctAnswer;
+
+  // If input already activated, show in feedback div
   const fb = document.getElementById('fb-' + key);
-  fb.textContent = `정답: ${correct}`;
-  fb.className = 'mt-1 text-xs rounded px-2 py-0.5 text-red-500 bg-red-50';
-  fb.classList.remove('hidden');
+  if (fb) {
+    const inputEl = document.querySelector(`#iw-${key} input`);
+    if (inputEl) inputEl.classList.add('border-red-300');
+    fb.textContent = `정답: ${correct}`;
+    fb.className = 'mt-1 text-xs rounded px-2 py-0.5 text-red-500 bg-red-50';
+    fb.classList.remove('hidden');
+  } else {
+    // Replace the hidden-tap placeholder with the answer
+    const wrap = document.getElementById('iw-' + key);
+    if (wrap) wrap.innerHTML = `<span class="text-red-400 text-sm">${correct}</span>`;
+  }
+}
+
+function showAllAnswers(keys) {
+  keys.forEach(key => showAnswer(key));
 }
 
 function checkInlineInput(inputEl, key, type) {
