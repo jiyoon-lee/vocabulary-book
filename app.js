@@ -33,6 +33,7 @@ const _revealedCards = new Set(); // wordId -> revealed
 const LOCAL_DATA_KEY = "vocab_data"; // 전체 스냅샷 (하위 호환)
 const CUSTOMS_KEY = "vocab_customs"; // {catId: [사용자 추가 단어, ...]}
 const ORDER_KEY = "vocab_order"; // {catId: [wordId, ...]} 순서
+const CUSTOM_CATS_KEY = "vocab_custom_cats"; // [{id, name}, ...] 사용자 추가 카테고리
 
 // ─── GitHub Sync ───────────────────────────────────────────────────────────────
 const GH_TOKEN = globalThis.__VOCAB_TOKEN__ || ''; // injected via config.js by GitHub Actions
@@ -114,6 +115,11 @@ function _saveCustomsAndOrder() {
   });
   localStorage.setItem(CUSTOMS_KEY, JSON.stringify(customs));
   localStorage.setItem(ORDER_KEY, JSON.stringify(order));
+  // 사용자 추가 카테고리 저장
+  const customCats = allData.categories
+    .filter((c) => c.id > 1000)
+    .map((c) => ({ id: c.id, name: c.name }));
+  localStorage.setItem(CUSTOM_CATS_KEY, JSON.stringify(customCats));
 }
 
 function saveData() {
@@ -163,6 +169,18 @@ async function fetchWordsData() {
 
 function mergeLocalCustoms(data) {
   try {
+    // 커스텀 카테고리 복원
+    const catsRaw = localStorage.getItem(CUSTOM_CATS_KEY);
+    if (catsRaw) {
+      const customCats = JSON.parse(catsRaw);
+      const existingCatIds = new Set(data.categories.map((c) => c.id));
+      customCats.forEach((c) => {
+        if (!existingCatIds.has(c.id)) {
+          data.categories.push({ id: c.id, name: c.name, words: [] });
+        }
+      });
+    }
+    // 커스텀 단어 복원
     const customsRaw = localStorage.getItem(CUSTOMS_KEY);
     if (!customsRaw) return;
     const customs = JSON.parse(customsRaw);
@@ -174,7 +192,7 @@ function mergeLocalCustoms(data) {
       }
     });
   } catch (e) {
-    console.error("커스텀 단어 로드 실패:", e);
+    console.error("커스텀 단어/카테고리 로드 실패:", e);
   }
 }
 
@@ -316,27 +334,27 @@ function closeCategoryForm() {
   document.getElementById("new-category-name").value = "";
 }
 
-function saveCategory() {
+async function saveCategory() {
   const name = document.getElementById("new-category-name").value.trim();
   if (!name) return;
   const newCat = { id: nextId(), name, words: [] };
   allData.categories.push(newCat);
   saveData();
-  syncToGitHub();
   closeCategoryForm();
   renderHome();
   showToast(`'${name}' 카테고리가 추가됐습니다.`);
+  await syncToGitHub();
 }
 
-function deleteCategory(catId) {
+async function deleteCategory(catId) {
   const cat = allData.categories.find(c => c.id === catId);
   if (!cat) return;
   if (!confirm(`'${cat.name}' 카테고리와 단어 ${cat.words.length}개를 삭제할까요?`)) return;
   allData.categories = allData.categories.filter(c => c.id !== catId);
   saveData();
-  syncToGitHub();
   renderHome();
   showToast("카테고리가 삭제됐습니다.");
+  await syncToGitHub();
 }
 
 function countWords(cat) {
