@@ -2942,6 +2942,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103286,
+          "word": "discover",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "발견하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
