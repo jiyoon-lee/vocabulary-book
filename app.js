@@ -470,7 +470,18 @@ function renderWordCard(word, num, isRelated, showActions = false) {
         </div>
       </div>`;
   } else {
-    wordHtml = `<div class="word-main">${isRelated ? "" : num + ". "}${word.word}</div>`;
+    const speakBtn = `<button onclick="event.stopPropagation();speakWord('${word.word.replace(/'/g, "\\'")}')"
+      class="shrink-0 text-gray-300 active:text-indigo-400 p-0.5" title="발음 듣기">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M15.536 8.464a5 5 0 010 7.072M12 6v12m0 0l-3-3m3 3l3-3M9 9H5a1 1 0 00-1 1v4a1 1 0 001 1h4l5 5V4L9 9z"/>
+      </svg>
+    </button>`;
+    wordHtml = `
+      <div class="word-main flex items-center gap-1">
+        <span>${isRelated ? "" : num + ". "}${word.word}</span>
+        ${speakBtn}
+      </div>`;
   }
 
   // Peek button (top of card, hide mode only, not for related words)
@@ -1462,6 +1473,19 @@ document.getElementById('word-modal').addEventListener('keydown', (e) => {
     saveWord();
   }
 });
+
+// ─── Speech ───────────────────────────────────────────────────────────────────
+function speakWord(word) {
+  if (!window.speechSynthesis) {
+    showToast('이 브라우저는 TTS를 지원하지 않습니다.');
+    return;
+  }
+  window.speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(word);
+  utter.lang = 'en-US';
+  utter.rate = 0.9;
+  window.speechSynthesis.speak(utter);
+}
 
 // ─── Toast ────────────────────────────────────────────────────────────────────
 function showToast(msg) {
