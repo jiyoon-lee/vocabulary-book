@@ -1741,6 +1741,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260426,
+          "word": "lay",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "두다; 눕히다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260425,
+              "word": "lie",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "누워 있다",
+                    "눕다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
