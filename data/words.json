@@ -2501,7 +2501,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773113103265,
+              "word": "expectaion",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "기대"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103251,
