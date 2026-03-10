@@ -3007,6 +3007,39 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103292,
+          "word": "promise",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "약속하다",
+                "장담하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "약속"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103291,
+              "word": "rich",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "부유한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
