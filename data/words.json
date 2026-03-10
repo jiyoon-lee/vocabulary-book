@@ -2583,6 +2583,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103259,
+          "word": "elect",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "선출하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103258,
+              "word": "erect",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "서다",
+                    "세우다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
