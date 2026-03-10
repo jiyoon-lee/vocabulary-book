@@ -3337,6 +3337,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103315,
+          "word": "close",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "닫다"
+              ]
+            },
+            {
+              "partOfSpeech": "형용사",
+              "definitions": [
+                "가까운",
+                "접근한"
+              ]
+            },
+            {
+              "partOfSpeech": "부사",
+              "definitions": [
+                "바로 옆에"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
