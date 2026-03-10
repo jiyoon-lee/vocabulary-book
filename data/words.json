@@ -2968,6 +2968,45 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103290,
+          "word": "disappoint",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "실망시키다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103288,
+              "word": "disappointed",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "낙담한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773113103289,
+              "word": "disappointment",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "실망",
+                    "낙심"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
