@@ -2037,6 +2037,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260446,
+          "word": "check",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "확인하다",
+                "조사하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "수표"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
