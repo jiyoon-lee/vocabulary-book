@@ -2129,6 +2129,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260452,
+          "word": "cover",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "덮다",
+                "씌우다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
