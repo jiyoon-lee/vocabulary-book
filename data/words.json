@@ -1709,6 +1709,38 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260424,
+          "word": "exchange",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "교환하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "교환"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260423,
+              "word": "exchange rage",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "환율"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
