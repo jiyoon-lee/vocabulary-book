@@ -4453,6 +4453,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737048,
+          "word": "shake",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "흔들다",
+                "흔들리다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
