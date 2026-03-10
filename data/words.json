@@ -3710,6 +3710,34 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773120766831,
+          "word": "supply",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "지원하다",
+                "신청하다; 적용되다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773120766830,
+              "word": "application form",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "지원서",
+                    "이력서"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
