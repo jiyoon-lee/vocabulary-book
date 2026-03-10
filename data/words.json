@@ -4527,6 +4527,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737053,
+          "word": "belong",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~에 속하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
