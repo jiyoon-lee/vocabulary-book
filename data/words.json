@@ -3363,6 +3363,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103317,
+          "word": "pull",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "끌다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103316,
+              "word": "push",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "밀다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
