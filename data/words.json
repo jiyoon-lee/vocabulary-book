@@ -2824,6 +2824,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103277,
+          "word": "restore",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "복원하다",
+                "되찾다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
