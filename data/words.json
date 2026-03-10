@@ -4494,6 +4494,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737051,
+          "word": "attempt",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 시도하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "시도"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
