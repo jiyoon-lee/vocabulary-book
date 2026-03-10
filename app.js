@@ -150,61 +150,74 @@ async function reloadFromJson() {
   }
 }
 
+// ─── Init helpers ─────────────────────────────────────────────────────────────
+async function fetchWordsData() {
+  // GitHub Contents API (CDN 캐시 없음, 항상 최신)
+  const headers = GH_TOKEN ? { Authorization: `token ${GH_TOKEN}` } : {};
+  const res = await fetch(GH_API_URL, { headers });
+  if (!res.ok) throw new Error(`GitHub API ${res.status}`);
+  const meta = await res.json();
+  const decoded = atob(meta.content.replaceAll('\n', ''));
+  return JSON.parse(decoded);
+}
+
+function mergeLocalCustoms(data) {
+  try {
+    const customsRaw = localStorage.getItem(CUSTOMS_KEY);
+    if (!customsRaw) return;
+    const customs = JSON.parse(customsRaw);
+    data.categories.forEach((cat) => {
+      const added = (customs[cat.id] || []).filter((w) => w.id > 1000);
+      if (added.length > 0) {
+        const existingIds = new Set(cat.words.map((w) => w.id));
+        cat.words = [...cat.words, ...added.filter((w) => !existingIds.has(w.id))];
+      }
+    });
+  } catch (e) {
+    console.error("커스텀 단어 로드 실패:", e);
+  }
+}
+
+function applyLocalOrder(data) {
+  try {
+    const orderRaw = localStorage.getItem(ORDER_KEY);
+    if (!orderRaw) return;
+    const order = JSON.parse(orderRaw);
+    data.categories.forEach((cat) => {
+      const catOrder = order[cat.id];
+      if (!catOrder || catOrder.length === 0) return;
+      const wordMap = new Map(cat.words.map((w) => [w.id, w]));
+      const ordered = catOrder.map((id) => wordMap.get(id)).filter(Boolean);
+      const orderedIds = new Set(catOrder);
+      cat.words = [...ordered, ...cat.words.filter((w) => !orderedIds.has(w.id))];
+    });
+  } catch (e) {
+    console.error("order 로드 실패:", e);
+  }
+}
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 async function init() {
   try {
-    const res = await fetch(GH_RAW_URL + "?cb=" + Date.now());
-    allData = await res.json();
-
-    // 커스텀 단어 복원 (localStorage) — GitHub 동기화가 없을 때 fallback
-    try {
-      const customsRaw = localStorage.getItem(CUSTOMS_KEY);
-      if (customsRaw) {
-        const customs = JSON.parse(customsRaw);
-        allData.categories.forEach((cat) => {
-          const added = (customs[cat.id] || []).filter((w) => w.id > 1000);
-          if (added.length > 0) {
-            const existingIds = new Set(cat.words.map((w) => w.id));
-            cat.words = [
-              ...cat.words,
-              ...added.filter((w) => !existingIds.has(w.id)),
-            ];
-          }
-        });
-      }
-    } catch (e) {
-      console.error("커스텀 단어 로드 실패:", e);
-    }
-
-    // 순서 복원 (localStorage)
-    try {
-      const orderRaw = localStorage.getItem(ORDER_KEY);
-      if (orderRaw) {
-        const order = JSON.parse(orderRaw);
-        allData.categories.forEach((cat) => {
-          const catOrder = order[cat.id];
-          if (catOrder && catOrder.length > 0) {
-            const wordMap = new Map(cat.words.map((w) => [w.id, w]));
-            const ordered = catOrder
-              .map((id) => wordMap.get(id))
-              .filter(Boolean);
-            const orderedIds = new Set(catOrder);
-            const unordered = cat.words.filter((w) => !orderedIds.has(w.id));
-            cat.words = [...ordered, ...unordered];
-          }
-        });
-      }
-    } catch (e) {
-      console.error("order 로드 실패:", e);
-    }
+    allData = await fetchWordsData();
+    console.log('[init] GitHub Contents API로 불러옴');
+    mergeLocalCustoms(allData);
+    applyLocalOrder(allData);
   } catch (e) {
-    // 네트워크 실패 시 기존 localStorage 사용
-    console.error("JSON 로드 실패, localStorage로 대체:", e);
+    console.warn("[init] GitHub API 실패, 로컬 fallback:", e);
     try {
-      const raw = localStorage.getItem(LOCAL_DATA_KEY);
-      if (raw) allData = JSON.parse(raw);
-    } catch (e2) {
-      console.error(e2);
+      const res = await fetch('data/words.json?cb=' + Date.now());
+      if (res.ok) allData = await res.json();
+    } catch (fetchErr) {
+      console.error("[init] 로컬 파일 fetch 실패:", fetchErr);
+    }
+    if (!allData) {
+      try {
+        const raw = localStorage.getItem(LOCAL_DATA_KEY);
+        if (raw) allData = JSON.parse(raw);
+      } catch (lsErr) {
+        console.error("[init] localStorage 읽기 실패:", lsErr);
+      }
     }
     if (!allData) {
       document.getElementById("category-list").innerHTML =
