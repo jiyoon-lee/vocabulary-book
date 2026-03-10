@@ -4554,6 +4554,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737056,
+          "word": "highlight",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "강조하"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773124737055,
+              "word": "highlighter",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "형광팬"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
