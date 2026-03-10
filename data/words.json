@@ -3798,6 +3798,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773120766836,
+          "word": "broadcast",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "방송하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "방송"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
