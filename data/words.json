@@ -2157,6 +2157,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260454,
+          "word": "remain",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "남아있다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "유적(s)"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
