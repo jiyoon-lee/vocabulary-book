@@ -4159,6 +4159,25 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773124737029,
+          "word": "reply",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~에 대답하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "대답"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
