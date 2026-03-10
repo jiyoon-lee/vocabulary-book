@@ -3286,6 +3286,57 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103314,
+          "word": "draw",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "끌다",
+                "끌어당기다; 그리다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103311,
+              "word": "drawing",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "그림"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773113103312,
+              "word": "drawer",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "서랍"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773113103313,
+              "word": "draw attaction",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "주위를 끌다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
