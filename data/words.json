@@ -3975,6 +3975,34 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773124737017,
+          "word": "estimate",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "평가하다",
+                "추정하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773124737016,
+              "word": "estimation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "판단",
+                    "평가"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
