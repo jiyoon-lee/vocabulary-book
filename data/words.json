@@ -3483,7 +3483,34 @@
     {
       "id": 1773113103324,
       "name": "4강",
-      "words": []
+      "words": [
+        {
+          "id": 1773113103326,
+          "word": "sever",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "자르"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103325,
+              "word": "severance",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "단절"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
