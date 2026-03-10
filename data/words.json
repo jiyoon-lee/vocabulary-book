@@ -2309,6 +2309,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260465,
+          "word": "assemble",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "모으다",
+                "조립하다; 모이다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
