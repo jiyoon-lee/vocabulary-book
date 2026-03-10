@@ -3246,6 +3246,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103309,
+          "word": "cry",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "소리치다; 울다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103308,
+              "word": "crying",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "울부짓는; 긴급한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
