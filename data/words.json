@@ -2,23 +2,23 @@
   "categories": [
     {
       "id": 1,
-      "name": "1강",
+      "name": "1ê°",
       "words": [
         {
           "id": 1,
           "word": "result",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "~로부터 생기다",
-                "야기시키다"
+                "~ë¡ë¶í° ìê¸°ë¤",
+                "ì¼ê¸°ìí¤ë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "결과"
+                "ê²°ê³¼"
               ]
             }
           ],
@@ -28,9 +28,9 @@
               "word": "result in",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "ìì´",
                   "definitions": [
-                    "결과를 초래하다"
+                    "ê²°ê³¼ë¥¼ ì´ëíë¤"
                   ]
                 }
               ]
@@ -40,9 +40,9 @@
               "word": "result from",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "ìì´",
                   "definitions": [
-                    "원인으로부터 기인하다"
+                    "ìì¸ì¼ë¡ë¶í° ê¸°ì¸íë¤"
                   ]
                 }
               ]
@@ -54,9 +54,9 @@
           "word": "believe",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "믿다"
+                "ë¯¿ë¤"
               ]
             }
           ],
@@ -66,9 +66,9 @@
               "word": "believable",
               "meanings": [
                 {
-                  "partOfSpeech": "형용사",
+                  "partOfSpeech": "íì©ì¬",
                   "definitions": [
-                    "믿을 수 있는"
+                    "ë¯¿ì ì ìë"
                   ]
                 }
               ]
@@ -78,10 +78,10 @@
               "word": "unbelievable",
               "meanings": [
                 {
-                  "partOfSpeech": "형용사",
+                  "partOfSpeech": "íì©ì¬",
                   "definitions": [
-                    "믿을 수 없는",
-                    "믿기 어려운"
+                    "ë¯¿ì ì ìë",
+                    "ë¯¿ê¸° ì´ë ¤ì´"
                   ]
                 }
               ]
@@ -93,10 +93,10 @@
           "word": "enter",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "~에 들어가다",
-                "입장하다"
+                "~ì ë¤ì´ê°ë¤",
+                "ìì¥íë¤"
               ]
             }
           ],
@@ -106,9 +106,9 @@
               "word": "entrance",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "출입구"
+                    "ì¶ìêµ¬"
                   ]
                 }
               ]
@@ -120,10 +120,10 @@
           "word": "admit",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "인정하다",
-                "허락하다"
+                "ì¸ì íë¤",
+                "íë½íë¤"
               ]
             }
           ],
@@ -133,10 +133,10 @@
               "word": "admittance",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "입장",
-                    "허락"
+                    "ìì¥",
+                    "íë½"
                   ]
                 }
               ]
@@ -148,10 +148,10 @@
           "word": "happen",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "일어나다",
-                "발생하다"
+                "ì¼ì´ëë¤",
+                "ë°ìíë¤"
               ]
             }
           ],
@@ -161,10 +161,10 @@
               "word": "happening",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "(예기치못한) 사건",
-                    "일"
+                    "(ìê¸°ì¹ëª»í) ì¬ê±´",
+                    "ì¼"
                   ]
                 }
               ]
@@ -176,17 +176,17 @@
           "word": "try",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "시도하다",
-                "노력하다"
+                "ìëíë¤",
+                "ë¸ë ¥íë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "시도",
-                "노력"
+                "ìë",
+                "ë¸ë ¥"
               ]
             }
           ],
@@ -196,11 +196,11 @@
               "word": "trial",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "재판",
-                    "시련",
-                    "시도"
+                    "ì¬í",
+                    "ìë ¨",
+                    "ìë"
                   ]
                 }
               ]
@@ -210,9 +210,9 @@
               "word": "trial and error",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "시행 착오"
+                    "ìí ì°©ì¤"
                   ]
                 }
               ]
@@ -224,9 +224,9 @@
           "word": "take",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "취하다"
+                "ì·¨íë¤"
               ]
             }
           ],
@@ -236,10 +236,10 @@
               "word": "give and take",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "쌍방 양보",
-                    "의견 교환"
+                    "ìë°© ìë³´",
+                    "ìê²¬ êµí"
                   ]
                 }
               ]
@@ -251,9 +251,9 @@
           "word": "add",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "~를 더하다"
+                "~ë¥¼ ëíë¤"
               ]
             }
           ],
@@ -264,16 +264,16 @@
           "word": "decrease",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "감소하다",
-                "감소시키다"
+                "ê°ìíë¤",
+                "ê°ììí¤ë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "감소"
+                "ê°ì"
               ]
             }
           ],
@@ -283,9 +283,9 @@
               "word": "increase",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "ëì¬",
                   "definitions": [
-                    "증가하다"
+                    "ì¦ê°íë¤"
                   ]
                 }
               ]
@@ -297,9 +297,9 @@
           "word": "improve",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "개선하다"
+                "ê°ì íë¤"
               ]
             }
           ],
@@ -310,9 +310,9 @@
           "word": "marry",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "~와 결혼하다"
+                "~ì ê²°í¼íë¤"
               ]
             }
           ],
@@ -323,15 +323,15 @@
           "word": "cancel",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "취소하다"
+                "ì·¨ìíë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "취소"
+                "ì·¨ì"
               ]
             }
           ],
@@ -342,10 +342,10 @@
           "word": "create",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "창조하다",
-                "창작하다"
+                "ì°½ì¡°íë¤",
+                "ì°½ìíë¤"
               ]
             }
           ],
@@ -356,9 +356,9 @@
           "word": "invent",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "발명하다"
+                "ë°ëªíë¤"
               ]
             }
           ],
@@ -369,10 +369,10 @@
           "word": "realize",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "깨닫다",
-                "실현하다"
+                "ê¹¨ë«ë¤",
+                "ì¤ííë¤"
               ]
             }
           ],
@@ -382,10 +382,10 @@
               "word": "real",
               "meanings": [
                 {
-                  "partOfSpeech": "형용사",
+                  "partOfSpeech": "íì©ì¬",
                   "definitions": [
-                    "진짜의",
-                    "현실적인"
+                    "ì§ì§ì",
+                    "íì¤ì ì¸"
                   ]
                 }
               ]
@@ -397,9 +397,9 @@
           "word": "avoid",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "피하다"
+                "í¼íë¤"
               ]
             }
           ],
@@ -410,15 +410,15 @@
           "word": "reveal",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "드러내다"
+                "ëë¬ë´ë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "폭로"
+                "í­ë¡"
               ]
             }
           ],
@@ -429,15 +429,15 @@
           "word": "support",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "지지하다"
+                "ì§ì§íë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "지지"
+                "ì§ì§"
               ]
             }
           ],
@@ -448,10 +448,10 @@
           "word": "neglect",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "무시하다",
-                "소홀히 하다"
+                "ë¬´ìíë¤",
+                "ìíí íë¤"
               ]
             }
           ],
@@ -462,9 +462,9 @@
           "word": "invest",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "투자하다"
+                "í¬ìíë¤"
               ]
             }
           ],
@@ -475,9 +475,9 @@
           "word": "forgive",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "용서하다"
+                "ì©ìíë¤"
               ]
             }
           ],
@@ -488,10 +488,10 @@
           "word": "earn",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "벌다",
-                "획득하다"
+                "ë²ë¤",
+                "íëíë¤"
               ]
             }
           ],
@@ -502,9 +502,9 @@
           "word": "wonder",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "궁금하다"
+                "ê¶ê¸íë¤"
               ]
             }
           ],
@@ -514,10 +514,10 @@
               "word": "wonderful",
               "meanings": [
                 {
-                  "partOfSpeech": "형용사",
+                  "partOfSpeech": "íì©ì¬",
                   "definitions": [
-                    "훌륭한",
-                    "놀랄만한"
+                    "íë¥­í",
+                    "ëëë§í"
                   ]
                 }
               ]
@@ -529,15 +529,15 @@
           "word": "lift",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "들어올리다"
+                "ë¤ì´ì¬ë¦¬ë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "(정신의)고양"
+                "(ì ì ì)ê³ ì"
               ]
             }
           ],
@@ -548,15 +548,15 @@
           "word": "express",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "표현하다"
+                "íííë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "급행"
+                "ê¸í"
               ]
             }
           ],
@@ -567,9 +567,9 @@
           "word": "explain",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "설명하다"
+                "ì¤ëªíë¤"
               ]
             }
           ],
@@ -579,10 +579,10 @@
               "word": "explanation",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "설명",
-                    "해명"
+                    "ì¤ëª",
+                    "í´ëª"
                   ]
                 }
               ]
@@ -594,10 +594,10 @@
           "word": "save",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "구하다",
-                "모으다"
+                "êµ¬íë¤",
+                "ëª¨ì¼ë¤"
               ]
             }
           ],
@@ -608,11 +608,11 @@
           "word": "treat",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "취급하다",
-                "다루다",
-                "대접하다"
+                "ì·¨ê¸íë¤",
+                "ë¤ë£¨ë¤",
+                "ëì íë¤"
               ]
             }
           ],
@@ -623,15 +623,15 @@
           "word": "scream",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "소리치다"
+                "ìë¦¬ì¹ë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "비명"
+                "ë¹ëª"
               ]
             }
           ],
@@ -642,16 +642,16 @@
           "word": "press",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "~을 누르다"
+                "~ì ëë¥´ë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "신문",
-                "언론"
+                "ì ë¬¸",
+                "ì¸ë¡ "
               ]
             }
           ],
@@ -661,10 +661,10 @@
               "word": "pressure",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "압박",
-                    "압력"
+                    "ìë°",
+                    "ìë ¥"
                   ]
                 }
               ]
@@ -676,10 +676,10 @@
           "word": "accept",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "받아들이다",
-                "인정하다"
+                "ë°ìë¤ì´ë¤",
+                "ì¸ì íë¤"
               ]
             }
           ],
@@ -690,9 +690,9 @@
           "word": "conclude",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "결론짓다"
+                "ê²°ë¡ ì§ë¤"
               ]
             }
           ],
@@ -702,9 +702,9 @@
               "word": "conclusion",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "결론"
+                    "ê²°ë¡ "
                   ]
                 }
               ]
@@ -714,9 +714,9 @@
               "word": "conclusive",
               "meanings": [
                 {
-                  "partOfSpeech": "형용사",
+                  "partOfSpeech": "íì©ì¬",
                   "definitions": [
-                    "결정적인"
+                    "ê²°ì ì ì¸"
                   ]
                 }
               ]
@@ -728,10 +728,10 @@
           "word": "depress",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "낙담시키다",
-                "우울하게 하다"
+                "ëë´ìí¤ë¤",
+                "ì°ì¸íê² íë¤"
               ]
             }
           ],
@@ -741,10 +741,10 @@
               "word": "depression",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "우울증",
-                    "불경기"
+                    "ì°ì¸ì¦",
+                    "ë¶ê²½ê¸°"
                   ]
                 }
               ]
@@ -754,9 +754,9 @@
               "word": "depressed",
               "meanings": [
                 {
-                  "partOfSpeech": "형용사",
+                  "partOfSpeech": "íì©ì¬",
                   "definitions": [
-                    "우울한"
+                    "ì°ì¸í"
                   ]
                 }
               ]
@@ -768,11 +768,11 @@
           "word": "build",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "짓다",
-                "건축하다",
-                "건물을 세우다"
+                "ì§ë¤",
+                "ê±´ì¶íë¤",
+                "ê±´ë¬¼ì ì¸ì°ë¤"
               ]
             }
           ],
@@ -782,9 +782,9 @@
               "word": "building",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "건물"
+                    "ê±´ë¬¼"
                   ]
                 }
               ]
@@ -796,10 +796,10 @@
           "word": "hide",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "~을 숨기다",
-                "숨다"
+                "~ì ì¨ê¸°ë¤",
+                "ì¨ë¤"
               ]
             }
           ],
@@ -810,9 +810,9 @@
           "word": "ride",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "타다"
+                "íë¤"
               ]
             }
           ],
@@ -823,16 +823,16 @@
           "word": "conduct",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "수행하다"
+                "ìííë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "행위",
-                "품행"
+                "íì",
+                "íí"
               ]
             }
           ],
@@ -842,10 +842,10 @@
               "word": "code of conduct",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "행동 수칙",
-                    "행동 강령"
+                    "íë ìì¹",
+                    "íë ê°ë ¹"
                   ]
                 }
               ]
@@ -855,10 +855,10 @@
               "word": "conductor",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "안내자",
-                    "지휘자"
+                    "ìë´ì",
+                    "ì§íì"
                   ]
                 }
               ]
@@ -870,16 +870,16 @@
           "word": "shout",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "외치다"
+                "ì¸ì¹ë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "외침",
-                "환호"
+                "ì¸ì¹¨",
+                "íí¸"
               ]
             }
           ],
@@ -890,9 +890,9 @@
           "word": "prepare",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "준비하다"
+                "ì¤ë¹íë¤"
               ]
             }
           ],
@@ -902,9 +902,9 @@
               "word": "preparation",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "준비"
+                    "ì¤ë¹"
                   ]
                 }
               ]
@@ -914,9 +914,9 @@
               "word": "prepare for",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "ìì´",
                   "definitions": [
-                    "~에 대비하다"
+                    "~ì ëë¹íë¤"
                   ]
                 }
               ]
@@ -928,10 +928,10 @@
           "word": "dismiss",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "해고하다",
-                "해산시키다"
+                "í´ê³ íë¤",
+                "í´ì°ìí¤ë¤"
               ]
             }
           ],
@@ -941,10 +941,10 @@
               "word": "dismissal",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "해고",
-                    "일축"
+                    "í´ê³ ",
+                    "ì¼ì¶"
                   ]
                 }
               ]
@@ -956,10 +956,10 @@
           "word": "arrive",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "도착하다",
-                "이르다"
+                "ëì°©íë¤",
+                "ì´ë¥´ë¤"
               ]
             }
           ],
@@ -969,9 +969,9 @@
               "word": "arrival",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "도착"
+                    "ëì°©"
                   ]
                 }
               ]
@@ -981,9 +981,9 @@
               "word": "departure",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "출발"
+                    "ì¶ë°"
                   ]
                 }
               ]
@@ -995,10 +995,10 @@
           "word": "arrest",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "체포하다",
-                "구속하다"
+                "ì²´í¬íë¤",
+                "êµ¬ìíë¤"
               ]
             }
           ],
@@ -1009,9 +1009,9 @@
           "word": "climb",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "기어오르다"
+                "ê¸°ì´ì¤ë¥´ë¤"
               ]
             }
           ],
@@ -1021,9 +1021,9 @@
               "word": "climbing",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "등산"
+                    "ë±ì°"
                   ]
                 }
               ]
@@ -1035,9 +1035,9 @@
           "word": "advertise",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "광고하다"
+                "ê´ê³ íë¤"
               ]
             }
           ],
@@ -1047,9 +1047,9 @@
               "word": "advertisement",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "광고"
+                    "ê´ê³ "
                   ]
                 }
               ]
@@ -1061,9 +1061,9 @@
           "word": "seek",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "추구하다"
+                "ì¶êµ¬íë¤"
               ]
             }
           ],
@@ -1074,17 +1074,17 @@
           "word": "attack",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "~을 공격하다",
-                "습격하다"
+                "~ì ê³µê²©íë¤",
+                "ìµê²©íë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "공격",
-                "습격"
+                "ê³µê²©",
+                "ìµê²©"
               ]
             }
           ],
@@ -1095,9 +1095,9 @@
           "word": "melt",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "녹다"
+                "ë¹ë¤"
               ]
             }
           ],
@@ -1108,9 +1108,9 @@
           "word": "calculate",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "계산하다"
+                "ê³ì°íë¤"
               ]
             }
           ],
@@ -1120,9 +1120,9 @@
               "word": "calculator",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "계산기"
+                    "ê³ì°ê¸°"
                   ]
                 }
               ]
@@ -1132,10 +1132,10 @@
               "word": "calculation",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "계산",
-                    "추정"
+                    "ê³ì°",
+                    "ì¶ì "
                   ]
                 }
               ]
@@ -1145,10 +1145,10 @@
               "word": "calculated",
               "meanings": [
                 {
-                  "partOfSpeech": "형용사",
+                  "partOfSpeech": "íì©ì¬",
                   "definitions": [
-                    "계산된",
-                    "고의적인"
+                    "ê³ì°ë",
+                    "ê³ ìì ì¸"
                   ]
                 }
               ]
@@ -1160,9 +1160,9 @@
           "word": "bark",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "(개가)짖다"
+                "(ê°ê°)ì§ë¤"
               ]
             }
           ],
@@ -1173,9 +1173,9 @@
           "word": "lick",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "핥다"
+                "í¥ë¤"
               ]
             }
           ],
@@ -1185,24 +1185,24 @@
     },
     {
       "id": 2,
-      "name": "2강",
+      "name": "2ê°",
       "words": [
         {
           "id": 51,
           "word": "lead",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "이끌다"
+                "ì´ëë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "선도",
-                "지도",
-                "납"
+                "ì ë",
+                "ì§ë",
+                "ë©"
               ]
             }
           ],
@@ -1213,9 +1213,9 @@
           "word": "remind",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "상기시키다"
+                "ìê¸°ìí¤ë¤"
               ]
             }
           ],
@@ -1226,9 +1226,9 @@
           "word": "seem",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "~처럼 보이다"
+                "~ì²ë¼ ë³´ì´ë¤"
               ]
             }
           ],
@@ -1239,9 +1239,9 @@
           "word": "decide",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "결정하다"
+                "ê²°ì íë¤"
               ]
             }
           ],
@@ -1251,10 +1251,10 @@
               "word": "decision",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "결정",
-                    "판단"
+                    "ê²°ì ",
+                    "íë¨"
                   ]
                 }
               ]
@@ -1264,10 +1264,10 @@
               "word": "decisive",
               "meanings": [
                 {
-                  "partOfSpeech": "형용사",
+                  "partOfSpeech": "íì©ì¬",
                   "definitions": [
-                    "결정적인",
-                    "결단력 있는"
+                    "ê²°ì ì ì¸",
+                    "ê²°ë¨ë ¥ ìë"
                   ]
                 }
               ]
@@ -1279,10 +1279,10 @@
           "word": "insist",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "주장하다",
-                "요구하다"
+                "ì£¼ì¥íë¤",
+                "ìêµ¬íë¤"
               ]
             }
           ],
@@ -1293,15 +1293,15 @@
           "word": "supply",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "공급하다"
+                "ê³µê¸íë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "공급(량)"
+                "ê³µê¸(ë)"
               ]
             }
           ],
@@ -1311,9 +1311,9 @@
               "word": "demand",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "수요"
+                    "ìì"
                   ]
                 }
               ]
@@ -1325,17 +1325,17 @@
           "word": "regret",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "후회하다",
-                "유감으로 생각하다"
+                "íííë¤",
+                "ì ê°ì¼ë¡ ìê°íë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "후회",
-                "유감"
+                "íí",
+                "ì ê°"
               ]
             }
           ],
@@ -1345,10 +1345,10 @@
               "word": "regretful",
               "meanings": [
                 {
-                  "partOfSpeech": "형용사",
+                  "partOfSpeech": "íì©ì¬",
                   "definitions": [
-                    "후회하는",
-                    "유감으로 생각하는"
+                    "íííë",
+                    "ì ê°ì¼ë¡ ìê°íë"
                   ]
                 }
               ]
@@ -1360,9 +1360,9 @@
           "word": "see",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "보다"
+                "ë³´ë¤"
               ]
             }
           ],
@@ -1373,9 +1373,9 @@
           "word": "hire",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "고용하다"
+                "ê³ ì©íë¤"
               ]
             }
           ],
@@ -1386,17 +1386,17 @@
           "word": "offer",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "제안하다",
-                "제공하다"
+                "ì ìíë¤",
+                "ì ê³µíë¤"
               ]
             },
             {
-              "partOfSpeech": "명사",
+              "partOfSpeech": "ëªì¬",
               "definitions": [
-                "제안",
-                "제공"
+                "ì ì",
+                "ì ê³µ"
               ]
             }
           ],
@@ -1406,9 +1406,9 @@
               "word": "special offer",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "특가 판매"
+                    "í¹ê° íë§¤"
                   ]
                 }
               ]
@@ -1420,9 +1420,9 @@
           "word": "borrow",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "빌리다"
+                "ë¹ë¦¬ë¤"
               ]
             }
           ],
@@ -1432,9 +1432,9 @@
               "word": "lend",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "ëì¬",
                   "definitions": [
-                    "빌려주다"
+                    "ë¹ë ¤ì£¼ë¤"
                   ]
                 }
               ]
@@ -1446,10 +1446,10 @@
           "word": "discuss",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "토론하다",
-                "의논하다"
+                "í ë¡ íë¤",
+                "ìë¼íë¤"
               ]
             }
           ],
@@ -1459,10 +1459,10 @@
               "word": "discussion",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "논의",
-                    "상의"
+                    "ë¼ì",
+                    "ìì"
                   ]
                 }
               ]
@@ -1474,9 +1474,9 @@
           "word": "introduce",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "소개하다"
+                "ìê°íë¤"
               ]
             }
           ],
@@ -1487,9 +1487,9 @@
           "word": "reform",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "개혁[개선]하다"
+                "ê°í[ê°ì ]íë¤"
               ]
             }
           ],
@@ -1500,10 +1500,10 @@
           "word": "celebrate",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "축하하다",
-                "기리다"
+                "ì¶ííë¤",
+                "ê¸°ë¦¬ë¤"
               ]
             }
           ],
@@ -1514,9 +1514,9 @@
           "word": "employ",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "고용하다"
+                "ê³ ì©íë¤"
               ]
             }
           ],
@@ -1526,9 +1526,9 @@
               "word": "employer",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "고용주"
+                    "ê³ ì©ì£¼"
                   ]
                 }
               ]
@@ -1538,10 +1538,10 @@
               "word": "employee",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "피고용인",
-                    "직원"
+                    "í¼ê³ ì©ì¸",
+                    "ì§ì"
                   ]
                 }
               ]
@@ -1553,9 +1553,9 @@
           "word": "rescue",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "구조하다"
+                "êµ¬ì¡°íë¤"
               ]
             }
           ],
@@ -1566,9 +1566,9 @@
           "word": "obey",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "~에 복종하다"
+                "~ì ë³µì¢íë¤"
               ]
             }
           ],
@@ -1578,10 +1578,10 @@
               "word": "obedience",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "ëªì¬",
                   "definitions": [
-                    "복종",
-                    "순종"
+                    "ë³µì¢",
+                    "ìì¢"
                   ]
                 }
               ]
@@ -1591,10 +1591,10 @@
               "word": "obedient",
               "meanings": [
                 {
-                  "partOfSpeech": "형용사",
+                  "partOfSpeech": "íì©ì¬",
                   "definitions": [
-                    "순종적인",
-                    "복종적인"
+                    "ìì¢ì ì¸",
+                    "ë³µì¢ì ì¸"
                   ]
                 }
               ]
@@ -1606,10 +1606,10 @@
           "word": "kiss",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "입을 맞추다",
-                "키스하다"
+                "ìì ë§ì¶ë¤",
+                "í¤ì¤íë¤"
               ]
             }
           ],
@@ -1620,9 +1620,9 @@
           "word": "fail",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "실패하다"
+                "ì¤í¨íë¤"
               ]
             }
           ],
@@ -1633,10 +1633,10 @@
           "word": "crash",
           "meanings": [
             {
-              "partOfSpeech": "동사",
+              "partOfSpeech": "ëì¬",
               "definitions": [
-                "충돌하다",
-                "부딪치다"
+                "ì¶©ëíë¤",
+                "ë¶ëªì¹ë¤"
               ]
             }
           ],
@@ -1644,12 +1644,25 @@
         },
         {
           "id": 1773105338375,
-          "word": "ㅂㅈㄷㄱ",
+          "word": "ããã·ã±",
+          "meanings": [
+            {
+              "partOfSpeech": "ëì¬",
+              "definitions": [
+                "ããã·ã±"
+              ]
+            }
+          ],
+          "related": []
+        },
+        {
+          "id": 1773105921058,
+          "word": "ㄻㄴㅇㄹ",
           "meanings": [
             {
               "partOfSpeech": "동사",
               "definitions": [
-                "ㅂㅈㄷㄱ"
+                "ㅁㄴㅇㄹ"
               ]
             }
           ],
