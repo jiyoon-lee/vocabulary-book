@@ -2610,6 +2610,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103260,
+          "word": "appreciate",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "평가하다; 인정하다; 감상하다; 감사하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
