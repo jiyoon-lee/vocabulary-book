@@ -3916,6 +3916,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773120766844,
+          "word": "share",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "나누다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "몫"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
