@@ -1808,6 +1808,35 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260431,
+          "word": "expand",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "확장하다",
+                "팽창하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260430,
+              "word": "expend",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "(많은 돈",
+                    "시간",
+                    "에너지를) 쏟다[들이다]"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
