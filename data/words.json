@@ -3620,6 +3620,57 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103338,
+          "word": "succeed",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "성공하다; 계승하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103335,
+              "word": "success",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "성공"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773113103336,
+              "word": "successful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "성공적인",
+                    "성공한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773113103337,
+              "word": "successive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "연속적인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
