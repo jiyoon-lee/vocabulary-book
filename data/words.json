@@ -2929,6 +2929,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103285,
+          "word": "lie",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "눕다; 거짓말하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
