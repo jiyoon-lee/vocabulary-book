@@ -2724,6 +2724,26 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103270,
+          "word": "complete",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "완성시키다",
+                "끝내다"
+              ]
+            },
+            {
+              "partOfSpeech": "형용사",
+              "definitions": [
+                "완전한"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
