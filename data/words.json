@@ -4513,6 +4513,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737052,
+          "word": "behave",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "처신하다",
+                "행동하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
