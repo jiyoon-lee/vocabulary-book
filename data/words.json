@@ -3817,6 +3817,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773120766837,
+          "word": "report",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "보고하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "보고서; 기사"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
