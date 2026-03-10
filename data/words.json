@@ -4481,6 +4481,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737050,
+          "word": "assist",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "돕다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
