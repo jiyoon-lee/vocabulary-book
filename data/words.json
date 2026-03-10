@@ -3389,6 +3389,40 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773113103319,
+          "word": "blame",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "비난하다",
+                "탓하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "비난",
+                "탓"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103318,
+              "word": "blame A for B",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "B를 이유로 A를 비난하다[탓하다]"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
