@@ -3890,6 +3890,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773120766842,
+          "word": "rely",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "의지하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
