@@ -2244,6 +2244,44 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260462,
+          "word": "include",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "포함하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260460,
+              "word": "exclude",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "제외하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773107260461,
+              "word": "tax included",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "세금 포함"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
