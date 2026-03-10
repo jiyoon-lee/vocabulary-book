@@ -52,18 +52,27 @@ function _toBase64(str) {
 }
 
 async function syncToGitHub() {
-  if (!GH_TOKEN || GH_TOKEN === "__GH_TOKEN__") return;
+  console.log("[sync] GH_TOKEN 상태:", GH_TOKEN === "__GH_TOKEN__" ? "미주입(플레이스홀더)" : "주입됨(" + GH_TOKEN.slice(0, 6) + "...)");
+  if (!GH_TOKEN || GH_TOKEN === "__GH_TOKEN__") {
+    console.warn("[sync] 토큰 미주입 — GitHub 동기화 건너뜀");
+    return;
+  }
 
   const content = _toBase64(JSON.stringify(allData, null, 2));
 
   try {
+    console.log("[sync] SHA 조회 중...", GH_API_URL);
     const metaRes = await fetch(GH_API_URL, {
       headers: {Authorization: `token ${GH_TOKEN}`},
     });
+    console.log("[sync] SHA 조회 응답:", metaRes.status);
     let sha;
     if (metaRes.ok) {
       sha = (await metaRes.json()).sha;
+      console.log("[sync] SHA:", sha);
     } else if (metaRes.status !== 404) {
+      const err = await metaRes.json();
+      console.error("[sync] SHA 조회 실패:", err);
       showToast("GitHub 접근 오류");
       return;
     }
@@ -71,6 +80,7 @@ async function syncToGitHub() {
     const body = {message: "Update words", content};
     if (sha) body.sha = sha;
 
+    console.log("[sync] words.json PUT 요청 중...");
     const putRes = await fetch(GH_API_URL, {
       method: "PUT",
       headers: {
@@ -79,14 +89,18 @@ async function syncToGitHub() {
       },
       body: JSON.stringify(body),
     });
+    console.log("[sync] PUT 응답:", putRes.status);
 
-    if (!putRes.ok) {
+    if (putRes.ok) {
+      console.log("[sync] GitHub 동기화 성공 ✓");
+      showToast("GitHub에 저장됐습니다.");
+    } else {
       const err = await putRes.json();
-      console.error("GitHub sync failed:", err);
+      console.error("[sync] GitHub sync 실패:", err);
       showToast("GitHub 저장 실패: " + (err.message || ""));
     }
   } catch (e) {
-    console.error("GitHub sync error:", e);
+    console.error("[sync] GitHub sync 에러:", e);
   }
 }
 
