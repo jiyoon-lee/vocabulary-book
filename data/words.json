@@ -4601,6 +4601,27 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737058,
+          "word": "guard",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "보호하다",
+                "지키다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "수위",
+                "경호인"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
