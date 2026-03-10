@@ -4211,6 +4211,27 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773124737032,
+          "word": "copy",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "복사하다",
+                "모방하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "사본",
+                "부"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
