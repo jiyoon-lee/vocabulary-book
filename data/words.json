@@ -1837,6 +1837,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260434,
+          "word": "collect",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "수집하다",
+                "모으다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260432,
+              "word": "collection",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "수집"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773107260433,
+              "word": "collective",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "집단의",
+                    "단체의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
