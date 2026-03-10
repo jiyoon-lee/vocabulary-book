@@ -3122,6 +3122,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103300,
+          "word": "consist",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~으로 구성되다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103299,
+              "word": "consist of",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~로 구성되다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
