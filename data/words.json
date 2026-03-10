@@ -2282,6 +2282,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773107260464,
+          "word": "bake",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "굽다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260463,
+              "word": "bakery",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "빵집",
+                    "제과점"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
