@@ -157,8 +157,8 @@ async function fetchWordsData() {
   const res = await fetch(GH_API_URL, { headers });
   if (!res.ok) throw new Error(`GitHub API ${res.status}`);
   const meta = await res.json();
-  const decoded = atob(meta.content.replaceAll('\n', ''));
-  return JSON.parse(decoded);
+  const bytes = Uint8Array.from(atob(meta.content.replaceAll('\n', '')), c => c.charCodeAt(0));
+  return JSON.parse(new TextDecoder('utf-8').decode(bytes));
 }
 
 function mergeLocalCustoms(data) {
