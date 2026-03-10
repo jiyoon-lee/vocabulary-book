@@ -2744,6 +2744,45 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773113103273,
+          "word": "relate",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~와 관계시키다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773113103271,
+              "word": "related to",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~와 관련이 있는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773113103272,
+              "word": "relationship",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "(사람",
+                    "연인 사이의) 관계"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
