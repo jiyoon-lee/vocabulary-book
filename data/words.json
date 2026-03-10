@@ -4056,6 +4056,25 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773124737022,
+          "word": "flow",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "흐르다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "흐름"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
