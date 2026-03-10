@@ -1781,6 +1781,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260429,
+          "word": "slip",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "미끄러지다; 살짝 움직이다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773107260428,
+              "word": "slipper",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "슬리퍼",
+                    "실내화"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
