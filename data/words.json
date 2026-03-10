@@ -3949,6 +3949,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773120766847,
+          "word": "attract",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "끌다; ~을 매혹하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773120766846,
+              "word": "tourist attraction",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "관공 명소"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
