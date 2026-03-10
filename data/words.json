@@ -4662,6 +4662,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773124737062,
+          "word": "kill",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "죽이다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
