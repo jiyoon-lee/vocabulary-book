@@ -1641,6 +1641,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260418,
+          "word": "yell",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "고함하다",
+                "외치다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
