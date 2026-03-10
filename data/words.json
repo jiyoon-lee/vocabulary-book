@@ -2057,6 +2057,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773107260447,
+          "word": "swim",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "수영하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
