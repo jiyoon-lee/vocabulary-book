@@ -6946,6 +6946,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722863,
+          "word": "repeat",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "반복하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
