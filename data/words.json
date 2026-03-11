@@ -5773,6 +5773,21 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722784,
+          "word": "cut",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "(칼 등으로) 베다",
+                "자르다",
+                "줄이다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
