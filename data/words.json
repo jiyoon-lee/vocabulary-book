@@ -6029,6 +6029,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722801,
+          "word": "practice",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "연습하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "실행; 연습; 관습"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
