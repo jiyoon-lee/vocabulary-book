@@ -5356,6 +5356,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722757,
+          "word": "promote",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "장려하다; 승진하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
