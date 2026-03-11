@@ -6932,6 +6932,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722862,
+          "word": "reflect",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "반사한다",
+                "반영하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
