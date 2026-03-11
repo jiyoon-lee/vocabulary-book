@@ -6500,6 +6500,25 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722834,
+          "word": "hit",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "치다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "적중; 성공"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
