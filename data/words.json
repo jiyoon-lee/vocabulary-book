@@ -5924,6 +5924,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722794,
+          "word": "win",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "얻다; 이기다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
