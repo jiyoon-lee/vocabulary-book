@@ -5283,6 +5283,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722752,
+          "word": "declare",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "선언하다",
+                "발표하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
