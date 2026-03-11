@@ -7425,6 +7425,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722895,
+          "word": "shut",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "닫다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
