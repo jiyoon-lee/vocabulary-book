@@ -6407,6 +6407,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722827,
+          "word": "drop",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "떨어지다",
+                "떨어뜨리다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
