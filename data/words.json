@@ -5146,6 +5146,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722742,
+          "word": "print",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 인쇄하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "인쇄"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
