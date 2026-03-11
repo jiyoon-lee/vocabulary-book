@@ -6302,6 +6302,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722819,
+          "word": "teach",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "가르치다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
