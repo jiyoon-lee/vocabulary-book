@@ -6474,6 +6474,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722833,
+          "word": "push",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "밀다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722832,
+              "word": "pull",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "당기다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
