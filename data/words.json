@@ -7330,6 +7330,41 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722890,
+          "word": "ease",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "덜다",
+                "완화하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "안락",
+                "편안; 쉬움"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722889,
+              "word": "easy",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "쉬운",
+                    "수월한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
