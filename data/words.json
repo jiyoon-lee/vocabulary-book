@@ -7578,6 +7578,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722905,
+          "word": "fold",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "접다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
