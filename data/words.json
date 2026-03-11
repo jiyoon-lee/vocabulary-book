@@ -5297,6 +5297,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722753,
+          "word": "destroy",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "파괴하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
