@@ -5132,6 +5132,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722741,
+          "word": "deny",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "부인하다",
+                "부정하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
