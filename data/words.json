@@ -7504,6 +7504,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722900,
+          "word": "flash",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "번쩍이다",
+                "깜빡이다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
