@@ -29,6 +29,45 @@ let _drag = null;
 const _origHtml = {}; // key -> original iw- div innerHTML
 const _revealedCards = new Set(); // wordId -> revealed
 
+// Favorites state
+const FAVORITES_KEY = "vocab_favorites";
+let _favorites = new Set();
+
+function loadFavorites() {
+  try {
+    const raw = localStorage.getItem(FAVORITES_KEY);
+    _favorites = new Set(raw ? JSON.parse(raw) : []);
+  } catch { _favorites = new Set(); }
+}
+
+function saveFavorites() {
+  localStorage.setItem(FAVORITES_KEY, JSON.stringify([..._favorites]));
+}
+
+function toggleFavorite(wordId) {
+  if (_favorites.has(wordId)) {
+    _favorites.delete(wordId);
+  } else {
+    _favorites.add(wordId);
+  }
+  saveFavorites();
+  const btn = document.getElementById(`fav-btn-${wordId}`);
+  if (btn) {
+    const isFav = _favorites.has(wordId);
+    btn.textContent = isFav ? "★" : "☆";
+    btn.className = `fav-btn text-lg leading-none px-1 ${isFav ? "text-yellow-400" : "text-gray-300"} active:scale-125 transition-transform`;
+  }
+  // 즐겨찾기 탭에서 해제 시 해당 카드 제거
+  if (currentMode === "favorites" && !_favorites.has(wordId)) {
+    const card = document.querySelector(`[data-word-id="${wordId}"]`);
+    if (card) {
+      card.remove();
+      const list = document.getElementById("word-list");
+      if (!list.querySelector("[data-word-id]")) renderFavoritesList();
+    }
+  }
+}
+
 // ─── Local Data Storage ────────────────────────────────────────────────────────
 const LOCAL_DATA_KEY = "vocab_data"; // 전체 스냅샷 (하위 호환)
 const CUSTOMS_KEY = "vocab_customs"; // {catId: [사용자 추가 단어, ...]}
@@ -127,35 +166,6 @@ function saveData() {
   _saveCustomsAndOrder();
 }
 
-async function reloadFromJson() {
-  if (
-    !confirm(
-      "words.json에서 데이터를 다시 불러옵니다.\n직접 추가한 단어는 유지됩니다.",
-    )
-  )
-    return;
-  try {
-    const res = await fetch("data/words.json");
-    const fresh = await res.json();
-    const customs = {};
-    allData.categories.forEach((cat) => {
-      const custom = cat.words.filter((w) => w.id > 1000);
-      if (custom.length > 0) customs[cat.id] = custom;
-    });
-    allData = fresh;
-    allData.categories.forEach((cat) => {
-      const added = customs[cat.id] || [];
-      if (added.length > 0) cat.words = [...cat.words, ...added];
-    });
-    saveData();
-    renderHome();
-    showToast("데이터를 새로고침했습니다.");
-  } catch (e) {
-    console.error(e);
-    showToast("새로고침 실패. 네트워크를 확인해 주세요.");
-  }
-}
-
 // ─── Init helpers ─────────────────────────────────────────────────────────────
 async function fetchWordsData() {
   // GitHub Contents API (CDN 캐시 없음, 항상 최신)
@@ -243,12 +253,11 @@ async function init() {
       return;
     }
   }
+  loadFavorites();
   renderHome();
 }
 
 // ─── Navigation ───────────────────────────────────────────────────────────────
-let _prevView = "home";
-
 function showView(name) {
   document
     .querySelectorAll('[id^="view-"]')
@@ -264,25 +273,12 @@ function showView(name) {
   } else if (name === "category") {
     backBtn.classList.remove("hidden");
     title.textContent = currentCategory.name;
-  } else if (name === "history") {
-    _prevView = "home";
-    backBtn.classList.remove("hidden");
-    title.textContent = "학습 기록";
-    renderHistoryList();
-  } else if (name === "history-detail") {
-    _prevView = "history";
-    backBtn.classList.remove("hidden");
-    title.textContent = "정오표";
   }
 }
 
 function goBack() {
-  if (_prevView === "history") {
-    showView("history");
-  } else {
-    showView("home");
-    renderHome();
-  }
+  showView("home");
+  renderHome();
 }
 
 // ─── Home ─────────────────────────────────────────────────────────────────────
@@ -356,18 +352,25 @@ function switchMode(mode) {
   document.querySelectorAll(".mode-tab").forEach((tab) => {
     const active = tab.dataset.mode === mode;
     tab.classList.toggle("text-indigo-600", active);
+    tab.classList.toggle("border-b-2", active);
     tab.classList.toggle("border-indigo-600", active);
     tab.classList.toggle("text-gray-400", !active);
     tab.classList.toggle("border-transparent", !active);
   });
 
+  const isListMode = mode === "list" || mode === "favorites";
+  document.getElementById("mode-list").classList.toggle("hidden", !isListMode);
+  document.getElementById("mode-quiz").classList.toggle("hidden", isListMode);
+
+  // list 전용 컨트롤 (단어 추가, 가리기 버튼) 표시 여부
+  const listControls = document.querySelectorAll(".list-only-controls");
+  listControls.forEach(el => el.classList.toggle("hidden", mode !== "list"));
+
   if (mode === "list") {
-    document.getElementById("mode-list").classList.remove("hidden");
-    document.getElementById("mode-quiz").classList.add("hidden");
     renderWordList();
+  } else if (mode === "favorites") {
+    renderFavoritesList();
   } else {
-    document.getElementById("mode-list").classList.add("hidden");
-    document.getElementById("mode-quiz").classList.remove("hidden");
     startQuiz(mode);
   }
 }
@@ -548,12 +551,21 @@ function renderWordCard(word, num, isRelated, showActions = false) {
       </svg>
     </div>`;
 
+  // Star (favorites) button for top-level words in list/favorites mode
+  const isFav = _favorites.has(word.id);
+  const starBtn = !isRelated && showActions
+    ? `<button id="fav-btn-${word.id}" onclick="event.stopPropagation();toggleFavorite(${word.id})"
+        class="fav-btn text-lg leading-none px-1 ${isFav ? "text-yellow-400" : "text-gray-300"} active:scale-125 transition-transform float-right">
+        ${isFav ? "★" : "☆"}
+      </button>`
+    : "";
+
   if (isDraggable) {
     return `
       <div class="word-card flex items-start gap-2" data-word-id="${word.id}">
         ${dragHandle}
         <div class="flex-1 min-w-0">
-          ${peekBtn}${wordHtml}
+          ${starBtn}${peekBtn}${wordHtml}
           <div class="mt-1">${meaningsHtml}</div>
           ${relatedHtml}
           ${actionsHtml}
@@ -562,12 +574,30 @@ function renderWordCard(word, num, isRelated, showActions = false) {
   }
 
   return `
-    <div class="word-card">
-      ${peekBtn}${wordHtml}
+    <div class="word-card" data-word-id="${word.id}">
+      ${starBtn}${peekBtn}${wordHtml}
       <div class="mt-1">${meaningsHtml}</div>
       ${relatedHtml}
       ${actionsHtml}
     </div>`;
+}
+
+function renderFavoritesList() {
+  Object.keys(_items).forEach((k) => delete _items[k]);
+  Object.keys(_origHtml).forEach((k) => delete _origHtml[k]);
+  _revealedCards.clear();
+  const favWords = currentCategory.words.filter(w => _favorites.has(w.id));
+  const container = document.getElementById("word-list");
+  if (favWords.length === 0) {
+    container.innerHTML = `
+      <div class="text-center py-16 text-gray-400">
+        <div class="text-4xl mb-3">☆</div>
+        <div class="text-sm">즐겨찾기한 단어가 없습니다.<br>전체 목록에서 ☆을 눌러 추가하세요.</div>
+      </div>`;
+  } else {
+    container.innerHTML = favWords.map((word, idx) => renderWordCard(word, idx + 1, false, true)).join("");
+  }
+  document.getElementById("grade-btn-wrap").classList.add("hidden");
 }
 
 function onInlineInputBlur(inputEl, key, type) {
@@ -693,32 +723,7 @@ function gradeAll() {
   const total = entries.length;
   const correct = entries.filter((i) => i.isCorrect).length;
   const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
-
-  const now = new Date();
-  const record = {
-    id: now.getTime(),
-    date: now.toLocaleDateString("ko-KR"),
-    time: now.toLocaleTimeString("ko-KR", {hour: "2-digit", minute: "2-digit"}),
-    category: currentCategory.name,
-    mode: hideState.en ? "영어 가리기" : "뜻 가리기",
-    total,
-    correct,
-    pct,
-    items: entries.map((i) => ({
-      word: i.word,
-      type: i.type,
-      partOfSpeech: i.partOfSpeech,
-      correctAnswer: Array.isArray(i.correctAnswer)
-        ? i.correctAnswer.join(", ")
-        : i.correctAnswer,
-      userAnswer: i.userAnswer || "(미응답)",
-      isCorrect: i.isCorrect,
-    })),
-  };
-
-  saveHistoryRecord(record);
-  renderHistoryDetail(record);
-  showView("history-detail");
+  showToast(`${pct}점 — 정답 ${correct} / 전체 ${total}`);
 }
 
 // ─── Quiz ─────────────────────────────────────────────────────────────────────
@@ -1197,20 +1202,6 @@ function renderQuizResult() {
         : "bg-red-100 text-red-500";
   const emoji = pct >= 80 ? "🎉" : pct >= 50 ? "😊" : "💪";
 
-  const now = new Date();
-  saveHistoryRecord({
-    id: now.getTime(),
-    date: now.toLocaleDateString("ko-KR"),
-    time: now.toLocaleTimeString("ko-KR", {hour: "2-digit", minute: "2-digit"}),
-    category: currentCategory.name,
-    mode: currentMode === "quiz-en" ? "뜻→영어" : "영어→뜻",
-    correct: quizCorrect,
-    wrong: quizWrong,
-    total,
-    pct,
-    items: [], // 퀴즈 탭은 문항별 상세 없음
-  });
-
   document.getElementById("quiz-container").innerHTML = `
     <div class="py-8 text-center">
       <div class="result-circle ${color} mb-4">
@@ -1234,225 +1225,6 @@ function renderQuizResult() {
       </div>
     </div>
   `;
-}
-
-// ─── History ──────────────────────────────────────────────────────────────────
-const HISTORY_KEY = "vocab_history";
-
-function loadHistoryRecords() {
-  try {
-    return JSON.parse(localStorage.getItem(HISTORY_KEY)) || [];
-  } catch {
-    return [];
-  }
-}
-
-function saveHistoryRecord(record) {
-  const records = loadHistoryRecords();
-  records.unshift(record);
-  if (records.length > 100) records.splice(100);
-  localStorage.setItem(HISTORY_KEY, JSON.stringify(records));
-}
-
-function renderHistoryList() {
-  const records = loadHistoryRecords();
-  const container = document.getElementById("history-list-container");
-
-  if (records.length === 0) {
-    container.innerHTML = `
-      <div class="text-center py-16 text-gray-400">
-        <div class="text-4xl mb-3">📋</div>
-        <div class="text-sm">아직 채점 기록이 없습니다.<br>전체 목록에서 가리기 후 채점해 보세요.</div>
-      </div>`;
-    return;
-  }
-
-  container.innerHTML = `
-    <div class="space-y-3">
-      ${records
-        .map((r) => {
-          const pctColor =
-            r.pct >= 80
-              ? "text-green-600 bg-green-50"
-              : r.pct >= 50
-                ? "text-yellow-600 bg-yellow-50"
-                : "text-red-500 bg-red-50";
-          return `
-          <button onclick="openHistoryDetail(${r.id})"
-            class="w-full bg-white rounded-xl p-4 shadow-sm text-left active:bg-gray-50 transition-colors">
-            <div class="flex items-center justify-between">
-              <div>
-                <div class="font-semibold text-gray-800 text-sm">${r.category} · ${r.mode}</div>
-                <div class="text-xs text-gray-400 mt-0.5">${r.date} ${r.time}</div>
-                <div class="text-xs text-gray-500 mt-1">
-                  정답 <span class="text-green-600 font-semibold">${r.correct}</span> /
-                  오답 <span class="text-red-500 font-semibold">${r.total - r.correct}</span> /
-                  전체 ${r.total}문항
-                </div>
-              </div>
-              <div class="flex items-center gap-2">
-                <span class="text-lg font-bold px-3 py-1 rounded-xl ${pctColor}">${r.pct}%</span>
-                <svg class="w-4 h-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-                </svg>
-              </div>
-            </div>
-          </button>`;
-        })
-        .join("")}
-      <button onclick="clearHistory()"
-        class="mt-2 text-xs text-red-400 underline w-full text-center py-2">기록 모두 삭제</button>
-    </div>`;
-}
-
-function openHistoryDetail(id) {
-  const records = loadHistoryRecords();
-  const record = records.find((r) => r.id === id);
-  if (!record) return;
-  renderHistoryDetail(record);
-  showView("history-detail");
-}
-
-function renderHistoryDetail(record) {
-  const container = document.getElementById("history-detail-container");
-  const pctColor =
-    record.pct >= 80
-      ? "bg-green-100 text-green-600"
-      : record.pct >= 50
-        ? "bg-yellow-100 text-yellow-600"
-        : "bg-red-100 text-red-500";
-  const emoji = record.pct >= 80 ? "🎉" : record.pct >= 50 ? "😊" : "💪";
-
-  if (!record.items || record.items.length === 0) {
-    container.innerHTML = `
-    <div class="text-center mb-6">
-      <div class="result-circle ${pctColor} mb-3">
-        <div class="text-3xl">${emoji}</div>
-        <div class="text-2xl font-bold">${record.pct}%</div>
-      </div>
-      <div class="text-sm font-semibold text-gray-700">${record.category} · ${record.mode}</div>
-      <div class="text-xs text-gray-400 mt-1">${record.date} ${record.time}</div>
-      <div class="flex justify-center gap-4 mt-3 text-sm">
-        <span>전체 <strong>${record.total}</strong></span>
-        <span class="text-green-600">정답 <strong>${record.correct}</strong></span>
-        <span class="text-red-500">오답 <strong>${record.total - record.correct}</strong></span>
-      </div>
-    </div>
-    <div class="text-center text-sm text-gray-400 py-6">문항별 기록 없음</div>`;
-    return;
-  }
-
-  const rows = record.items
-    .map((item) => {
-      const icon = item.isCorrect
-        ? `<span class="result-icon correct">O</span>`
-        : `<span class="result-icon wrong">X</span>`;
-      const userClass = item.isCorrect ? "text-green-700" : "text-red-500";
-      const correctDisplay = item.isCorrect
-        ? ""
-        : `<div class="text-xs text-indigo-600 mt-0.5">정답: ${item.correctAnswer}</div>`;
-
-      return `
-      <div class="result-row ${item.isCorrect ? "result-row-correct" : "result-row-wrong"}">
-        <div class="flex items-start gap-3">
-          ${icon}
-          <div class="flex-1 min-w-0">
-            <div class="text-xs text-gray-400 mb-0.5">${item.type === "en" ? "영단어 쓰기" : item.word + (item.partOfSpeech ? " · " + item.partOfSpeech : "")}</div>
-            <div class="text-sm font-medium ${userClass} truncate">${item.userAnswer}</div>
-            ${correctDisplay}
-          </div>
-        </div>
-      </div>`;
-    })
-    .join("");
-
-  container.innerHTML = `
-    <div class="text-center mb-6">
-      <div class="result-circle ${pctColor} mb-3">
-        <div class="text-3xl">${emoji}</div>
-        <div class="text-2xl font-bold">${record.pct}%</div>
-      </div>
-      <div class="text-sm font-semibold text-gray-700">${record.category} · ${record.mode}</div>
-      <div class="text-xs text-gray-400 mt-1">${record.date} ${record.time}</div>
-      <div class="flex justify-center gap-4 mt-3 text-sm">
-        <span>전체 <strong>${record.total}</strong></span>
-        <span class="text-green-600">정답 <strong>${record.correct}</strong></span>
-        <span class="text-red-500">오답 <strong>${record.total - record.correct}</strong></span>
-      </div>
-    </div>
-
-    <h3 class="text-sm font-semibold text-gray-600 mb-3">정오표</h3>
-    <div class="space-y-2">${rows}</div>`;
-}
-
-function clearHistory() {
-  if (confirm("학습 기록을 모두 삭제할까요?")) {
-    localStorage.removeItem(HISTORY_KEY);
-    renderHistoryList();
-    showToast("기록이 삭제되었습니다.");
-  }
-}
-
-// ─── Backup / Restore ─────────────────────────────────────────────────────────
-function _getCustomWords() {
-  const customs = {};
-  allData.categories.forEach((cat) => {
-    const custom = cat.words.filter((w) => w.id > 1000);
-    if (custom.length > 0) customs[cat.id] = custom;
-  });
-  return customs;
-}
-
-function toggleBackupPanel() {
-  const panel = document.getElementById("backup-panel");
-  const isNowVisible = panel.classList.toggle("hidden") === false;
-  if (isNowVisible) {
-    const customs = _getCustomWords();
-    if (Object.keys(customs).length > 0) {
-      document.getElementById("backup-text").value = JSON.stringify(customs);
-    }
-  }
-}
-
-function exportBackup() {
-  const customs = _getCustomWords();
-  if (Object.keys(customs).length === 0) {
-    showToast("추가한 단어가 없습니다.");
-    return;
-  }
-  const backupStr = JSON.stringify(customs);
-  document.getElementById("backup-text").value = backupStr;
-  navigator.clipboard
-    .writeText(backupStr)
-    .then(() => showToast("클립보드에 복사됐습니다."))
-    .catch(() => showToast("코드를 직접 선택해서 복사하세요."));
-}
-
-function importBackup() {
-  const backupStr = document.getElementById("backup-text").value.trim();
-  if (!backupStr) {
-    showToast("백업 코드를 붙여넣으세요.");
-    return;
-  }
-  try {
-    const customs = JSON.parse(backupStr);
-    if (typeof customs !== "object" || Array.isArray(customs))
-      throw new Error("invalid");
-    let count = 0;
-    allData.categories.forEach((cat) => {
-      const added = customs[cat.id] || customs[String(cat.id)] || [];
-      const existingIds = new Set(cat.words.map((w) => w.id));
-      const newWords = added.filter((w) => w.id && !existingIds.has(w.id));
-      cat.words.push(...newWords);
-      count += newWords.length;
-    });
-    saveData();
-    renderHome();
-    document.getElementById("backup-panel").classList.add("hidden");
-    showToast(`${count}개 단어를 복원했습니다.`);
-  } catch {
-    showToast("올바른 백업 코드가 아닙니다.");
-  }
 }
 
 // ─── Modal Enter key ──────────────────────────────────────────────────────────

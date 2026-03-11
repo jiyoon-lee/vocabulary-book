@@ -64,27 +64,6 @@
             + 카테고리 추가
           </button>
 
-          <!-- History link -->
-          <button
-            onclick="showView('history')"
-            class="w-full mt-6 py-3 rounded-xl border border-gray-200 bg-white text-gray-600 text-sm font-medium flex items-center justify-center gap-2 active:bg-gray-50"
-          >
-            <svg
-              class="w-4 h-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
-              />
-            </svg>
-            학습 기록 보기
-          </button>
-
         </div>
       </div>
 
@@ -115,11 +94,18 @@
           >
             영어 → 뜻
           </button>
+          <button
+            class="mode-tab flex-1 py-2 text-sm font-medium text-gray-400"
+            data-mode="favorites"
+            onclick="switchMode('favorites')"
+          >
+            ★ 즐겨찾기
+          </button>
         </div>
 
         <!-- List mode -->
         <div id="mode-list">
-          <div class="flex gap-2 mb-3 mt-4">
+          <div class="list-only-controls flex gap-2 mb-3 mt-4">
             <button
               onclick="openAddWord()"
               class="flex-1 py-2 text-xs font-semibold rounded-lg border border-indigo-200 text-indigo-600 bg-white active:bg-indigo-50"
@@ -127,7 +113,7 @@
               + 단어 추가
             </button>
           </div>
-          <div class="flex gap-2 mb-4">
+          <div class="list-only-controls flex gap-2 mb-4">
             <button
               id="btn-hide-en"
               class="flex-1 py-2 text-xs rounded-lg border font-medium transition-colors"
@@ -161,19 +147,6 @@
         </div>
       </div>
 
-      <!-- View: History (list) -->
-      <div id="view-history" class="hidden">
-        <div class="py-4">
-          <div id="history-list-container"></div>
-        </div>
-      </div>
-
-      <!-- View: History Detail (정오표) -->
-      <div id="view-history-detail" class="hidden">
-        <div class="py-4">
-          <div id="history-detail-container"></div>
-        </div>
-      </div>
     </main>
 
     <!-- Word Add/Edit Modal -->
