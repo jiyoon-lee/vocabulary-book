@@ -6552,6 +6552,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722837,
+          "word": "fall",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "떨어지다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "낙하",
+                "가을"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
