@@ -5119,6 +5119,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722740,
+          "word": "drag",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "질질 끌다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
