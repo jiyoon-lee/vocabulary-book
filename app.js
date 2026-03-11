@@ -30,18 +30,15 @@ const _origHtml = {}; // key -> original iw- div innerHTML
 const _revealedCards = new Set(); // wordId -> revealed
 
 // Favorites state
-const FAVORITES_KEY = "vocab_favorites";
 let _favorites = new Set();
 
 function loadFavorites() {
-  try {
-    const raw = localStorage.getItem(FAVORITES_KEY);
-    _favorites = new Set(raw ? JSON.parse(raw) : []);
-  } catch { _favorites = new Set(); }
+  _favorites = new Set(allData.favorites || []);
 }
 
 function saveFavorites() {
-  localStorage.setItem(FAVORITES_KEY, JSON.stringify([..._favorites]));
+  allData.favorites = [..._favorites];
+  syncToGitHub();
 }
 
 function toggleFavorite(wordId) {
