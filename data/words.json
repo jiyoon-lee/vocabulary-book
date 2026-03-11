@@ -6837,6 +6837,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722855,
+          "word": "spend",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "소비하다",
+                "(때를) 보내다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
