@@ -4883,7 +4883,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773206722738,
+              "word": "go ~ing",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "~하러 가다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773199079959,
