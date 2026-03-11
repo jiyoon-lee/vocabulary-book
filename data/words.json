@@ -4685,6 +4685,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773199079946,
+          "word": "swear",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "맹세하다; 욕하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
