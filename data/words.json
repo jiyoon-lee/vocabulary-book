@@ -5952,6 +5952,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722796,
+          "word": "find",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "발견하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
