@@ -7545,6 +7545,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722903,
+          "word": "sink",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "가라앉다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
