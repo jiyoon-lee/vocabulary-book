@@ -5502,6 +5502,26 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722767,
+          "word": "pitch",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "던지다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "높이; 고저",
+                "가"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
