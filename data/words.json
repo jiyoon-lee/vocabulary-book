@@ -5788,6 +5788,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722785,
+          "word": "lose",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "잃다; 지다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
