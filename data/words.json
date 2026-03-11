@@ -6959,6 +6959,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722864,
+          "word": "guess",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 추측하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "추측",
+                "추정"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
