@@ -6731,7 +6731,21 @@
     {
       "id": 1773191110651,
       "name": "7강",
-      "words": []
+      "words": [
+        {
+          "id": 1773206722847,
+          "word": "invite",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "초대하다"
+              ]
+            }
+          ],
+          "related": []
+        }
+      ]
     },
     {
       "id": 1773191110652,
