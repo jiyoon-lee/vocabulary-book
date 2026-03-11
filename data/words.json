@@ -6758,6 +6758,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722849,
+          "word": "understand",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "이해하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
