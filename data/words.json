@@ -6606,6 +6606,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722840,
+          "word": "like",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 좋아하다"
+              ]
+            },
+            {
+              "partOfSpeech": "전치사",
+              "definitions": [
+                "~와 같은"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
