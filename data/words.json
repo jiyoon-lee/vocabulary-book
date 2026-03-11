@@ -5230,6 +5230,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722748,
+          "word": "achieve",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "성취하다",
+                "달성하다; 획득하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
