@@ -7203,6 +7203,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722880,
+          "word": "contain",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "포함하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
