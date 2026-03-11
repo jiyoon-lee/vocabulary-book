@@ -4698,6 +4698,57 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773199079950,
+          "word": "commit",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "(죄 등을) 저지르다; 위임하다; 전념하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773199079947,
+              "word": "committee",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "위원회"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773199079948,
+              "word": "commission",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "위임"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773199079949,
+              "word": "commitment",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "약속",
+                    "헌신"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
