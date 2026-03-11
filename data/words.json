@@ -6592,6 +6592,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722839,
+          "word": "run",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "뛰다",
+                "운영하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
