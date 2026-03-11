@@ -6712,6 +6712,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722846,
+          "word": "forget",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "잊다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
