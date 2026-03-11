@@ -4908,6 +4908,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773199079962,
+          "word": "wander",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "헤매다",
+                "돌아다니다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
