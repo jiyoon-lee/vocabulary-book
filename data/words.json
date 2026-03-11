@@ -7169,6 +7169,26 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722878,
+          "word": "collapse",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "붕괴하다",
+                "무너지다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "붕괴"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
