@@ -5051,7 +5051,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773206722739,
+              "word": "foundation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "설립; 토대",
+                    "기반"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773199079971,
