@@ -6823,6 +6823,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722854,
+          "word": "get",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 얻다",
+                "사다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
