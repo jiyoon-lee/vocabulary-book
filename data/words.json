@@ -5997,6 +5997,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722799,
+          "word": "help",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "돕다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "도움"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
