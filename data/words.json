@@ -5651,7 +5651,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773206722776,
+              "word": "government",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "정부"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
