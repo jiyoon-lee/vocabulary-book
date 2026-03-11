@@ -5706,6 +5706,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722779,
+          "word": "complain",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "불평하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
