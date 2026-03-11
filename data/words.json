@@ -5535,6 +5535,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722769,
+          "word": "decline",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "감소하다; 거절하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "하락"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
