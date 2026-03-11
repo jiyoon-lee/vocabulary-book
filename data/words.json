@@ -7451,6 +7451,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722897,
+          "word": "dive",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "(물 속으로) 뛰어들다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
