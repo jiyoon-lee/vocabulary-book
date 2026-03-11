@@ -7464,6 +7464,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722898,
+          "word": "purchase",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "구입하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
