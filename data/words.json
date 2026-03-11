@@ -6864,6 +6864,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722857,
+          "word": "acknowledge",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "인정하다",
+                "고백하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
