@@ -423,6 +423,11 @@ function renderWordList() {
   container.innerHTML = currentCategory.words
     .map((word, idx) => renderWordCard(word, idx + 1, false, true))
     .join("");
+  // 초기 상태 저장 (정답보기 토글용)
+  Object.keys(_items).forEach((key) => {
+    const wrap = document.getElementById("iw-" + key);
+    if (wrap) _origHtml[key] = wrap.innerHTML;
+  });
   // 채점 버튼: hide 모드일 때만 표시
   const gradeWrap = document.getElementById("grade-btn-wrap");
   if (hideState.en || hideState.ko) {
@@ -454,9 +459,13 @@ function renderWordCard(word, num, isRelated, showActions = false) {
       : `<span class="text-gray-400 text-sm mr-1">${num}.</span>`;
     wordHtml = `
       <div id="iw-${key}" class="inline-input-wrap">
-        <div class="hidden-tap" onclick="activateInput('${key}','en')">
-          ${prefix}<span class="tap-hint">영단어 입력...</span>
+        <div class="flex items-center gap-1">
+          ${prefix}<input type="text" data-key="${key}" data-type="en" placeholder="영단어를 입력하세요"
+            class="flex-1 border border-gray-200 rounded-lg px-2 py-1 text-sm focus:outline-none focus:border-indigo-400"
+            onblur="onInlineInputBlur(this,'${key}','en')"
+            onkeydown="onInlineInputKeydown(event,this,'${key}','en')">
         </div>
+        <div id="fb-${key}" class="hidden mt-1 text-xs rounded px-2 py-0.5"></div>
       </div>`;
   } else {
     const speakBtn = `<button onclick="event.stopPropagation();speakWord('${word.word.replace(/'/g, "\\'")}')"
@@ -502,12 +511,14 @@ function renderWordCard(word, num, isRelated, showActions = false) {
           answered: false,
         };
         return `
-        <div class="flex items-center gap-1 mt-0.5">
+        <div class="flex items-start gap-1 mt-0.5">
           <span class="pos-badge">${m.partOfSpeech}</span>
           <div id="iw-${mKey}" class="inline-input-wrap flex-1">
-            <div class="hidden-tap" onclick="activateInput('${mKey}','ko')">
-              <span class="tap-hint">뜻 입력...</span>
-            </div>
+            <input type="text" data-key="${mKey}" data-type="ko" placeholder="뜻을 입력하세요"
+              class="w-full border border-gray-200 rounded-lg px-2 py-1 text-sm focus:outline-none focus:border-indigo-400"
+              onblur="onInlineInputBlur(this,'${mKey}','ko')"
+              onkeydown="onInlineInputKeydown(event,this,'${mKey}','ko')">
+            <div id="fb-${mKey}" class="hidden mt-1 text-xs rounded px-2 py-0.5"></div>
           </div>
         </div>`;
       }
@@ -569,20 +580,24 @@ function renderWordCard(word, num, isRelated, showActions = false) {
     </div>`;
 }
 
-function activateInput(key, type) {
-  const wrap = document.getElementById("iw-" + key);
-  if (!wrap) return;
-  const placeholder = type === "en" ? "영단어를 입력하세요" : "뜻을 입력하세요";
-  wrap.innerHTML = `
-    <div class="flex gap-1">
-      <input type="text" placeholder="${placeholder}"
-        class="flex-1 border border-gray-200 rounded-lg px-3 py-1.5 text-sm focus:outline-none focus:border-indigo-400"
-        onkeydown="if(event.key==='Enter') checkInlineInput(this,'${key}','${type}')">
-      <button onclick="checkInlineInput(this.previousElementSibling,'${key}','${type}')"
-        class="px-3 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-semibold active:bg-indigo-700">확인</button>
-    </div>
-    <div id="fb-${key}" class="hidden mt-1 text-xs rounded px-2 py-0.5"></div>`;
-  wrap.querySelector("input").focus();
+function onInlineInputBlur(inputEl, key, type) {
+  if (inputEl.value.trim()) {
+    checkInlineInput(inputEl, key, type);
+  }
+}
+
+function onInlineInputKeydown(event, inputEl, key, type) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    checkInlineInput(inputEl, key, type);
+  } else if (event.key === "Tab") {
+    event.preventDefault();
+    const allInputs = Array.from(document.querySelectorAll("#word-list input[data-key]"));
+    const idx = allInputs.indexOf(inputEl);
+    if (idx !== -1 && idx + 1 < allInputs.length) {
+      allInputs[idx + 1].focus();
+    }
+  }
 }
 
 function showAnswer(key) {
