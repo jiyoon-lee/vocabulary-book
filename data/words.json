@@ -4995,6 +4995,59 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773199079971,
+          "word": "extend",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "연장하다",
+                "뻗다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773199079968,
+              "word": "extension",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "확대"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773199079969,
+              "word": "extent",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "정도",
+                    "크기"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773199079970,
+              "word": "extensive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "아주 넓은",
+                    "광범위한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
