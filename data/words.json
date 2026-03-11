@@ -7087,6 +7087,27 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722873,
+          "word": "spell",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "철자를 쓰다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "철자",
+                "주문",
+                "마력"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
