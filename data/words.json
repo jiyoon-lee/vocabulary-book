@@ -5978,6 +5978,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722798,
+          "word": "watch",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "지켜보다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "손목시계"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
