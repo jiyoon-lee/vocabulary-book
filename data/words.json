@@ -4807,6 +4807,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773199079955,
+          "word": "mean",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "뜻하다",
+                "의미하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "비열한"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
