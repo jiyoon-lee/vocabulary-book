@@ -1,5 +1,7 @@
 {
-  "favorites": [],
+  "favorites": [
+    1
+  ],
   "categories": [
     {
       "id": 1,
