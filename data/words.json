@@ -6112,6 +6112,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722806,
+          "word": "send",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "발송하다",
+                "보내다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
