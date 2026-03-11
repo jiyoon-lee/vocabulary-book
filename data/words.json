@@ -7405,6 +7405,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722894,
+          "word": "bow",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "머리를 숙이다",
+                "절하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "저리 활"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
