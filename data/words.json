@@ -7154,7 +7154,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773206722877,
+              "word": "examination",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "조사",
+                    "검토"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
