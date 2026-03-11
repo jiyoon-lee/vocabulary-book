@@ -5801,6 +5801,52 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722788,
+          "word": "look",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "보다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "얼굴",
+                "외모",
+                "스타일"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722786,
+              "word": "look at",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~을 쳐다보다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773206722787,
+              "word": "look for",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~을 찾다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
