@@ -6797,6 +6797,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722852,
+          "word": "make",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "만들다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
