@@ -5860,6 +5860,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722790,
+          "word": "receive",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "받다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
