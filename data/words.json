@@ -6203,6 +6203,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722812,
+          "word": "stand",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "서 있다; 견디다",
+                "참다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
