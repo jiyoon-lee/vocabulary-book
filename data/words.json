@@ -6625,6 +6625,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722841,
+          "word": "hope",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "바라다",
+                "희망하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "희망"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
