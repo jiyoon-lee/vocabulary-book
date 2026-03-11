@@ -5719,6 +5719,47 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722782,
+          "word": "develop",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "발전시키다",
+                "개발하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722780,
+              "word": "development",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "개발",
+                    "발"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773206722781,
+              "word": "developed",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "선진의",
+                    "진보된"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
