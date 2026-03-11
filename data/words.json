@@ -4840,6 +4840,47 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773199079959,
+          "word": "agree",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "동의하다",
+                "찬성하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773199079957,
+              "word": "agreement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "협정",
+                    "동의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773199079958,
+              "word": "agreeable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "기분 좋은",
+                    "유쾌한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
