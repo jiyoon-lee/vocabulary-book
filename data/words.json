@@ -4922,6 +4922,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773199079964,
+          "word": "retire",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "은퇴하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773199079963,
+              "word": "retirement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "은퇴",
+                    "퇴직"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
