@@ -4962,6 +4962,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773199079966,
+          "word": "gain",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 얻다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "이익",
+                "이득"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
