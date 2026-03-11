@@ -6080,6 +6080,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722804,
+          "word": "cook",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "요리하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "요리사"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
