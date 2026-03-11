@@ -5686,6 +5686,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722778,
+          "word": "cross",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "건너다",
+                "횡단하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "십자가"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
