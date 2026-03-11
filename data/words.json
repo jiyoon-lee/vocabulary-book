@@ -6447,6 +6447,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722830,
+          "word": "wake",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "일어나다",
+                "깨우다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
