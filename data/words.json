@@ -5396,6 +5396,66 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722763,
+          "word": "advance",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "전진하다",
+                "발전하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "진전",
+                "발전"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722760,
+              "word": "advancement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "발전",
+                    "진보",
+                    "승진"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773206722761,
+              "word": "advanced",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "선진의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773206722762,
+              "word": "in advance",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "미리"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
