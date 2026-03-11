@@ -5665,6 +5665,27 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722777,
+          "word": "transfer",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "이동하다",
+                "갈아타다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "이동",
+                "운반"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
