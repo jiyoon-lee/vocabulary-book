@@ -6771,6 +6771,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722850,
+          "word": "finish",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "끝내다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
