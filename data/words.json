@@ -5619,6 +5619,26 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722774,
+          "word": "escape",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "달아나다",
+                "탈출하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "탈출"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
