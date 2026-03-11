@@ -6685,6 +6685,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722844,
+          "word": "sell",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "팔다",
+                "팔리다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
