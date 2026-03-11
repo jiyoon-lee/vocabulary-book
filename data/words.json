@@ -4894,6 +4894,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773199079961,
+          "word": "choose",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "선택하다",
+                "고르다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
