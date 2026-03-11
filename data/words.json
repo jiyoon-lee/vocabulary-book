@@ -5873,6 +5873,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722791,
+          "word": "put",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "두다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
