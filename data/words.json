@@ -6138,7 +6138,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773206722808,
+              "word": "talkative",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "수다스러운"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
