@@ -5456,6 +5456,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722764,
+          "word": "whisper",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "속삭이다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
