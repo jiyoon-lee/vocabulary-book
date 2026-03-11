@@ -6572,6 +6572,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722838,
+          "word": "walk",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "걷다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "걷기",
+                "산책"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
