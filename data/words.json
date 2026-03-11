@@ -6184,6 +6184,25 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722811,
+          "word": "work",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "일하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "일; 작품"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
