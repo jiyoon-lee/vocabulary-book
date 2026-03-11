@@ -5368,7 +5368,34 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773206722758,
+              "word": "promotion",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "승진",
+                    "진급; 홍보",
+                    "판촉"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773206722759,
+              "word": "prompt",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "신속한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
