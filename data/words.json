@@ -3896,7 +3896,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773201853342,
+              "word": "rely on",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~에 의존하다",
+                    "~에 의지하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773120766843,
