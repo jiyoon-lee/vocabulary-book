@@ -7229,6 +7229,39 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722883,
+          "word": "stain",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "얼룩지게 하다",
+                "더럽히다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "얼룩"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722882,
+              "word": "stainless",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "녹슬지 않는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
