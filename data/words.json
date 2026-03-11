@@ -5593,6 +5593,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722773,
+          "word": "absorb",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "흡수하다; 열중하게 하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722772,
+              "word": "reflect",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "반사하다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
