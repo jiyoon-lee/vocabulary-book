@@ -6152,6 +6152,38 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722810,
+          "word": "want",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 원하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "필요; 가"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722809,
+              "word": "wanted",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "수배 중인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
