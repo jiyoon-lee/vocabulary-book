@@ -7060,6 +7060,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722872,
+          "word": "consume",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "소비하다",
+                "소모하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722871,
+              "word": "consumer",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "소비자"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
