@@ -5554,6 +5554,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722770,
+          "word": "rent",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "임차하다",
+                "빌리다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "집세"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
