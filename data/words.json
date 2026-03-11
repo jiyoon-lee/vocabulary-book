@@ -5937,6 +5937,21 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722795,
+          "word": "bear",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "지니다",
+                "견디다; 낳다",
+                "출산하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
