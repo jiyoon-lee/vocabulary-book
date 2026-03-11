@@ -6217,6 +6217,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722813,
+          "word": "do",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
