@@ -6699,6 +6699,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722845,
+          "word": "call",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "전화하다; ~라고 부르다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
