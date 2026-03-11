@@ -5574,6 +5574,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722771,
+          "word": "return",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "되돌아오다; 돌려주다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "돌아옴"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
