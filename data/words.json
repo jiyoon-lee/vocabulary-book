@@ -7483,6 +7483,27 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722899,
+          "word": "blow",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "(입으로) 불다",
+                "바람이 불다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "강타",
+                "타격"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
