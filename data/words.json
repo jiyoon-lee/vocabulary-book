@@ -7046,6 +7046,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722870,
+          "word": "combine",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "결합하다",
+                "합동하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
