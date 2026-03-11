@@ -6665,6 +6665,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722843,
+          "word": "use",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 사용하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "사용",
+                "이용"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
