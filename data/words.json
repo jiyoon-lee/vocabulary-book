@@ -6099,6 +6099,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722805,
+          "word": "smell",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~한 냄새가 나다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
