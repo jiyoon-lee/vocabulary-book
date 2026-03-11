@@ -5760,6 +5760,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722783,
+          "word": "fill",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "채우다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
