@@ -291,14 +291,6 @@ function renderHome() {
   list.innerHTML = allData.categories
     .map((cat) => {
       const wordCount = countWords(cat);
-      const isCustomCat = cat.id > 1000;
-      const deleteBtn = isCustomCat
-        ? `<div onclick="event.stopPropagation();deleteCategory(${cat.id})" class="p-1 text-gray-300 active:text-red-400 cursor-pointer">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-            </svg>
-          </div>`
-        : '';
       return `
       <div onclick="openCategory(${cat.id})"
         class="w-full bg-white rounded-xl p-4 shadow-sm flex items-center justify-between active:bg-gray-50 transition-colors cursor-pointer">
@@ -311,12 +303,9 @@ function renderHome() {
             <div class="text-xs text-gray-400">단어 ${wordCount}개</div>
           </div>
         </div>
-        <div class="flex items-center gap-1">
-          ${deleteBtn}
-          <svg class="w-5 h-5 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-          </svg>
-        </div>
+        <svg class="w-5 h-5 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+        </svg>
       </div>`;
     })
     .join("");
