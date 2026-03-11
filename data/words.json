@@ -6743,7 +6743,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773206722848,
+              "word": "invitation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "초대",
+                    "초대장"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
