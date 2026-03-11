@@ -7392,6 +7392,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722893,
+          "word": "follow",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "따라가다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
