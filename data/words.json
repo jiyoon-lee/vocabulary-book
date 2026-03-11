@@ -6645,6 +6645,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722842,
+          "word": "need",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "필요로 하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "필요",
+                "빈곤"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
