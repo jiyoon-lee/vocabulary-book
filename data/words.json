@@ -5469,6 +5469,39 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722766,
+          "word": "consent",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "동의하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "동의"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722765,
+              "word": "consensus",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "의견 일치",
+                    "합의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
