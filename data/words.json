@@ -7262,6 +7262,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722884,
+          "word": "exist",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "존재하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
