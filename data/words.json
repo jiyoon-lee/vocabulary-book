@@ -6810,6 +6810,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722853,
+          "word": "have",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "가지다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
