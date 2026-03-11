@@ -55,7 +55,7 @@ function toggleFavorite(wordId) {
   if (btn) {
     const isFav = _favorites.has(wordId);
     btn.textContent = isFav ? "★" : "☆";
-    btn.className = `fav-btn text-lg leading-none px-1 ${isFav ? "text-yellow-400" : "text-gray-300"} active:scale-125 transition-transform`;
+    btn.className = `fav-btn float-right text-lg leading-none px-1 ${isFav ? "text-yellow-400" : "text-gray-300"} active:scale-125 transition-transform`;
   }
   // 즐겨찾기 탭에서 해제 시 해당 카드 제거
   if (currentMode === "favorites" && !_favorites.has(wordId)) {
