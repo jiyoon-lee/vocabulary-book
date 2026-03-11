@@ -6328,6 +6328,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722822,
+          "word": "congratulate",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "축하하"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722821,
+              "word": "congratulation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "축하"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
