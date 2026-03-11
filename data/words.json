@@ -5847,6 +5847,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722789,
+          "word": "stop",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "정지하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
