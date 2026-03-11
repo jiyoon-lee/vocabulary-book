@@ -7531,6 +7531,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722902,
+          "word": "annoy",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 괴롭히다",
+                "귀찮게 하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
