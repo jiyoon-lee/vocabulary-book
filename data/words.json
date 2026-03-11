@@ -7558,6 +7558,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722904,
+          "word": "swing",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "흔들다",
+                "흔들리다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "그네"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
