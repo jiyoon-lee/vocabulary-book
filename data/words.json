@@ -4534,7 +4534,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773206722735,
+              "word": "behavior",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "행동",
+                    "처신"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773124737053,
