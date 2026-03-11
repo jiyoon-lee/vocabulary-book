@@ -7289,6 +7289,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722886,
+          "word": "boast",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "자랑하다",
+                "뽐내다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
