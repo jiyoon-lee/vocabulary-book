@@ -6992,6 +6992,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722866,
+          "word": "carry",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "나르다",
+                "운반하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
