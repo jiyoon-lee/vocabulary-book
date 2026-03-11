@@ -7365,6 +7365,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722892,
+          "word": "scare",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "위협하다",
+                "놀라게 하"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722891,
+              "word": "scary",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "무서운"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
