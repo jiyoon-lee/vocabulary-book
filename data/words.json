@@ -6126,6 +6126,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722807,
+          "word": "talk",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "이야기하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
