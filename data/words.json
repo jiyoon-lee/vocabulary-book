@@ -6061,6 +6061,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722803,
+          "word": "wish",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "바라다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "소원"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
