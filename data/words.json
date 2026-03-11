@@ -7591,6 +7591,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722906,
+          "word": "spread",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "퍼지다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
