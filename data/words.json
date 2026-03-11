@@ -7108,6 +7108,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722874,
+          "word": "shift",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "위치를 바꾸다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "변화"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
