@@ -4749,6 +4749,45 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773199079953,
+          "word": "approve",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "승인하다; 찬성하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773199079951,
+              "word": "approval",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "인정",
+                    "찬성"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773199079952,
+              "word": "approved",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "공인된"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
