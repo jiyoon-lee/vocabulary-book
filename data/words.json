@@ -6381,6 +6381,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722825,
+          "word": "write",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "쓰다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
