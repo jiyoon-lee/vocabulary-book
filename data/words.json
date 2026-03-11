@@ -6354,6 +6354,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773206722823,
+          "word": "grow",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "성장하다",
+                "키우다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
