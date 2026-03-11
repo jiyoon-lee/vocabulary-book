@@ -6539,6 +6539,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722836,
+          "word": "play",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "놀다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
