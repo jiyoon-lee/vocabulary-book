@@ -6282,6 +6282,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722818,
+          "word": "pay",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "지불하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "지불",
+                "급료"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
