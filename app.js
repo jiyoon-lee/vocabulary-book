@@ -335,16 +335,6 @@ async function saveCategory() {
   await syncToGitHub();
 }
 
-async function deleteCategory(catId) {
-  const cat = allData.categories.find(c => c.id === catId);
-  if (!cat) return;
-  if (!confirm(`'${cat.name}' 카테고리와 단어 ${cat.words.length}개를 삭제할까요?`)) return;
-  allData.categories = allData.categories.filter(c => c.id !== catId);
-  saveData();
-  renderHome();
-  showToast("카테고리가 삭제됐습니다.");
-  await syncToGitHub();
-}
 
 function countWords(cat) {
   return cat.words.length;
@@ -607,8 +597,6 @@ function showAnswer(key) {
   const wrap = document.getElementById("iw-" + key);
   if (!wrap) return;
 
-  if (!_origHtml[key]) _origHtml[key] = wrap.innerHTML;
-
   item.answered = true;
   item.isCorrect = false;
 
@@ -848,9 +836,6 @@ function renderQuizCard(mode) {
   }
 }
 
-function escapeJs(str) {
-  return str.replace(/'/g, "\\'");
-}
 
 function escHtml(s) {
   return String(s || "")
