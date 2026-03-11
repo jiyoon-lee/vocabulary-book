@@ -6519,6 +6519,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722835,
+          "word": "correct",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "고치다"
+              ]
+            },
+            {
+              "partOfSpeech": "형용사",
+              "definitions": [
+                "올바른",
+                "정확한"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
