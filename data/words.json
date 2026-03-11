@@ -6878,6 +6878,60 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722861,
+          "word": "attend",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "출석하다",
+                "참석하다; 시중들다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722858,
+              "word": "attendance",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "출석",
+                    "참석"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773206722859,
+              "word": "attention",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "주의(집중)",
+                    "주목"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773206722860,
+              "word": "attendant",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "종업원",
+                    "안내원"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
