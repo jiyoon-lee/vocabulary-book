@@ -7275,6 +7275,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722885,
+          "word": "gather",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "모으다",
+                "모이다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
