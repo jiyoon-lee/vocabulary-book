@@ -5178,6 +5178,58 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722747,
+          "word": "adopt",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "입양하다; 채택하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722744,
+              "word": "adapt",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "적용하다; 맞추다",
+                    "조정하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773206722745,
+              "word": "adoption",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "입양",
+                    "채택"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773206722746,
+              "word": "adaptation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "적용"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
