@@ -5244,6 +5244,45 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722751,
+          "word": "breathe",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "호흡하다",
+                "숨을 쉬다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722749,
+              "word": "inhale",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "들이마시다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773206722750,
+              "word": "exhale",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "내쉬다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
