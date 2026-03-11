@@ -6421,6 +6421,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722828,
+          "word": "hate",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "미워하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
