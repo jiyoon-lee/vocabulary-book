@@ -6784,6 +6784,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722851,
+          "word": "think",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "생각하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
