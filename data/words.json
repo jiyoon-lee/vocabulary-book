@@ -6461,6 +6461,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722831,
+          "word": "speak",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "말하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
