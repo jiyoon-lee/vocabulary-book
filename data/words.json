@@ -7127,6 +7127,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722875,
+          "word": "connect",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "연결하다",
+                "잇다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
