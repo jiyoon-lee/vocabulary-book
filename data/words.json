@@ -4672,7 +4672,21 @@
     {
       "id": 1773191110649,
       "name": "5강",
-      "words": []
+      "words": [
+        {
+          "id": 1773199079945,
+          "word": "swallow",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "삼키다"
+              ]
+            }
+          ],
+          "related": []
+        }
+      ]
     },
     {
       "id": 1773191110650,
