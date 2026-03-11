@@ -4881,6 +4881,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773199079960,
+          "word": "bring",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "가져오다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
