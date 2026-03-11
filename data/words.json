@@ -7141,6 +7141,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722876,
+          "word": "examine",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "조사하다",
+                "진찰하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
