@@ -7019,6 +7019,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722869,
+          "word": "compete",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "경쟁하다",
+                "겨루"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722868,
+              "word": "competition",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "경쟁"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
