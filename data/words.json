@@ -4561,7 +4561,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773206722736,
+              "word": "belongings",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "소유물"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773124737054,
