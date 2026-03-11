@@ -6315,6 +6315,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722820,
+          "word": "listen",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 듣다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
