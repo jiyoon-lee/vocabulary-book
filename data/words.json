@@ -7006,6 +7006,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773206722867,
+          "word": "enable",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "할 수 있게 하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
