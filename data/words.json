@@ -4827,6 +4827,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773199079956,
+          "word": "go",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "가다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
