@@ -5892,7 +5892,40 @@
     {
       "id": 1773191110650,
       "name": "6강",
-      "words": []
+      "words": [
+        {
+          "id": 1773206722793,
+          "word": "visit",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "방문하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "방문; 견학"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773206722792,
+              "word": "visitor",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "방문객"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 1773191110651,
