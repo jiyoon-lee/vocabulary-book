@@ -4788,6 +4788,25 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773199079954,
+          "word": "feed",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "먹이다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "먹이"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
