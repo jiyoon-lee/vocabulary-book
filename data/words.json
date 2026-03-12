@@ -8275,6 +8275,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796515,
+          "word": "sail",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "항해하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
