@@ -8103,6 +8103,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796503,
+          "word": "detect",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "알아내다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773286796502,
+              "word": "detective",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "명사"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
