@@ -8458,6 +8458,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796528,
+          "word": "bet",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "내기를 하다; 단언하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "내기"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
