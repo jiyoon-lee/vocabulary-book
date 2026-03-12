@@ -8522,6 +8522,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796536,
+          "word": "float",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "뜨다",
+                "떠다니다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773286796535,
+              "word": "sink",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "가라앉다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
