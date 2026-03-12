@@ -8445,6 +8445,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773286796527,
+          "word": "pronounce",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "발음하다; 선언하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
