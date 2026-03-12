@@ -8016,6 +8016,35 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796497,
+          "word": "arrange",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 배열하다",
+                "정리하다",
+                "준비하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773286796496,
+              "word": "arrangement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "준비",
+                    "주선"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
