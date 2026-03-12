@@ -8503,6 +8503,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796534,
+          "word": "fancy",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "상상하다"
+              ]
+            },
+            {
+              "partOfSpeech": "형용사",
+              "definitions": [
+                "근사한"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
