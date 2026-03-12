@@ -7811,6 +7811,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796483,
+          "word": "wrap",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "감싸다",
+                "포장하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773286796482,
+              "word": "wrapping",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "포장지"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
