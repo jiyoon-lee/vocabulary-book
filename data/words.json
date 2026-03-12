@@ -8871,6 +8871,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796558,
+          "word": "lack",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "결핍하다",
+                "모자라다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "부족"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
