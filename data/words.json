@@ -8730,6 +8730,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796551,
+          "word": "issue",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "발명하다",
+                "발령하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "쟁점"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
