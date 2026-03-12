@@ -7944,6 +7944,25 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773286796491,
+          "word": "pile",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "쌓다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "더미"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
