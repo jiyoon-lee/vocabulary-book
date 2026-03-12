@@ -8790,6 +8790,27 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796554,
+          "word": "cause",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "일으키다",
+                "야기하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "원인",
+                "이유"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
