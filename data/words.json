@@ -8637,6 +8637,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796544,
+          "word": "dare",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "감히 ~하다",
+                "대담하게 ~하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
