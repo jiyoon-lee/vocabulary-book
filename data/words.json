@@ -8583,6 +8583,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796540,
+          "word": "divide",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "나누다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773286796539,
+              "word": "division",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "분할",
+                    "분배"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
