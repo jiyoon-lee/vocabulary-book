@@ -8678,6 +8678,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773286796548,
+          "word": "compare",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "비교하다",
+                "비유하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
