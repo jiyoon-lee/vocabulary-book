@@ -7770,6 +7770,34 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796480,
+          "word": "set",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "두다",
+                "배치하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773286796479,
+              "word": "setting",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "환경",
+                    "배경; 설정"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
