@@ -8692,6 +8692,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796549,
+          "word": "tear",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "찢다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "눈물(s)"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
