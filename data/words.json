@@ -7716,6 +7716,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796475,
+          "word": "let",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "허락하다",
+                "시키다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
