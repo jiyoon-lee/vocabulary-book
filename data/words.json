@@ -8262,6 +8262,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796514,
+          "word": "accompany",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~와 동행하다; 수반하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
