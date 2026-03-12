@@ -8235,6 +8235,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796512,
+          "word": "roll",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "구르다",
+                "굴리다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
