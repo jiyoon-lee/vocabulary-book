@@ -7798,6 +7798,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773286796481,
+          "word": "exhibit",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "전시하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
