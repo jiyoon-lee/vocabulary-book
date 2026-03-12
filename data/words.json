@@ -7918,6 +7918,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796490,
+          "word": "rid",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "제거하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773286796489,
+              "word": "get rid of",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~를 제거하다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
