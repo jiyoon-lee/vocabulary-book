@@ -8362,6 +8362,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796521,
+          "word": "cough",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "기침하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "기침"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
