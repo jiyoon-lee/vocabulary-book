@@ -7838,6 +7838,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773286796484,
+          "word": "hesitate",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "망설이다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
