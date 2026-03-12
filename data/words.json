@@ -8058,6 +8058,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796499,
+          "word": "recall",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "회수하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "(결함 상품의) 회수"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
