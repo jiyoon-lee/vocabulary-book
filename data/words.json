@@ -7621,6 +7621,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796469,
+          "word": "equip",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "갖추다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773286796468,
+              "word": "equipment",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "장비",
+                    "설비"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
