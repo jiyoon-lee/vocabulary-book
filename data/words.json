@@ -8622,6 +8622,21 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773286796543,
+          "word": "engage",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "약속하다",
+                "종사하다(in)",
+                "약혼하다(to)"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
