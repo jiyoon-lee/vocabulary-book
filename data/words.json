@@ -7687,15 +7687,22 @@
               "definitions": [
                 "느끼다"
               ]
-            },
-            {
-              "partOfSpeech": "명사",
-              "definitions": [
-                "feelings"
-              ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773286796474,
+              "word": "feelings",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "감정"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796473,
