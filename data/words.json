@@ -8608,6 +8608,18 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773286796542,
+              "word": "divide A into B",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "A를 B로 나누다"
+                  ]
+                }
+              ]
             }
           ]
         }
