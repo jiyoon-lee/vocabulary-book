@@ -8129,6 +8129,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773286796504,
+          "word": "depend",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~에 의존하다",
+                "~에 달려있다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
