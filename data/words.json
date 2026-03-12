@@ -8335,6 +8335,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796519,
+          "word": "threaten",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "위협하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
