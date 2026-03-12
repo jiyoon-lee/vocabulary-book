@@ -7743,6 +7743,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796477,
+          "word": "learn",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "배우다",
+                "알다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
