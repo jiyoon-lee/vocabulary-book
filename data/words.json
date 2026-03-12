@@ -8394,6 +8394,57 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796526,
+          "word": "accord",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "일치하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773286796523,
+              "word": "accordance",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "일치",
+                    "조화"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773286796524,
+              "word": "accordingly",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "따라서"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773286796525,
+              "word": "arrording to N",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "n에 따라서"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
