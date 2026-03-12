@@ -8168,6 +8168,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773286796507,
+          "word": "apologize",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "사과하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
