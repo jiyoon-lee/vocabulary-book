@@ -7607,7 +7607,22 @@
     {
       "id": 1773191110652,
       "name": "8강",
-      "words": []
+      "words": [
+        {
+          "id": 1773286796467,
+          "word": "chase",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "추적하다",
+                "뒤쫓다; ~을 추구하다"
+              ]
+            }
+          ],
+          "related": []
+        }
+      ]
     }
   ]
 }
