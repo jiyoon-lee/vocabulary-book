@@ -8569,6 +8569,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796538,
+          "word": "leak",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "새다",
+                "흘리다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
