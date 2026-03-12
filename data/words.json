@@ -8221,6 +8221,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796511,
+          "word": "beat",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 치다",
+                "두드리다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
