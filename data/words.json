@@ -8302,6 +8302,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796517,
+          "word": "handle",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "취급하다",
+                "다루다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "손잡이"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
