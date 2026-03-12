@@ -7677,6 +7677,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796472,
+          "word": "feel",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "느끼다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "feelings"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
