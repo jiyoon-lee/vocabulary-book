@@ -8348,6 +8348,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796520,
+          "word": "bury",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "땅에 파묻다",
+                "매장하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
