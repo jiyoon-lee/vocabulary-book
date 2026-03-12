@@ -7884,6 +7884,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796487,
+          "word": "march",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "행진하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "행진",
+                "진전"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
