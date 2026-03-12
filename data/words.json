@@ -8483,7 +8483,28 @@
     {
       "id": 1773286796529,
       "name": "9강",
-      "words": []
+      "words": [
+        {
+          "id": 1773286796533,
+          "word": "weight",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "(몸)무게가 ~이다; ~를 숙고하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "무게",
+                "체중"
+              ]
+            }
+          ],
+          "related": []
+        }
+      ]
     },
     {
       "id": 1773286796530,
