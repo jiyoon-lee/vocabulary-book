@@ -8045,6 +8045,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1773286796498,
+          "word": "boil",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "(물이나 액체가) 끓다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
