@@ -8832,6 +8832,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796556,
+          "word": "challenge",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~에 도전하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "도전"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
