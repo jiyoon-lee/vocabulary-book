@@ -7663,6 +7663,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796471,
+          "word": "worry",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "걱정하다",
+                "걱정시키다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
