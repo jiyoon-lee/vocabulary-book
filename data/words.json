@@ -7730,6 +7730,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796476,
+          "word": "continue",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "계속하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
