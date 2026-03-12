@@ -8811,6 +8811,27 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796555,
+          "word": "benifit",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "유익을 주다",
+                "유용하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "이익",
+                "유리"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
