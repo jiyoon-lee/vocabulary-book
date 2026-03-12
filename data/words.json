@@ -8891,6 +8891,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796559,
+          "word": "remark",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "주목하다",
+                "알아차리다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "의견"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
