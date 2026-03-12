@@ -8208,6 +8208,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796510,
+          "word": "shoot",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "쏘다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
