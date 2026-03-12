@@ -8194,6 +8194,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796509,
+          "word": "dye",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "물들이다",
+                "염색하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
