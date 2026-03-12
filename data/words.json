@@ -8769,6 +8769,27 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796553,
+          "word": "figure",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "계산하다; 이해하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "수치",
+                "모양",
+                "인물"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
