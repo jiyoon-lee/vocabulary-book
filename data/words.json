@@ -8851,6 +8851,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796557,
+          "word": "debate",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "토론하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "토론",
+                "논의"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
