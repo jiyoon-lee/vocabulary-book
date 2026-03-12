@@ -7851,6 +7851,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796485,
+          "word": "paste",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 풀로 바르다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "풀",
+                "반죽"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
