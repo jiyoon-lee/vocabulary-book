@@ -7904,6 +7904,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773286796488,
+          "word": "appoint",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~을 임명하다",
+                "지명하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
