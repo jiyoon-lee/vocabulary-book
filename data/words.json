@@ -2216,12 +2216,12 @@
           "related": [
             {
               "id": 205,
-              "word": "special offer",
+              "word": "offer A B",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "숙어",
                   "definitions": [
-                    "특가 판매"
+                    "A에게 B를 제공하다"
                   ]
                 }
               ]
