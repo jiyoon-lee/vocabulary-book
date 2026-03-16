@@ -10221,7 +10221,44 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829587,
+              "word": "caller",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "전화 거는 사람; 방문자"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829588,
+              "word": "call A B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A를 B라고 부르다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829589,
+              "word": "call for 명사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~을 요구하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722846,
