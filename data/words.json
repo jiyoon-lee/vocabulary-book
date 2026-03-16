@@ -5435,6 +5435,32 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773628841525,
+              "word": "provision",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "공급",
+                    "제공",
+                    "준비"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841526,
+              "word": "provided",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "만약 ~이라면"
+                  ]
+                }
+              ]
             }
           ]
         },
