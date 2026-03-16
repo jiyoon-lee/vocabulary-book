@@ -4850,7 +4850,27 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841510,
+              "word": "joint",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "접합부분"
+                  ]
+                },
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "공동의",
+                    "합동의"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103309,
