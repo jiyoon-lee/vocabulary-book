@@ -6163,7 +6163,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292586,
+              "word": "bliss",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "더없는 행복"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773124737032,
