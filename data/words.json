@@ -8218,6 +8218,42 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773646292640,
+              "word": "look upon A as B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A를 B로 간주하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292641,
+              "word": "look + 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~한 상태로 보이다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292642,
+              "word": "look like 명사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사처럼 보이다"
+                  ]
+                }
+              ]
             }
           ]
         },
