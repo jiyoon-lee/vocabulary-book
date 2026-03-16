@@ -2426,6 +2426,19 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773628841401,
+              "word": "employment",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "고용",
+                    "취업"
+                  ]
+                }
+              ]
             }
           ]
         },
