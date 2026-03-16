@@ -2703,13 +2703,13 @@
           "related": [
             {
               "id": 1773107260428,
-              "word": "slipper",
+              "word": "slippery",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "형용사",
                   "definitions": [
-                    "슬리퍼",
-                    "실내화"
+                    "미끄러운",
+                    "미끈거리는"
                   ]
                 }
               ]
