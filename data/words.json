@@ -1032,12 +1032,50 @@
             {
               "partOfSpeech": "동사",
               "definitions": [
-                "구하다",
-                "모으다"
+                "구하다; 모으다"
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841347,
+              "word": "savior",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "구조자",
+                    "구세주"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841348,
+              "word": "safe",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "안전한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841349,
+              "word": "saving",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "절약",
+                    "저금"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 28,
