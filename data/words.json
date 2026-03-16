@@ -7086,7 +7086,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292607,
+              "word": "wandering",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "돌아다니는",
+                    "방랑하는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773199079964,
