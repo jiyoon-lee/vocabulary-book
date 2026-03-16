@@ -2731,14 +2731,27 @@
           "related": [
             {
               "id": 1773107260430,
-              "word": "expend",
+              "word": "expansion",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "명사",
                   "definitions": [
-                    "(많은 돈",
-                    "시간",
-                    "에너지를) 쏟다[들이다]"
+                    "확대",
+                    "확장",
+                    "팽창"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841406,
+              "word": "expansive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "광활한",
+                    "포괄적인"
                   ]
                 }
               ]
