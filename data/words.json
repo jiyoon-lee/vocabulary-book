@@ -8991,7 +8991,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829525,
+              "word": "workless",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "일이 없는",
+                    "실직한"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722812,
