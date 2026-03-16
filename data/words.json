@@ -336,7 +336,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841315,
+              "word": "addition",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "추가"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841316,
+              "word": "additional",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "추가의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841317,
+              "word": "additive",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "첨가물",
+                    "첨가제"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 9,
