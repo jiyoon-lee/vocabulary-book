@@ -1631,7 +1631,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841360,
+              "word": "seek to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~하려고 애쓰다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 46,
