@@ -5772,7 +5772,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292575,
+              "word": "share A with B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A와 B를 나누다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773120766845,
