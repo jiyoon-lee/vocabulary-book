@@ -5310,7 +5310,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841517,
+              "word": "cureless",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "불치의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841518,
+              "word": "cure A of B",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "A에게 B를 고치다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103338,
