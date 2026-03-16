@@ -8850,7 +8850,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829520,
+              "word": "smell + 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~한 냄새가 나다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829521,
+              "word": "smell of / like",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~의 냄새를 맡다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722806,
