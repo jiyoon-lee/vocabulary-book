@@ -256,20 +256,31 @@
                   "partOfSpeech": "명사",
                   "definitions": [
                     "재판",
-                    "시련",
-                    "시도"
+                    "시도; 시련"
                   ]
                 }
               ]
             },
             {
               "id": 109,
-              "word": "trial and error",
+              "word": "try to RV",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "숙어",
                   "definitions": [
-                    "시행 착오"
+                    "~하려고 노력하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841312,
+              "word": "try RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~을 시험 삼아 해보다"
                   ]
                 }
               ]
