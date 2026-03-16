@@ -649,7 +649,40 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841330,
+              "word": "avoidable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "피할 수 있는",
+                    "막을 수 있는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841331,
+              "word": "void",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "빈",
+                    "없는"
+                  ]
+                },
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "공허"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 17,
