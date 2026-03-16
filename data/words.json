@@ -8357,7 +8357,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292648,
+              "word": "put on",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "착용하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292649,
+              "word": "put off",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "미루다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
