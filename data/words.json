@@ -3924,6 +3924,18 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773628841469,
+              "word": "elect A B",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "A를 B로 선출하다"
+                  ]
+                }
+              ]
             }
           ]
         },
