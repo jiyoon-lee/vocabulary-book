@@ -10183,7 +10183,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829584,
+              "word": "sale",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "판매"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829585,
+              "word": "seller",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "판매원"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722845,
