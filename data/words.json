@@ -851,7 +851,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841339,
+              "word": "forgiveness",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "용서"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 22,
