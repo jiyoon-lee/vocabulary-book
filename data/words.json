@@ -3710,6 +3710,42 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773628841450,
+              "word": "keep RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "계속 ~하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841451,
+              "word": "keep 명사 OC",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~한 상태로 유지하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841452,
+              "word": "keep 명사 from RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "명사가 ~하지 못하도록 막다"
+                  ]
+                }
+              ]
             }
           ]
         },
