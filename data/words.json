@@ -3034,7 +3034,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841413,
+              "word": "counter",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "계산대"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773107260451,
