@@ -1085,12 +1085,36 @@
               "partOfSpeech": "동사",
               "definitions": [
                 "취급하다",
-                "다루다",
-                "대접하다"
+                "다루다; 대접하다"
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841350,
+              "word": "treatment",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "치료; 대우"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841351,
+              "word": "treaty",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "조약"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 29,
