@@ -2852,12 +2852,13 @@
           "related": [
             {
               "id": 1773107260438,
-              "word": "prey",
+              "word": "prayer",
               "meanings": [
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "먹이"
+                    "기도",
+                    "기도하는 사람"
                   ]
                 }
               ]
