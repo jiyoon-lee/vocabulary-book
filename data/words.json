@@ -5042,6 +5042,68 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1773628841508,
+          "word": "know",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "알다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773628841504,
+              "word": "knowledge",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "지식"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841505,
+              "word": "known",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "(이름이) 알려진"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841506,
+              "word": "know of / about",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~에 대하여 알고 있다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841507,
+              "word": "be known to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~하는 것으로 알려져 있다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
