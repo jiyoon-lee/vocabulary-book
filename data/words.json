@@ -9329,7 +9329,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829545,
+              "word": "listening",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "경청; 청취"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829546,
+              "word": "listen to",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~을 듣다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722822,
