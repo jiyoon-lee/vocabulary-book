@@ -4751,7 +4751,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841502,
+              "word": "fixed",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "고정된",
+                    "불변의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841503,
+              "word": "fixation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "집착"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103304,
