@@ -9194,6 +9194,31 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773649829539,
+              "word": "motion",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "운동",
+                    "움직임"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829540,
+              "word": "S[사람] be moved",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "감동받다"
+                  ]
+                }
+              ]
             }
           ]
         },
