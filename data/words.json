@@ -8701,7 +8701,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829515,
+              "word": "picky",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "까다로운"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722801,
