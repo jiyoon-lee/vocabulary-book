@@ -156,21 +156,33 @@
             {
               "partOfSpeech": "동사",
               "definitions": [
-                "인정하다",
-                "허락하다"
+                "인정하다; 허락하다"
               ]
             }
           ],
           "related": [
             {
               "id": 106,
+              "word": "admission",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "입장",
+                    "허가"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841307,
               "word": "admittance",
               "meanings": [
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
                     "입장",
-                    "허락"
+                    "입학"
                   ]
                 }
               ]
