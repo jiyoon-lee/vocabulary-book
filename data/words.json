@@ -5916,7 +5916,59 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292580,
+              "word": "imagination",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "상상력",
+                    "가상"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292581,
+              "word": "imaginary",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "상상에만 존재하는",
+                    "가상의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292582,
+              "word": "imaginative",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "창의적인",
+                    "상상력이 풍부한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292583,
+              "word": "imaginable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "상상할 수 있는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773124737021,
