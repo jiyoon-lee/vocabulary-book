@@ -3760,7 +3760,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841453,
+              "word": "hearing",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "청각",
+                    "청력; 청문회"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103256,
