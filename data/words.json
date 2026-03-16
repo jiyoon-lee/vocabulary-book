@@ -9485,7 +9485,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829551,
+              "word": "surprised",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "놀란"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722827,
