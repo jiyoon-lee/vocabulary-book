@@ -9616,7 +9616,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829557,
+              "word": "awake",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "깨우다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722831,
