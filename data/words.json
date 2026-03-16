@@ -813,7 +813,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841337,
+              "word": "investment",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "투자"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841338,
+              "word": "investor",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "투자자"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 21,
