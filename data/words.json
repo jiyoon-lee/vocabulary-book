@@ -8805,7 +8805,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829519,
+              "word": "wish to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~하기를 바라다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722804,
