@@ -7955,7 +7955,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292628,
+              "word": "transferable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "이동 가능한",
+                    "양도할 수 있는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722778,
