@@ -9266,7 +9266,44 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829542,
+              "word": "payment",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "지불; 지급"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829543,
+              "word": "paying",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "수지에 맞는; 유리한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829544,
+              "word": "pay for",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~의 대가를 지불하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722819,
