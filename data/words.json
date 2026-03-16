@@ -459,7 +459,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841321,
+              "word": "marriage",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "결혼",
+                    "결혼생활"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 12,
