@@ -5528,6 +5528,43 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773628841533,
+              "word": "applicant",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "지원자"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841534,
+              "word": "apply to",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~에 적용되다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841535,
+              "word": "apply for",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "~에 지원하다",
+                    "~을 신청하다"
+                  ]
+                }
+              ]
             }
           ]
         },
