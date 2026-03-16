@@ -8446,7 +8446,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649486151,
+              "word": "winning",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "승리",
+                    "성공"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722795,
