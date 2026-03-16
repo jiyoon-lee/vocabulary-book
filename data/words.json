@@ -4304,7 +4304,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841486,
+              "word": "communication",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "의사소통"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841487,
+              "word": "communicate with 명사",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "명사와 의사소통하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103284,
