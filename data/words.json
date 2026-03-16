@@ -3200,25 +3200,36 @@
           "related": [
             {
               "id": 1773107260456,
-              "word": "waiter",
+              "word": "waiting",
               "meanings": [
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "웨이터",
-                    "종업원"
+                    "대기"
                   ]
                 }
               ]
             },
             {
               "id": 1773113103264,
+              "word": "await",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "~을 기다리다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841421,
               "word": "wait for",
               "meanings": [
                 {
                   "partOfSpeech": "숙어",
                   "definitions": [
-                    "~를 기다리다"
+                    "~을 기다리다"
                   ]
                 }
               ]
