@@ -4062,7 +4062,34 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841472,
+              "word": "completion",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "완료",
+                    "완성"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841473,
+              "word": "completely",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "완전히",
+                    "전적으로"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103273,
