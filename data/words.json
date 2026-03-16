@@ -6890,7 +6890,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292599,
+              "word": "meaning",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "의미"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292600,
+              "word": "mean to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~를 의도하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773199079956,
