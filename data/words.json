@@ -2967,7 +2967,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841412,
+              "word": "lively",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "활기가 넘치는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773107260446,
