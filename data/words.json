@@ -5475,7 +5475,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841530,
+              "word": "submission",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "항복",
+                    "굴복"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841531,
+              "word": "submit to + 명사",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~에 굴복하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773120766831,
