@@ -301,13 +301,24 @@
           "related": [
             {
               "id": 110,
-              "word": "give and take",
+              "word": "take advantage of",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "숙어",
                   "definitions": [
-                    "쌍방 양보",
-                    "의견 교환"
+                    "~을 이용하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841314,
+              "word": "take A for granted",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "A를 당연시 여기다"
                   ]
                 }
               ]
