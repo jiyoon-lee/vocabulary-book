@@ -8889,7 +8889,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829522,
+              "word": "sender",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "발송인"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722807,
