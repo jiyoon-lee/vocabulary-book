@@ -8950,12 +8950,24 @@
           "related": [
             {
               "id": 1773206722809,
-              "word": "wanted",
+              "word": "want to RV",
               "meanings": [
                 {
-                  "partOfSpeech": "형용사",
+                  "partOfSpeech": "구문",
                   "definitions": [
-                    "수배 중인"
+                    "~하기를 원하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829524,
+              "word": "want 명사 to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~하기를 원하다"
                   ]
                 }
               ]
