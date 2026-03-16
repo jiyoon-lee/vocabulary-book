@@ -1354,7 +1354,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841358,
+              "word": "rider",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "타는 사람"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 37,
