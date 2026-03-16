@@ -7380,7 +7380,22 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292613,
+              "word": "achievement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "업적",
+                    "성취",
+                    "달성"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722751,
