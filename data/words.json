@@ -9921,7 +9921,68 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829569,
+              "word": "liken",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "비유하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829570,
+              "word": "likely",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "~할 것 같은"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829571,
+              "word": "likewise",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "마찬가지로"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829572,
+              "word": "like to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~하고 싶다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829573,
+              "word": "like RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~하는 것을 좋아한다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722841,
