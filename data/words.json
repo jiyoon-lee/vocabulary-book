@@ -2141,7 +2141,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841386,
+              "word": "sight",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "시력",
+                    "시야"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841387,
+              "word": "see 명사 RV / RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "명사가 ~하는 것을 보다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 59,
