@@ -2294,7 +2294,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841393,
+              "word": "introduction",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "도입",
+                    "전래"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 64,
