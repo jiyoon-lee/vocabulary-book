@@ -1822,7 +1822,56 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841363,
+              "word": "remindfull",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "생각나게 하는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841364,
+              "word": "remind A of B",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "A에게 B를 상기시키다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841365,
+              "word": "remind 명사 to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "명사에게 ~한 사실을 상기시키다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841366,
+              "word": "remind 명사 that S + V",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "명사에게 ~한 사실을 상기시키다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 53,
