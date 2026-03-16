@@ -7464,7 +7464,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292616,
+              "word": "destruction",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "파괴",
+                    "말살"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292617,
+              "word": "destructive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "파괴적인"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722754,
