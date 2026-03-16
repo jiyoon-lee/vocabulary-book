@@ -7325,7 +7325,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292611,
+              "word": "ammusement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "재미",
+                    "놀이"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722747,
