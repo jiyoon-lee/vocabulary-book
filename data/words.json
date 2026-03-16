@@ -2929,7 +2929,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841411,
+              "word": "stay + 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~한 상태로 머물다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773107260445,
