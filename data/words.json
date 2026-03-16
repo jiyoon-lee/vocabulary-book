@@ -4478,7 +4478,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841491,
+              "word": "promissing",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "유망한"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103323,
