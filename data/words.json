@@ -8501,7 +8501,44 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649486153,
+              "word": "finding",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "발견물"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649486154,
+              "word": "find 명사 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~한 상태임을 알다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649486155,
+              "word": "find it 형용사 to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "RV하는 것이 ~하다고 생각하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722797,
