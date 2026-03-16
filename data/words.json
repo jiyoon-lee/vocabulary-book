@@ -1176,12 +1176,39 @@
             {
               "partOfSpeech": "동사",
               "definitions": [
-                "받아들이다",
-                "인정하다"
+                "받아들이다; 인정하다"
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841352,
+              "word": "acceptance",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "받아들임",
+                    "동의",
+                    "승인"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841353,
+              "word": "acceptable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "받아들일 수 있는",
+                    "마음에 드는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 32,
