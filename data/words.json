@@ -2047,12 +2047,24 @@
           "related": [
             {
               "id": 203,
-              "word": "demand",
+              "word": "supplier",
               "meanings": [
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "수요"
+                    "공급자"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841382,
+              "word": "supply A with B = supply B to A",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "A에게 B를 공급하다"
                   ]
                 }
               ]
