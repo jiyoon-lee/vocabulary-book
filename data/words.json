@@ -8093,7 +8093,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292632,
+              "word": "full",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "가득찬"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722784,
