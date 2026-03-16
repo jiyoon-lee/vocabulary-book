@@ -1678,7 +1678,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841361,
+              "word": "melting",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "용해"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 48,
