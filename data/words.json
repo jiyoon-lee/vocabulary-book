@@ -6931,10 +6931,22 @@
           "related": [
             {
               "id": 1773206722738,
-              "word": "go ~ing",
+              "word": "go + 형용사",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~한 상태가 되다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292602,
+              "word": "go RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~하러 가다"
                   ]
