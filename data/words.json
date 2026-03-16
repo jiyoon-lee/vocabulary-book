@@ -2166,6 +2166,18 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773628841390,
+              "word": "see A as B",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "A를 B로 간주하다"
+                  ]
+                }
+              ]
             }
           ]
         },
