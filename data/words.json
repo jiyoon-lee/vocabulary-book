@@ -8772,7 +8772,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829518,
+              "word": "becoming",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "어울리는",
+                    "적당한"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722803,
