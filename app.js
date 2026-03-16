@@ -72,7 +72,7 @@ const ORDER_KEY = "vocab_order"; // {catId: [wordId, ...]} 순서
 const CUSTOM_CATS_KEY = "vocab_custom_cats"; // [{id, name}, ...] 사용자 추가 카테고리
 
 // ─── GitHub Sync ───────────────────────────────────────────────────────────────
-const GH_TOKEN = globalThis.__VOCAB_TOKEN__ || ''; // injected via config.js by GitHub Actions
+const GH_TOKEN = globalThis.__VOCAB_TOKEN__ || ""; // injected via config.js by GitHub Actions
 const GH_OWNER = "jiyoon-lee";
 const GH_REPO = "vocabulary-book";
 const GH_PATH = "data/words.json";
@@ -89,7 +89,12 @@ function _toBase64(str) {
 }
 
 async function syncToGitHub() {
-  console.log("[sync] GH_TOKEN 상태:", GH_TOKEN === "__GH_TOKEN__" ? "미주입(플레이스홀더)" : "주입됨(" + GH_TOKEN.slice(0, 6) + "...)");
+  console.log(
+    "[sync] GH_TOKEN 상태:",
+    GH_TOKEN === "__GH_TOKEN__"
+      ? "미주입(플레이스홀더)"
+      : "주입됨(" + GH_TOKEN.slice(0, 6) + "...)",
+  );
   if (!GH_TOKEN || GH_TOKEN === "__GH_TOKEN__") {
     console.warn("[sync] 토큰 미주입 — GitHub 동기화 건너뜀");
     return;
@@ -154,7 +159,7 @@ function _saveCustomsAndOrder() {
   // 사용자 추가 카테고리 저장
   const customCats = allData.categories
     .filter((c) => c.id > 1000)
-    .map((c) => ({ id: c.id, name: c.name }));
+    .map((c) => ({id: c.id, name: c.name}));
   localStorage.setItem(CUSTOM_CATS_KEY, JSON.stringify(customCats));
 }
 
@@ -166,12 +171,14 @@ function saveData() {
 // ─── Init helpers ─────────────────────────────────────────────────────────────
 async function fetchWordsData() {
   // GitHub Contents API (CDN 캐시 없음, 항상 최신)
-  const headers = GH_TOKEN ? { Authorization: `token ${GH_TOKEN}` } : {};
-  const res = await fetch(GH_API_URL, { headers });
+  const headers = GH_TOKEN ? {Authorization: `token ${GH_TOKEN}`} : {};
+  const res = await fetch(GH_API_URL, {headers});
   if (!res.ok) throw new Error(`GitHub API ${res.status}`);
   const meta = await res.json();
-  const bytes = Uint8Array.from(atob(meta.content.replaceAll('\n', '')), c => c.charCodeAt(0));
-  return JSON.parse(new TextDecoder('utf-8').decode(bytes));
+  const bytes = Uint8Array.from(atob(meta.content.replaceAll("\n", "")), (c) =>
+    c.charCodeAt(0),
+  );
+  return JSON.parse(new TextDecoder("utf-8").decode(bytes));
 }
 
 function mergeLocalCustoms(data) {
@@ -183,7 +190,7 @@ function mergeLocalCustoms(data) {
       const existingCatIds = new Set(data.categories.map((c) => c.id));
       customCats.forEach((c) => {
         if (!existingCatIds.has(c.id)) {
-          data.categories.push({ id: c.id, name: c.name, words: [] });
+          data.categories.push({id: c.id, name: c.name, words: []});
         }
       });
     }
@@ -195,7 +202,10 @@ function mergeLocalCustoms(data) {
       const added = (customs[cat.id] || []).filter((w) => w.id > 1000);
       if (added.length > 0) {
         const existingIds = new Set(cat.words.map((w) => w.id));
-        cat.words = [...cat.words, ...added.filter((w) => !existingIds.has(w.id))];
+        cat.words = [
+          ...cat.words,
+          ...added.filter((w) => !existingIds.has(w.id)),
+        ];
       }
     });
   } catch (e) {
@@ -214,7 +224,10 @@ function applyLocalOrder(data) {
       const wordMap = new Map(cat.words.map((w) => [w.id, w]));
       const ordered = catOrder.map((id) => wordMap.get(id)).filter(Boolean);
       const orderedIds = new Set(catOrder);
-      cat.words = [...ordered, ...cat.words.filter((w) => !orderedIds.has(w.id))];
+      cat.words = [
+        ...ordered,
+        ...cat.words.filter((w) => !orderedIds.has(w.id)),
+      ];
     });
   } catch (e) {
     console.error("order 로드 실패:", e);
@@ -225,13 +238,13 @@ function applyLocalOrder(data) {
 async function init() {
   try {
     allData = await fetchWordsData();
-    console.log('[init] GitHub Contents API로 불러옴');
+    console.log("[init] GitHub Contents API로 불러옴");
     mergeLocalCustoms(allData);
     applyLocalOrder(allData);
   } catch (e) {
     console.warn("[init] GitHub API 실패, 로컬 fallback:", e);
     try {
-      const res = await fetch('data/words.json?cb=' + Date.now());
+      const res = await fetch("data/words.json?cb=" + Date.now());
       if (res.ok) allData = await res.json();
     } catch (fetchErr) {
       console.error("[init] 로컬 파일 fetch 실패:", fetchErr);
@@ -319,7 +332,7 @@ function closeCategoryForm() {
 async function saveCategory() {
   const name = document.getElementById("new-category-name").value.trim();
   if (!name) return;
-  const newCat = { id: nextId(), name, words: [] };
+  const newCat = {id: nextId(), name, words: []};
   allData.categories.push(newCat);
   saveData();
   closeCategoryForm();
@@ -327,7 +340,6 @@ async function saveCategory() {
   showToast(`'${name}' 카테고리가 추가됐습니다.`);
   await syncToGitHub();
 }
-
 
 function countWords(cat) {
   return cat.words.length;
@@ -361,7 +373,7 @@ function switchMode(mode) {
 
   // list 전용 컨트롤 (단어 추가, 가리기 버튼) 표시 여부
   const listControls = document.querySelectorAll(".list-only-controls");
-  listControls.forEach(el => el.classList.toggle("hidden", mode !== "list"));
+  listControls.forEach((el) => el.classList.toggle("hidden", mode !== "list"));
 
   if (mode === "list") {
     renderWordList();
@@ -550,12 +562,13 @@ function renderWordCard(word, num, isRelated, showActions = false) {
 
   // Star (favorites) button for top-level words in list/favorites mode
   const isFav = _favorites.has(word.id);
-  const starBtn = !isRelated && showActions
-    ? `<button id="fav-btn-${word.id}" onclick="event.stopPropagation();toggleFavorite(${word.id})"
+  const starBtn =
+    !isRelated && showActions
+      ? `<button id="fav-btn-${word.id}" onclick="event.stopPropagation();toggleFavorite(${word.id})"
         class="fav-btn text-lg leading-none px-1 ${isFav ? "text-yellow-400" : "text-gray-300"} active:scale-125 transition-transform float-right">
         ${isFav ? "★" : "☆"}
       </button>`
-    : "";
+      : "";
 
   if (isDraggable) {
     return `
@@ -583,7 +596,7 @@ function renderFavoritesList() {
   Object.keys(_items).forEach((k) => delete _items[k]);
   Object.keys(_origHtml).forEach((k) => delete _origHtml[k]);
   _revealedCards.clear();
-  const favWords = currentCategory.words.filter(w => _favorites.has(w.id));
+  const favWords = currentCategory.words.filter((w) => _favorites.has(w.id));
   const container = document.getElementById("word-list");
   if (favWords.length === 0) {
     container.innerHTML = `
@@ -592,7 +605,9 @@ function renderFavoritesList() {
         <div class="text-sm">즐겨찾기한 단어가 없습니다.<br>전체 목록에서 ☆을 눌러 추가하세요.</div>
       </div>`;
   } else {
-    container.innerHTML = favWords.map((word, idx) => renderWordCard(word, idx + 1, false, true)).join("");
+    container.innerHTML = favWords
+      .map((word, idx) => renderWordCard(word, idx + 1, false, true))
+      .join("");
   }
   document.getElementById("grade-btn-wrap").classList.add("hidden");
 }
@@ -609,7 +624,9 @@ function onInlineInputKeydown(event, inputEl, key, type) {
     checkInlineInput(inputEl, key, type);
   } else if (event.key === "Tab") {
     event.preventDefault();
-    const allInputs = Array.from(document.querySelectorAll("#word-list input[data-key]"));
+    const allInputs = Array.from(
+      document.querySelectorAll("#word-list input[data-key]"),
+    );
     const idx = allInputs.indexOf(inputEl);
     if (idx !== -1 && idx + 1 < allInputs.length) {
       allInputs[idx + 1].focus();
@@ -838,7 +855,6 @@ function renderQuizCard(mode) {
   }
 }
 
-
 function escHtml(s) {
   return String(s || "")
     .replaceAll("&", "&amp;")
@@ -889,7 +905,9 @@ const POS_OPTIONS = [
   "관형사",
   "감탄사",
   "전치사",
+  "접속사",
   "숙어",
+  "구문",
 ];
 
 function meaningRowHtml(pos, defs) {
@@ -1226,8 +1244,8 @@ function renderQuizResult() {
 }
 
 // ─── Modal Enter key ──────────────────────────────────────────────────────────
-document.getElementById('word-modal').addEventListener('keydown', (e) => {
-  if (e.key === 'Enter' && !e.isComposing && e.target.tagName !== 'TEXTAREA') {
+document.getElementById("word-modal").addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && !e.isComposing && e.target.tagName !== "TEXTAREA") {
     e.preventDefault();
     saveWord();
   }
@@ -1236,12 +1254,12 @@ document.getElementById('word-modal').addEventListener('keydown', (e) => {
 // ─── Speech ───────────────────────────────────────────────────────────────────
 function speakWord(word) {
   if (!window.speechSynthesis) {
-    showToast('이 브라우저는 TTS를 지원하지 않습니다.');
+    showToast("이 브라우저는 TTS를 지원하지 않습니다.");
     return;
   }
   window.speechSynthesis.cancel();
   const utter = new SpeechSynthesisUtterance(word);
-  utter.lang = 'en-US';
+  utter.lang = "en-US";
   utter.rate = 0.9;
   window.speechSynthesis.speak(utter);
 }
