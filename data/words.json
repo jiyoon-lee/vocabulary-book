@@ -701,7 +701,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841332,
+              "word": "revelation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "폭로",
+                    "누설"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 18,
