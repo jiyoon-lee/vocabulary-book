@@ -8306,7 +8306,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292645,
+              "word": "received",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "인정을 받고있는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292646,
+              "word": "receipt",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "영수증"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292647,
+              "word": "receiver",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "수령인",
+                    "수신기"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722791,
