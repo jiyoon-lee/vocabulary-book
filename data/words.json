@@ -9770,7 +9770,34 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829564,
+              "word": "correctly",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "정확히",
+                    "바르게"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829565,
+              "word": "collection",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "정정",
+                    "수정"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722836,
