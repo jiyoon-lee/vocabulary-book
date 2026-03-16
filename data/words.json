@@ -2812,30 +2812,26 @@
           "related": [
             {
               "id": 1773107260435,
-              "word": "attack",
+              "word": "defense",
               "meanings": [
-                {
-                  "partOfSpeech": "동사",
-                  "definitions": [
-                    "공격하다"
-                  ]
-                },
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "공격"
+                    "방어",
+                    "수비"
                   ]
                 }
               ]
             },
             {
               "id": 1773107260436,
-              "word": "defense",
+              "word": "defensive",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "형용사",
                   "definitions": [
-                    "방어"
+                    "방어의",
+                    "방어적인"
                   ]
                 }
               ]
