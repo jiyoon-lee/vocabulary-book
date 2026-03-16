@@ -6442,7 +6442,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292593,
+              "word": "scold A for B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "B의 이유로 A를 꾸짖다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773124737048,
