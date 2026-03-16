@@ -560,7 +560,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841325,
+              "word": "invention",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "발명품"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841326,
+              "word": "inventive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "창의적인"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 15,
