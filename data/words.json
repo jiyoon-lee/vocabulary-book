@@ -5614,7 +5614,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292572,
+              "word": "astornishment",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "깜짝 놀람"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773120766837,
