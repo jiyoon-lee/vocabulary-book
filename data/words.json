@@ -3811,7 +3811,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841459,
+              "word": "come to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~하게 되다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103257,
