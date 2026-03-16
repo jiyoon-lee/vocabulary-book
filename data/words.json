@@ -9233,7 +9233,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829541,
+              "word": "washer",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "세탁기"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722818,
