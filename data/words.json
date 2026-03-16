@@ -3544,24 +3544,13 @@
             },
             {
               "id": 1773113103247,
-              "word": "waste of energy",
+              "word": "wasteful",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "형용사",
                   "definitions": [
-                    "에너지 낭비"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1773113103248,
-              "word": "waste of money",
-              "meanings": [
-                {
-                  "partOfSpeech": "명사",
-                  "definitions": [
-                    "돈 낭비"
+                    "낭비하는",
+                    "낭비적인"
                   ]
                 }
               ]
