@@ -4212,7 +4212,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841482,
+              "word": "restoration",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "복원",
+                    "회복"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103279,
