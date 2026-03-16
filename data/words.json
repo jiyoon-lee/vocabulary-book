@@ -9045,7 +9045,56 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829526,
+              "word": "teller",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "(은행의) 금전 출납원"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829527,
+              "word": "tell 명사 to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사에게 ~하라고 말하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829528,
+              "word": "tell 명사 that S + V",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사에게 ~한 사실을 말하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829529,
+              "word": "tell A from B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A와 B를 구별하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722815,
