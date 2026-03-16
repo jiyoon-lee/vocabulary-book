@@ -3146,7 +3146,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841416,
+              "word": "remainder",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "나머지"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841417,
+              "word": "remain + 명사 / 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~한 상태로 남아있다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841418,
+              "word": "remain to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~할 것으로 남아 있다",
+                    "아직도 ~해야 한다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773107260455,
