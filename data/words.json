@@ -4558,7 +4558,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841493,
+              "word": "edition",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "(책의 형태) 판"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103297,
