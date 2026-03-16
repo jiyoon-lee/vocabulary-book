@@ -4277,7 +4277,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841485,
+              "word": "entertainment",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "오락",
+                    "접대"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103281,
