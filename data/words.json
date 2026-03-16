@@ -757,12 +757,50 @@
             {
               "partOfSpeech": "동사",
               "definitions": [
-                "무시하다",
-                "소홀히 하다"
+                "무시하다; 소홀히 하다"
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841334,
+              "word": "negligence",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "나태",
+                    "태만"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841335,
+              "word": "negligent",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "소홀한",
+                    "태만한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841336,
+              "word": "negligible",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "무시해도 좋은"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 20,
