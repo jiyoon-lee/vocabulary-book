@@ -5719,10 +5719,23 @@
               "word": "rely on",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~에 의존하다",
                     "~에 의지하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292574,
+              "word": "reliance",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "믿음",
+                    "신뢰"
                   ]
                 }
               ]
