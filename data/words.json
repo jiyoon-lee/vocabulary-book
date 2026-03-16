@@ -5210,7 +5210,34 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841515,
+              "word": "involvement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "관련",
+                    "개입",
+                    "몰두"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841516,
+              "word": "involve A in B",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "A를 B에 연류시키다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103333,
