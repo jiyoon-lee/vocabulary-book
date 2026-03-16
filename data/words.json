@@ -734,7 +734,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841333,
+              "word": "supporter",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "지지자",
+                    "후원자"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 19,
