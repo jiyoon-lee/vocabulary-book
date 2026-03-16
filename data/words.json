@@ -8146,7 +8146,22 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292635,
+              "word": "loss",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "분실",
+                    "상실",
+                    "손실"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722788,
