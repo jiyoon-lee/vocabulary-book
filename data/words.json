@@ -55,7 +55,7 @@
               "word": "result in",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "야기시키다"
                   ]
@@ -67,7 +67,7 @@
               "word": "result from",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~로부터 생기다"
                   ]
@@ -213,7 +213,7 @@
               "word": "happen to RV",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "우연히 ~하다"
                   ]
@@ -225,7 +225,7 @@
               "word": "It happens that S + V",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "우연히 ~하다"
                   ]
@@ -272,7 +272,7 @@
               "word": "try to RV",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~하려고 노력하다"
                   ]
@@ -284,7 +284,7 @@
               "word": "try RVing",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~을 시험 삼아 해보다"
                   ]
@@ -310,7 +310,7 @@
               "word": "take advantage of",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~을 이용하다"
                   ]
@@ -322,7 +322,7 @@
               "word": "take A for granted",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "A를 당연시 여기다"
                   ]
@@ -635,7 +635,7 @@
               "word": "realize that S + V",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~을 깨닫다"
                   ]
@@ -1471,7 +1471,7 @@
               "word": "prepare for",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~에 대비하다"
                   ]
@@ -1565,7 +1565,7 @@
               "word": "arrest A for B",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "B의 이유로 A를 체포하다"
                   ]
@@ -1643,7 +1643,7 @@
               "word": "seek to RV",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~하려고 애쓰다"
                   ]
@@ -5230,7 +5230,7 @@
               "word": "involve A in B",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "A를 B에 연류시키다"
                   ]
@@ -5322,18 +5322,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": 1773628841518,
-              "word": "cure A of B",
-              "meanings": [
-                {
-                  "partOfSpeech": "숙어",
-                  "definitions": [
-                    "A에게 B를 고치다"
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -5391,7 +5379,7 @@
               "word": "succeed in 명사 / RVing",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~에 성공하다"
                   ]
@@ -5403,7 +5391,7 @@
               "word": "succeed to 명사",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~을 계승하다"
                   ]
@@ -5429,7 +5417,7 @@
               "word": "provide A with B",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "A에게 B를 제공하다"
                   ]
@@ -5455,7 +5443,7 @@
               "word": "provided",
               "meanings": [
                 {
-                  "partOfSpeech": "형용사",
+                  "partOfSpeech": "접속사",
                   "definitions": [
                     "만약 ~이라면"
                   ]
@@ -5494,7 +5482,7 @@
               "word": "submit to + 명사",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~에 굴복하다"
                   ]
@@ -5546,7 +5534,7 @@
               "word": "apply to",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~에 적용되다"
                   ]
@@ -5558,7 +5546,7 @@
               "word": "apply for",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~에 지원하다",
                     "~을 신청하다"
@@ -5626,26 +5614,20 @@
               ]
             }
           ],
-          "related": []
-        },
-        {
-          "id": 1773120766836,
-          "word": "broadcast",
-          "meanings": [
+          "related": [
             {
-              "partOfSpeech": "동사",
-              "definitions": [
-                "방송하다"
-              ]
-            },
-            {
-              "partOfSpeech": "명사",
-              "definitions": [
-                "방송"
+              "id": 1773646292572,
+              "word": "astornishment",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "깜짝 놀람"
+                  ]
+                }
               ]
             }
-          ],
-          "related": []
+          ]
         },
         {
           "id": 1773120766837,
@@ -5737,10 +5719,23 @@
               "word": "rely on",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~에 의존하다",
                     "~에 의지하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292574,
+              "word": "reliance",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "믿음",
+                    "신뢰"
                   ]
                 }
               ]
@@ -5777,7 +5772,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292575,
+              "word": "share A with B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A와 B를 나누다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773120766845,
@@ -5791,7 +5799,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292576,
+              "word": "blockage",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "장애"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292577,
+              "word": "blockade",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "봉쇄"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773120766847,
@@ -5807,12 +5840,24 @@
           "related": [
             {
               "id": 1773120766846,
-              "word": "tourist attraction",
+              "word": "attraction",
               "meanings": [
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "관광 명소"
+                    "끌림"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292579,
+              "word": "attractive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "매력적인"
                   ]
                 }
               ]
@@ -5871,7 +5916,59 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292580,
+              "word": "imagination",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "상상력",
+                    "가상"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292581,
+              "word": "imaginary",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "상상에만 존재하는",
+                    "가상의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292582,
+              "word": "imaginative",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "창의적인",
+                    "상상력이 풍부한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292583,
+              "word": "imaginable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "상상할 수 있는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773124737021,
@@ -5887,13 +5984,13 @@
           "related": [
             {
               "id": 1773124737020,
-              "word": "announcer",
+              "word": "announcement",
               "meanings": [
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "아나운서",
-                    "진행자"
+                    "소식",
+                    "발표"
                   ]
                 }
               ]
@@ -6040,7 +6137,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292585,
+              "word": "search for",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~을 찾다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773124737031,
@@ -6053,7 +6163,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292586,
+              "word": "bliss",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "더없는 행복"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773124737032,
@@ -6160,6 +6283,25 @@
           ]
         },
         {
+          "id": 1773120766836,
+          "word": "broadcast",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "방송하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "방송"
+              ]
+            }
+          ],
+          "related": []
+        },
+        {
           "id": 1773124737040,
           "word": "increase",
           "meanings": [
@@ -6181,19 +6323,12 @@
           "related": [
             {
               "id": 1773124737039,
-              "word": "decrease",
+              "word": "increasingly",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "부사",
                   "definitions": [
-                    "감소하다",
-                    "감소시키다"
-                  ]
-                },
-                {
-                  "partOfSpeech": "명사",
-                  "definitions": [
-                    "감소"
+                    "점점 더"
                   ]
                 }
               ]
@@ -6220,12 +6355,24 @@
           "related": [
             {
               "id": 1773124737041,
-              "word": "maternity leave",
+              "word": "leave for",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "구문",
                   "definitions": [
-                    "출산 휴가"
+                    "~을 향해 떠나다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292589,
+              "word": "leave + 명사 + 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사를 ~한 상태로 내버려두다"
                   ]
                 }
               ]
@@ -6275,7 +6422,7 @@
               "word": "be satisfied with",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~에 대해 만족하다"
                   ]
@@ -6295,7 +6442,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292593,
+              "word": "scold A for B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "B의 이유로 A를 꾸짖다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773124737048,
@@ -6626,6 +6786,18 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773646292597,
+              "word": "commit oneself to 명사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~에 전념하다"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6685,7 +6857,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292598,
+              "word": "feed on",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~을 먹고 살다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773199079955,
@@ -6705,7 +6890,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292599,
+              "word": "meaning",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "의미"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292600,
+              "word": "mean to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~를 의도하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773199079956,
@@ -6721,10 +6931,22 @@
           "related": [
             {
               "id": 1773206722738,
-              "word": "go ~ing",
+              "word": "go + 형용사",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~한 상태가 되다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292602,
+              "word": "go RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~하러 가다"
                   ]
