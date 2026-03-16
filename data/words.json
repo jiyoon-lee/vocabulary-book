@@ -3274,7 +3274,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841426,
+              "word": "admiration",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "감탄",
+                    "존경"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773107260462,
