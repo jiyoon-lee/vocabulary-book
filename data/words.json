@@ -878,7 +878,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841340,
+              "word": "earning",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "소득"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 23,
