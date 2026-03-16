@@ -7059,7 +7059,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292606,
+              "word": "choice",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "선택"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773199079962,
