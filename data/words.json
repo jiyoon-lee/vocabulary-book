@@ -8475,7 +8475,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649486152,
+              "word": "bearable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "참을 수 있는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722796,
