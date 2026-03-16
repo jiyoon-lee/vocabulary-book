@@ -4612,7 +4612,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841494,
+              "word": "freezing",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "몹시 추운"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841495,
+              "word": "frost",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "서리"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103300,
