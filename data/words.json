@@ -2334,7 +2334,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841396,
+              "word": "reformer",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "개혁가"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841397,
+              "word": "reformation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "개혁",
+                    "개선"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 65,
