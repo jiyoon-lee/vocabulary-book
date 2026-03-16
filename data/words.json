@@ -2103,6 +2103,30 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773628841384,
+              "word": "regret to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~하게 되어 유감이다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841385,
+              "word": "regret RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~한 것을 후회하다"
+                  ]
+                }
+              ]
             }
           ]
         },
