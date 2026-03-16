@@ -4803,7 +4803,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841509,
+              "word": "weary",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "피로한",
+                    "지쳐있는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103306,
@@ -4982,6 +4996,34 @@
           ]
         },
         {
+          "id": 1773113103320,
+          "word": "arise",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "(문제",
+                "논쟁 등이) 일어나다",
+                "생기다"
+              ]
+            }
+          ],
+          "related": []
+        },
+        {
+          "id": 1773113103321,
+          "word": "suck",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "빨아들이다"
+              ]
+            }
+          ],
+          "related": []
+        },
+        {
           "id": 1773113103319,
           "word": "blame",
           "meanings": [
@@ -5014,34 +5056,6 @@
               ]
             }
           ]
-        },
-        {
-          "id": 1773113103320,
-          "word": "arise",
-          "meanings": [
-            {
-              "partOfSpeech": "동사",
-              "definitions": [
-                "(문제",
-                "논쟁 등이) 일어나다",
-                "생기다"
-              ]
-            }
-          ],
-          "related": []
-        },
-        {
-          "id": 1773113103321,
-          "word": "suck",
-          "meanings": [
-            {
-              "partOfSpeech": "동사",
-              "definitions": [
-                "빨아들이다"
-              ]
-            }
-          ],
-          "related": []
         },
         {
           "id": 1773628841508,
