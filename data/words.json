@@ -10117,7 +10117,59 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829580,
+              "word": "usage",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "용법",
+                    "사용"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829581,
+              "word": "useful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "유용한",
+                    "유능한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829582,
+              "word": "useless",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "소용없는",
+                    "쓸모없는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829583,
+              "word": "of no use",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "쓸모없는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722844,
