@@ -3661,12 +3661,13 @@
           "related": [
             {
               "id": 1773113103252,
-              "word": "break a leg",
+              "word": "brakage",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "명사",
                   "definitions": [
-                    "행운을 빌다"
+                    "파손",
+                    "손상"
                   ]
                 }
               ]
