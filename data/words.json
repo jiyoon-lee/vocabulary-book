@@ -2520,7 +2520,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841402,
+              "word": "failure",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "실패"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 71,
