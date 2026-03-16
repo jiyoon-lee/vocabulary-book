@@ -7728,7 +7728,44 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292620,
+              "word": "amazement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "놀람"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292621,
+              "word": "amazing",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "굉장한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292622,
+              "word": "be amazed at",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~에 놀라다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722769,
