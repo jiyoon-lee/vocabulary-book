@@ -8627,7 +8627,44 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649486159,
+              "word": "helpful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "유용한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649486160,
+              "word": "helping",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "도움; 한 그릇"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649486161,
+              "word": "help A with B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A가 B하는 것을 돕다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722800,
