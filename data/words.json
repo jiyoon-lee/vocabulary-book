@@ -8105,6 +8105,18 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773646292634,
+              "word": "fill A with B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A를 B로 채우다"
+                  ]
+                }
+              ]
             }
           ]
         },
