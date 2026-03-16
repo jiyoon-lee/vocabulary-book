@@ -9394,7 +9394,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829547,
+              "word": "growth",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "성장"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829548,
+              "word": "grow + 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~한 상태가 되다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829549,
+              "word": "grow + 식물",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~을 키우다",
+                    "재배하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722824,
