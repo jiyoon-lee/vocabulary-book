@@ -4780,6 +4780,68 @@
           ]
         },
         {
+          "id": 1773628841508,
+          "word": "know",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "알다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773628841504,
+              "word": "knowledge",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "지식"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841505,
+              "word": "known",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "(이름이) 알려진"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841506,
+              "word": "know of / about",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~에 대하여 알고 있다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841507,
+              "word": "be known to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~하는 것으로 알려져 있다"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": 1773113103304,
           "word": "throw",
           "meanings": [
@@ -5031,34 +5093,6 @@
           ]
         },
         {
-          "id": 1773113103320,
-          "word": "arise",
-          "meanings": [
-            {
-              "partOfSpeech": "동사",
-              "definitions": [
-                "(문제",
-                "논쟁 등이) 일어나다",
-                "생기다"
-              ]
-            }
-          ],
-          "related": []
-        },
-        {
-          "id": 1773113103321,
-          "word": "suck",
-          "meanings": [
-            {
-              "partOfSpeech": "동사",
-              "definitions": [
-                "빨아들이다"
-              ]
-            }
-          ],
-          "related": []
-        },
-        {
           "id": 1773113103319,
           "word": "blame",
           "meanings": [
@@ -5093,66 +5127,32 @@
           ]
         },
         {
-          "id": 1773628841508,
-          "word": "know",
+          "id": 1773113103320,
+          "word": "arise",
           "meanings": [
             {
               "partOfSpeech": "동사",
               "definitions": [
-                "알다"
+                "(문제",
+                "논쟁 등이) 일어나다",
+                "생기다"
               ]
             }
           ],
-          "related": [
+          "related": []
+        },
+        {
+          "id": 1773113103321,
+          "word": "suck",
+          "meanings": [
             {
-              "id": 1773628841504,
-              "word": "knowledge",
-              "meanings": [
-                {
-                  "partOfSpeech": "명사",
-                  "definitions": [
-                    "지식"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1773628841505,
-              "word": "known",
-              "meanings": [
-                {
-                  "partOfSpeech": "형용사",
-                  "definitions": [
-                    "(이름이) 알려진"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1773628841506,
-              "word": "know of / about",
-              "meanings": [
-                {
-                  "partOfSpeech": "숙어",
-                  "definitions": [
-                    "~에 대하여 알고 있다"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1773628841507,
-              "word": "be known to RV",
-              "meanings": [
-                {
-                  "partOfSpeech": "숙어",
-                  "definitions": [
-                    "~하는 것으로 알려져 있다"
-                  ]
-                }
+              "partOfSpeech": "동사",
+              "definitions": [
+                "빨아들이다"
               ]
             }
-          ]
+          ],
+          "related": []
         }
       ]
     },
@@ -8660,6 +8660,30 @@
                   "partOfSpeech": "구문",
                   "definitions": [
                     "A가 B하는 것을 돕다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829513,
+              "word": "help [to] RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~하는 것을 돕다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829514,
+              "word": "help 명사 [to] RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~하는 것을 돕다"
                   ]
                 }
               ]
