@@ -7852,12 +7852,25 @@
           "related": [
             {
               "id": 1773206722772,
-              "word": "reflect",
+              "word": "absorbed",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "형용사",
                   "definitions": [
-                    "반사하다"
+                    "마음을 빼앗긴",
+                    "열중한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292625,
+              "word": "absorption",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "흡수; 열중"
                   ]
                 }
               ]
