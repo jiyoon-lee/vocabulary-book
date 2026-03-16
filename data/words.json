@@ -8595,7 +8595,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649486158,
+              "word": "watch 명사 RV / RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~하는 것을 보다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722799,
