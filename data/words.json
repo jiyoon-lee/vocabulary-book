@@ -5799,7 +5799,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292576,
+              "word": "blockage",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "장애"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292577,
+              "word": "blockade",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "봉쇄"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773120766847,
