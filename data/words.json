@@ -9458,7 +9458,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829550,
+              "word": "writing",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "집필",
+                    "작품"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722826,
