@@ -7412,24 +7412,13 @@
           "related": [
             {
               "id": 1773206722749,
-              "word": "inhale",
+              "word": "breath",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "명사",
                   "definitions": [
-                    "들이마시다"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1773206722750,
-              "word": "exhale",
-              "meanings": [
-                {
-                  "partOfSpeech": "동사",
-                  "definitions": [
-                    "내쉬다"
+                    "숨",
+                    "호흡"
                   ]
                 }
               ]
