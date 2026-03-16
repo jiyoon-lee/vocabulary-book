@@ -3099,7 +3099,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841415,
+              "word": "coverage",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "(보험 등) 적용 범위; 취재",
+                    "보도"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773107260453,
