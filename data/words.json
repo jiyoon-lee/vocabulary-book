@@ -397,12 +397,12 @@
           "related": [
             {
               "id": 111,
-              "word": "increase",
+              "word": "decreasing",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "형용사",
                   "definitions": [
-                    "증가하다"
+                    "감소하는"
                   ]
                 }
               ]
