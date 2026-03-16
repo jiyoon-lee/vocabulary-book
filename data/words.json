@@ -3606,7 +3606,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841442,
+              "word": "argument",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "논쟁",
+                    "언쟁"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841443,
+              "word": "argue with 사람",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~와 논쟁하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841444,
+              "word": "argue that S + V",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~라고 주장하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103253,
