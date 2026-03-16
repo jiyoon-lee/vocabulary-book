@@ -24,6 +24,44 @@ function nextId() {
 
 // Drag state
 let _drag = null;
+let _insertLine = null;
+
+function getInsertLine() {
+  if (!_insertLine) {
+    _insertLine = document.createElement("div");
+    _insertLine.style.cssText =
+      "position:fixed;height:3px;background:#6366f1;border-radius:2px;pointer-events:none;z-index:1001;display:none;";
+    document.body.appendChild(_insertLine);
+  }
+  return _insertLine;
+}
+
+function showInsertLine(cards, targetIdx) {
+  const line = getInsertLine();
+  let refRect;
+  let y;
+  if (targetIdx === 0) {
+    refRect = cards[0].getBoundingClientRect();
+    y = refRect.top - 2;
+  } else if (targetIdx >= cards.length) {
+    refRect = cards[cards.length - 1].getBoundingClientRect();
+    y = refRect.bottom - 1;
+  } else {
+    const above = cards[targetIdx - 1].getBoundingClientRect();
+    const below = cards[targetIdx].getBoundingClientRect();
+    y = (above.bottom + below.top) / 2 - 1;
+    refRect = above;
+  }
+  line.style.top = y + "px";
+  line.style.left = (refRect || cards[0].getBoundingClientRect()).left + "px";
+  line.style.width =
+    (refRect || cards[0].getBoundingClientRect()).width + "px";
+  line.style.display = "block";
+}
+
+function hideInsertLine() {
+  if (_insertLine) _insertLine.style.display = "none";
+}
 
 // Peek (정답보기) state
 const _origHtml = {}; // key -> original iw- div innerHTML
@@ -1104,23 +1142,25 @@ function onDragMove(e) {
 
   const container = document.getElementById("word-list");
   const cards = [...container.querySelectorAll("[data-word-id]")];
-  cards.forEach((c) => c.classList.remove("drag-over"));
-  for (const card of cards) {
-    if (card === _drag.el) continue;
-    const rect = card.getBoundingClientRect();
-    if (e.clientY >= rect.top && e.clientY < rect.bottom) {
-      card.classList.add("drag-over");
+
+  let targetIdx = cards.length;
+  for (let i = 0; i < cards.length; i++) {
+    const rect = cards[i].getBoundingClientRect();
+    if (e.clientY < rect.top + rect.height / 2) {
+      targetIdx = i;
       break;
     }
   }
+  showInsertLine(cards, targetIdx);
 }
 
 function onDragEnd(e) {
   if (!_drag) return;
 
+  hideInsertLine();
+
   const container = document.getElementById("word-list");
   const cards = [...container.querySelectorAll("[data-word-id]")];
-  cards.forEach((c) => c.classList.remove("drag-over"));
 
   // Find drop index
   let targetIdx = cards.length;
