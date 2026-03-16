@@ -594,21 +594,44 @@
             {
               "partOfSpeech": "동사",
               "definitions": [
-                "깨닫다",
-                "실현하다"
+                "깨닫다; 실현하다"
               ]
             }
           ],
           "related": [
             {
               "id": 112,
+              "word": "realization",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "깨달음",
+                    "실현"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841328,
               "word": "real",
               "meanings": [
                 {
                   "partOfSpeech": "형용사",
                   "definitions": [
-                    "진짜의",
-                    "현실적인"
+                    "진짜의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841329,
+              "word": "realize that S + V",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~을 깨닫다"
                   ]
                 }
               ]
