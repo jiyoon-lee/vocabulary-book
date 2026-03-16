@@ -3781,7 +3781,19 @@
                 {
                   "partOfSpeech": "숙어",
                   "definitions": [
-                    "명사가 ~하는 것을 듣사"
+                    "명사가 ~하는 것을 듣다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841458,
+              "word": "hear of / about",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~에 대해 듣다"
                   ]
                 }
               ]
