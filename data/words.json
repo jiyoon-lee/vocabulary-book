@@ -9889,7 +9889,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829568,
+              "word": "run + 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~한 상태로 변하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722840,
