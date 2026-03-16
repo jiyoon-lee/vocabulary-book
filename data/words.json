@@ -9830,7 +9830,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829566,
+              "word": "fallacy",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "오류"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829567,
+              "word": "fallacious",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "그릇된"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722838,
