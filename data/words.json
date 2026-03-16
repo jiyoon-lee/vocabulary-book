@@ -2242,12 +2242,13 @@
           "related": [
             {
               "id": 206,
-              "word": "lend",
+              "word": "borrower",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "명사",
                   "definitions": [
-                    "빌려주다"
+                    "차용자",
+                    "대출자"
                   ]
                 }
               ]
