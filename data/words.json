@@ -8410,12 +8410,25 @@
           "related": [
             {
               "id": 1773206722792,
-              "word": "visitor",
+              "word": "visiting",
               "meanings": [
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "방문객"
+                    "방문",
+                    "시찰"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649486150,
+              "word": "pay a visit to",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~에 방문하다"
                   ]
                 }
               ]
