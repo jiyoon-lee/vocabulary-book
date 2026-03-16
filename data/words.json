@@ -956,7 +956,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841342,
+              "word": "expression",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "표현",
+                    "표정"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 26,
