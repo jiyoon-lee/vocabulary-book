@@ -1960,6 +1960,30 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773628841379,
+              "word": "decide to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~할 것을 결정하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841380,
+              "word": "decide on 명사",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~에 관하여 결정하다"
+                  ]
+                }
+              ]
             }
           ]
         },
