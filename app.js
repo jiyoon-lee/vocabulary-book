@@ -1182,6 +1182,7 @@ function onDragEnd(e) {
       cat.words.splice(toIdx, 0, word);
       currentCategory = cat;
       saveData();
+      syncToGitHub();
     }
   }
 
