@@ -7503,7 +7503,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292618,
+              "word": "fastening",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "잠그는 물건",
+                    "잠금"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722756,
