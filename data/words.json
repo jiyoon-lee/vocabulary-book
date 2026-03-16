@@ -3485,6 +3485,30 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773628841436,
+              "word": "convice + 명사 + that S + V",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "명사에게 ~한 사실을 확신시키다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841437,
+              "word": "convince A of B",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "A에게 B를 확신시키다"
+                  ]
+                }
+              ]
             }
           ]
         },
