@@ -4102,7 +4102,62 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841474,
+              "word": "relative",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "상대적인"
+                  ]
+                },
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "친척"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841475,
+              "word": "related",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "관계있는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841476,
+              "word": "relation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "관계"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841477,
+              "word": "relate A with B",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "A와 B를 관계시키다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103276,
