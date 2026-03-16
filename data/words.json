@@ -6137,7 +6137,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292585,
+              "word": "search for",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~을 찾다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773124737031,
