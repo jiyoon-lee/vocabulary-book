@@ -3698,7 +3698,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841448,
+              "word": "keep + 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~한 상태를 유지하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103255,
