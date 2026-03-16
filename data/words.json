@@ -9564,7 +9564,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829554,
+              "word": "rememberance",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "기억",
+                    "추모"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829555,
+              "word": "remember to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~할 것을 기억하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829556,
+              "word": "remember RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~한 것을 기억하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722830,
