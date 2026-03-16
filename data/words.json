@@ -3355,7 +3355,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841428,
+              "word": "assembly",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "의회",
+                    "집회"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
