@@ -3849,7 +3849,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841462,
+              "word": "appearent",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "분명한",
+                    "외견상의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841463,
+              "word": "appear + [to be] 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~한 것처럼 보이다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841464,
+              "word": "It appears that S + V",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~인 것처럼 보이다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103259,
