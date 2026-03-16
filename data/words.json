@@ -9170,7 +9170,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829534,
+              "word": "moving",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "움직이는; 감동시키는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722817,
