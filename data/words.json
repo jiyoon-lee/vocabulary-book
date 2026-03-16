@@ -5840,12 +5840,24 @@
           "related": [
             {
               "id": 1773120766846,
-              "word": "tourist attraction",
+              "word": "attraction",
               "meanings": [
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "관광 명소"
+                    "끌림"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292579,
+              "word": "attractive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "매력적인"
                   ]
                 }
               ]
