@@ -84,25 +84,24 @@
           "related": [
             {
               "id": 103,
-              "word": "believable",
+              "word": "belief",
               "meanings": [
                 {
-                  "partOfSpeech": "형용사",
+                  "partOfSpeech": "명사",
                   "definitions": [
-                    "믿을 수 있는"
+                    "믿음"
                   ]
                 }
               ]
             },
             {
               "id": 104,
-              "word": "unbelievable",
+              "word": "believable",
               "meanings": [
                 {
                   "partOfSpeech": "형용사",
                   "definitions": [
-                    "믿을 수 없는",
-                    "믿기 어려운"
+                    "믿을 수 있는"
                   ]
                 }
               ]
