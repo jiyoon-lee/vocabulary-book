@@ -204,13 +204,24 @@
           "related": [
             {
               "id": 107,
-              "word": "happening",
+              "word": "happen to RV",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "숙어",
                   "definitions": [
-                    "(예기치못한) 사건",
-                    "일"
+                    "우연히 ~하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841309,
+              "word": "It happens that S + V",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "우연히 ~하다"
                   ]
                 }
               ]
