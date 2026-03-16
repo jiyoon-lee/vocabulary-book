@@ -8002,7 +8002,44 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292629,
+              "word": "complaint",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "불평"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292630,
+              "word": "complain of / about",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~에 대해 불평하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292631,
+              "word": "complain that S + V",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~라는 사실에 대해 불평하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722782,
