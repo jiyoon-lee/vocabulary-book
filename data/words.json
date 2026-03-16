@@ -1796,7 +1796,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841362,
+              "word": "leader",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "지도자"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 52,
