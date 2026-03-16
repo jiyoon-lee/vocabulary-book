@@ -506,7 +506,48 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841322,
+              "word": "creation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "창조",
+                    "창작",
+                    "창출"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841323,
+              "word": "creature",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "창조물",
+                    "생물"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841324,
+              "word": "creative",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "창조적인",
+                    "창의적인"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 14,
