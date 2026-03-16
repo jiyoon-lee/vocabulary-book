@@ -4653,12 +4653,49 @@
           "related": [
             {
               "id": 1773113103299,
+              "word": "consistent",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "불변한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841497,
+              "word": "consistency",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "일관성"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841498,
               "word": "consist of",
               "meanings": [
                 {
                   "partOfSpeech": "숙어",
                   "definitions": [
                     "~로 구성되다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841499,
+              "word": "consist in",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~에 있다",
+                    "존재하다"
                   ]
                 }
               ]
