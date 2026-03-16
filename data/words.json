@@ -3408,7 +3408,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841429,
+              "word": "struggle with",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~하는 데 안간힘을 쓰다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773112939201,
