@@ -9107,7 +9107,57 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829530,
+              "word": "shower",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "소나기"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829531,
+              "word": "showing",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "전시",
+                    "상영"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829532,
+              "word": "show up",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "등장하다; 폭로하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829533,
+              "word": "show off",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "자랑하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722816,
