@@ -3950,7 +3950,35 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841470,
+              "word": "appreciation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "감탄",
+                    "감상",
+                    "공감",
+                    "감사"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841471,
+              "word": "appreciative",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "감시하는; 감상할 줄 아는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103262,
