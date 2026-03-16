@@ -2879,12 +2879,13 @@
           "related": [
             {
               "id": 1773107260440,
-              "word": "appear",
+              "word": "disappearance",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "명사",
                   "definitions": [
-                    "나타나다; ~처럼 보이다"
+                    "사라짐",
+                    "소실"
                   ]
                 }
               ]
