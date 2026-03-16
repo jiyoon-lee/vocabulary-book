@@ -6323,19 +6323,12 @@
           "related": [
             {
               "id": 1773124737039,
-              "word": "decrease",
+              "word": "increasingly",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "부사",
                   "definitions": [
-                    "감소하다",
-                    "감소시키다"
-                  ]
-                },
-                {
-                  "partOfSpeech": "명사",
-                  "definitions": [
-                    "감소"
+                    "점점 더"
                   ]
                 }
               ]
