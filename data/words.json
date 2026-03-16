@@ -2374,7 +2374,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841398,
+              "word": "celebration",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "기념행사",
+                    "축하행서"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 66,
