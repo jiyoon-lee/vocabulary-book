@@ -1884,7 +1884,44 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841371,
+              "word": "seem to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~하는 것처럼 보이다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841372,
+              "word": "seem + 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~한 상태로 보이다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841373,
+              "word": "It seems that S + V",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~한 것 같다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 54,
