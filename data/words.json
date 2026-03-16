@@ -10059,7 +10059,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829577,
+              "word": "needy",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "어려운",
+                    "궁핍한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829578,
+              "word": "need to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~할 필요가 있다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829579,
+              "word": "need RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~될 필요가 있다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722843,
