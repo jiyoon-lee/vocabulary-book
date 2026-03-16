@@ -1975,7 +1975,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841374,
+              "word": "insistant",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "고집하는",
+                    "우기는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 56,
