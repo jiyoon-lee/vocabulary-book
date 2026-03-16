@@ -4975,7 +4975,34 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841513,
+              "word": "enclose",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "두드리다",
+                    "동봉하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841514,
+              "word": "closely",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "접근하여",
+                    "엄밀히"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773113103317,
