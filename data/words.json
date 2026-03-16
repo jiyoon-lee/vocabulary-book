@@ -6857,7 +6857,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292598,
+              "word": "feed on",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~을 먹고 살다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773199079955,
