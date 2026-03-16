@@ -9642,7 +9642,57 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829558,
+              "word": "speaker",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "연설자"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829559,
+              "word": "speech",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "연설",
+                    "담화"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829560,
+              "word": "speak of",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~에 관하여 말하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829561,
+              "word": "speak ill of",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~에 대해 험담하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722833,
