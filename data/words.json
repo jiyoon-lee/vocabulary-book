@@ -10234,7 +10234,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829586,
+              "word": "forgetful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "잘 잊는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
