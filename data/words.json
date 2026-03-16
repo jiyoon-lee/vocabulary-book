@@ -3304,24 +3304,12 @@
           "related": [
             {
               "id": 1773107260460,
-              "word": "exclude",
+              "word": "including",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "전치사",
                   "definitions": [
-                    "제외하다"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1773107260461,
-              "word": "tax included",
-              "meanings": [
-                {
-                  "partOfSpeech": "명사",
-                  "definitions": [
-                    "세금 포함"
+                    "~을 포함하여"
                   ]
                 }
               ]
