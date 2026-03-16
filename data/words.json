@@ -9708,12 +9708,25 @@
           "related": [
             {
               "id": 1773206722832,
-              "word": "pull",
+              "word": "pushing",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "형용사",
                   "definitions": [
-                    "당기다"
+                    "진취적인; 주제넘은"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829563,
+              "word": "pushy",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "지나치게 밀어붙이는",
+                    "강요하려 드는"
                   ]
                 }
               ]
