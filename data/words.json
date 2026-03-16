@@ -420,7 +420,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773628841319,
+              "word": "improvement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "향상",
+                    "개선"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841320,
+              "word": "improvable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "개선할 수 있는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 11,
