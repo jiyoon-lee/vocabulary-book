@@ -128,7 +128,21 @@
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
+                    "입구",
                     "출입구"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841305,
+              "word": "entry",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "입장",
+                    "출입"
                   ]
                 }
               ]
