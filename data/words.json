@@ -4668,7 +4668,7 @@
               "word": "consistency",
               "meanings": [
                 {
-                  "partOfSpeech": "명사",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "일관성"
                   ]
@@ -4680,7 +4680,7 @@
               "word": "consist of",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~로 구성되다"
                   ]
@@ -4731,7 +4731,7 @@
               "word": "laugh at",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
                     "~를 비웃다"
                   ]
@@ -4773,6 +4773,68 @@
                   "partOfSpeech": "명사",
                   "definitions": [
                     "집착"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1773628841508,
+          "word": "know",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "알다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1773628841504,
+              "word": "knowledge",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "지식"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841505,
+              "word": "known",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "(이름이) 알려진"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841506,
+              "word": "know of / about",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~에 대하여 알고 있다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773628841507,
+              "word": "be known to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "숙어",
+                  "definitions": [
+                    "~하는 것으로 알려져 있다"
                   ]
                 }
               ]
@@ -5031,34 +5093,6 @@
           ]
         },
         {
-          "id": 1773113103320,
-          "word": "arise",
-          "meanings": [
-            {
-              "partOfSpeech": "동사",
-              "definitions": [
-                "(문제",
-                "논쟁 등이) 일어나다",
-                "생기다"
-              ]
-            }
-          ],
-          "related": []
-        },
-        {
-          "id": 1773113103321,
-          "word": "suck",
-          "meanings": [
-            {
-              "partOfSpeech": "동사",
-              "definitions": [
-                "빨아들이다"
-              ]
-            }
-          ],
-          "related": []
-        },
-        {
           "id": 1773113103319,
           "word": "blame",
           "meanings": [
@@ -5093,66 +5127,32 @@
           ]
         },
         {
-          "id": 1773628841508,
-          "word": "know",
+          "id": 1773113103320,
+          "word": "arise",
           "meanings": [
             {
               "partOfSpeech": "동사",
               "definitions": [
-                "알다"
+                "(문제",
+                "논쟁 등이) 일어나다",
+                "생기다"
               ]
             }
           ],
-          "related": [
+          "related": []
+        },
+        {
+          "id": 1773113103321,
+          "word": "suck",
+          "meanings": [
             {
-              "id": 1773628841504,
-              "word": "knowledge",
-              "meanings": [
-                {
-                  "partOfSpeech": "명사",
-                  "definitions": [
-                    "지식"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1773628841505,
-              "word": "known",
-              "meanings": [
-                {
-                  "partOfSpeech": "형용사",
-                  "definitions": [
-                    "(이름이) 알려진"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1773628841506,
-              "word": "know of / about",
-              "meanings": [
-                {
-                  "partOfSpeech": "숙어",
-                  "definitions": [
-                    "~에 대하여 알고 있다"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1773628841507,
-              "word": "be known to RV",
-              "meanings": [
-                {
-                  "partOfSpeech": "숙어",
-                  "definitions": [
-                    "~하는 것으로 알려져 있다"
-                  ]
-                }
+              "partOfSpeech": "동사",
+              "definitions": [
+                "빨아들이다"
               ]
             }
-          ]
+          ],
+          "related": []
         }
       ]
     },
@@ -7007,7 +7007,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292603,
+              "word": "bring 명사 to mind",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~를 상기시키다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292604,
+              "word": "bring A into B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A를 B의 상태가 되게 하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292605,
+              "word": "bring about 명사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~를 야기하다",
+                    "초래하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773199079961,
@@ -7021,7 +7059,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292606,
+              "word": "choice",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "선택"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773199079962,
@@ -7035,7 +7086,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292607,
+              "word": "wandering",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "돌아다니는",
+                    "방랑하는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773199079964,
@@ -7121,6 +7186,19 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773646292609,
+              "word": "founder",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "창립자",
+                    "설립자"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -7202,7 +7280,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292610,
+              "word": "denial",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "부인; 거절"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722742,
@@ -7234,7 +7325,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292611,
+              "word": "ammusement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "재미",
+                    "놀이"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722747,
@@ -7250,19 +7355,6 @@
           "related": [
             {
               "id": 1773206722744,
-              "word": "adapt",
-              "meanings": [
-                {
-                  "partOfSpeech": "동사",
-                  "definitions": [
-                    "적용하다; 맞추다",
-                    "조정하다"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1773206722745,
               "word": "adoption",
               "meanings": [
                 {
@@ -7270,18 +7362,6 @@
                   "definitions": [
                     "입양",
                     "채택"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1773206722746,
-              "word": "adaptation",
-              "meanings": [
-                {
-                  "partOfSpeech": "명사",
-                  "definitions": [
-                    "적용"
                   ]
                 }
               ]
@@ -7300,7 +7380,22 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292613,
+              "word": "achievement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "업적",
+                    "성취",
+                    "달성"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722751,
@@ -7317,24 +7412,13 @@
           "related": [
             {
               "id": 1773206722749,
-              "word": "inhale",
+              "word": "breath",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "명사",
                   "definitions": [
-                    "들이마시다"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1773206722750,
-              "word": "exhale",
-              "meanings": [
-                {
-                  "partOfSpeech": "동사",
-                  "definitions": [
-                    "내쉬다"
+                    "숨",
+                    "호흡"
                   ]
                 }
               ]
@@ -7353,7 +7437,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292615,
+              "word": "declaration",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "선언",
+                    "맹세"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722753,
@@ -7366,7 +7464,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292616,
+              "word": "destruction",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "파괴",
+                    "말살"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292617,
+              "word": "destructive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "파괴적인"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722754,
@@ -7379,7 +7503,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292618,
+              "word": "fastening",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "잠그는 물건",
+                    "잠금"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722756,
@@ -7404,9 +7542,8 @@
               "word": "focus on",
               "meanings": [
                 {
-                  "partOfSpeech": "숙어",
+                  "partOfSpeech": "구문",
                   "definitions": [
-                    "~에 초점을 맞추다",
                     "~에 집중하다"
                   ]
                 }
@@ -7574,7 +7711,7 @@
               "partOfSpeech": "명사",
               "definitions": [
                 "높이; 고저",
-                "가"
+                "가락"
               ]
             }
           ],
@@ -7591,7 +7728,44 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292620,
+              "word": "amazement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "놀람"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292621,
+              "word": "amazing",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "굉장한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292622,
+              "word": "be amazed at",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~에 놀라다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722769,
@@ -7610,7 +7784,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292623,
+              "word": "decline to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~하는 것을 정중히 사양하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722770,
@@ -7665,12 +7852,25 @@
           "related": [
             {
               "id": 1773206722772,
-              "word": "reflect",
+              "word": "absorbed",
               "meanings": [
                 {
-                  "partOfSpeech": "동사",
+                  "partOfSpeech": "형용사",
                   "definitions": [
-                    "반사하다"
+                    "마음을 빼앗긴",
+                    "열중한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292625,
+              "word": "absorption",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "흡수; 열중"
                   ]
                 }
               ]
@@ -7720,6 +7920,19 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773646292627,
+              "word": "covernor",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "통치자",
+                    "주지사"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -7742,7 +7955,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292628,
+              "word": "transferable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "이동 가능한",
+                    "양도할 수 있는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722778,
@@ -7775,7 +8002,44 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292629,
+              "word": "complaint",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "불평"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292630,
+              "word": "complain of / about",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~에 대해 불평하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292631,
+              "word": "complain that S + V",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~라는 사실에 대해 불평하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722782,
@@ -7829,7 +8093,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292632,
+              "word": "full",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "가득찬"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292634,
+              "word": "fill A with B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A를 B로 채우다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722784,
@@ -7857,7 +8146,34 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292635,
+              "word": "loss",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "분실",
+                    "상실",
+                    "손실"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292637,
+              "word": "be lost",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "길을 잃다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722788,
@@ -7902,6 +8218,42 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773646292640,
+              "word": "look upon A as B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A를 B로 간주하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292641,
+              "word": "look + 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~한 상태로 보이다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292642,
+              "word": "look like 명사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사처럼 보이다"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -7916,7 +8268,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292643,
+              "word": "stop RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~하던 것을 멈추다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292644,
+              "word": "stop 명사 from RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~하는 것을 막다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722790,
@@ -7929,7 +8306,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292645,
+              "word": "received",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "인정을 받고있는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292646,
+              "word": "receipt",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "영수증"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292647,
+              "word": "receiver",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "수령인",
+                    "수신기"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722791,
@@ -7942,7 +8357,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773646292648,
+              "word": "put on",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "착용하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773646292649,
+              "word": "put off",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "미루다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7970,12 +8410,25 @@
           "related": [
             {
               "id": 1773206722792,
-              "word": "visitor",
+              "word": "visiting",
               "meanings": [
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "방문객"
+                    "방문",
+                    "시찰"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649486150,
+              "word": "pay a visit to",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~에 방문하다"
                   ]
                 }
               ]
@@ -7993,7 +8446,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649486151,
+              "word": "winning",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "승리",
+                    "성공"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722795,
@@ -8008,7 +8475,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649486152,
+              "word": "bearable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "참을 수 있는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722796,
@@ -8021,7 +8501,44 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649486153,
+              "word": "finding",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "발견물"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649486154,
+              "word": "find 명사 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~한 상태임을 알다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649486155,
+              "word": "find it 형용사 to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "RV하는 것이 ~하다고 생각하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722797,
@@ -8034,7 +8551,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649486156,
+              "word": "catch + 명사 + RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~하는 것을 목격하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649486157,
+              "word": "be caught RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~하다가 붙잡히다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722798,
@@ -8053,7 +8595,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649486158,
+              "word": "watch 명사 RV / RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~하는 것을 보다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722799,
@@ -8072,7 +8627,68 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649486159,
+              "word": "helpful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "유용한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649486160,
+              "word": "helping",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "도움; 한 그릇"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649486161,
+              "word": "help A with B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A가 B하는 것을 돕다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829513,
+              "word": "help [to] RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~하는 것을 돕다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829514,
+              "word": "help 명사 [to] RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~하는 것을 돕다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722800,
@@ -8085,7 +8701,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829515,
+              "word": "picky",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "까다로운"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722801,
