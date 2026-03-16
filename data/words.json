@@ -9525,7 +9525,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773649829552,
+              "word": "hatred",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "증오감",
+                    "혐오감"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773649829553,
+              "word": "hateful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "혐오스러운"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722829,
