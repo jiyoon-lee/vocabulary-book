@@ -11904,7 +11904,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431515,
+              "word": "excited",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "흥분한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431516,
+              "word": "excitement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "흥분",
+                    "신남"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431517,
+              "word": "be excited at",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~때문에 신나다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722902,
