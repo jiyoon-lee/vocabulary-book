@@ -11562,7 +11562,32 @@
                   "partOfSpeech": "형용사",
                   "definitions": [
                     "쉬운",
-                    "수월한"
+                    "용이한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431502,
+              "word": "ease A of B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A에게서 B를 덜어주다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431503,
+              "word": "ease oneself",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "안심하다",
+                    "마음을 놓다"
                   ]
                 }
               ]
