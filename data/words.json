@@ -11491,7 +11491,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431508,
+              "word": "gathering",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "모임",
+                    "집회"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722886,
