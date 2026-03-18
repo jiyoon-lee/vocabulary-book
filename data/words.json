@@ -11133,7 +11133,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431482,
+              "word": "combined",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "결합한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431483,
+              "word": "combination",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "조합",
+                    "결합"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431484,
+              "word": "combine A with B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A와 B를 합치다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722872,
