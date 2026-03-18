@@ -11232,7 +11232,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431487,
+              "word": "spelling",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "철자법"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722874,
