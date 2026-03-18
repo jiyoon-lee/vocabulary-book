@@ -11607,7 +11607,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431495,
+              "word": "follower",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "추종자"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431496,
+              "word": "following",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "~후에"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722894,
