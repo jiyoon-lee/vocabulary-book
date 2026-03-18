@@ -10731,7 +10731,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431463,
+              "word": "spending",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "지출",
+                    "소비"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431464,
+              "word": "spend 시간 [in] RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~하는데 시간을 보내다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722856,
