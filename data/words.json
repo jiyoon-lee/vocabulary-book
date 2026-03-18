@@ -10824,7 +10824,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431468,
+              "word": "acknowledgement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "인정",
+                    "감사"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722861,
