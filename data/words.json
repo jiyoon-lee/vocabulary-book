@@ -12195,12 +12195,49 @@
           "related": [
             {
               "id": 1773286796474,
-              "word": "feelings",
+              "word": "feeling",
               "meanings": [
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "감정"
+                    "촉감; 감정"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773851676013,
+              "word": "feel + 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~하게 느끼다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773851676014,
+              "word": "feel 명사 RV/RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~하는 것을 느끼다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773851676015,
+              "word": "feel like RVing",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~하고 싶어 하다",
+                    "~한 느낌이 들다"
                   ]
                 }
               ]
