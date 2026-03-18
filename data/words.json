@@ -10917,7 +10917,34 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431473,
+              "word": "reflection",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "반영",
+                    "반사"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431474,
+              "word": "reflective",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "반사하는",
+                    "반영하는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722863,
