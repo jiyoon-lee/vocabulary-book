@@ -11644,7 +11644,7 @@
         },
         {
           "id": 1773206722896,
-          "word": "appoximate",
+          "word": "approximate",
           "meanings": [
             {
               "partOfSpeech": "동사",
@@ -11653,7 +11653,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431494,
+              "word": "approximately",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "거의",
+                    "대략"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722897,
