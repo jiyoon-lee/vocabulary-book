@@ -10405,7 +10405,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431437,
+              "word": "finite",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "한정된",
+                    "유한한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431438,
+              "word": "finishing",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "최후의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431439,
+              "word": "be finished with",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~을 끝내다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722851,
