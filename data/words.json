@@ -10770,7 +10770,47 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431465,
+              "word": "settled",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "정해진",
+                    "고정된"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431466,
+              "word": "settlement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "정착",
+                    "합의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431467,
+              "word": "settler",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "식민지",
+                    "개척자"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722857,
