@@ -12255,7 +12255,70 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773851676016,
+              "word": "holder",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "소유자"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773851676017,
+              "word": "holding",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "소유",
+                    "보유"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773851676018,
+              "word": "hold that S + V",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~을 주장하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773851676019,
+              "word": "hold 명사 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~하다고 간주하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773851676020,
+              "word": "hold on to 명사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "고수하다",
+                    "집착하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796475,
