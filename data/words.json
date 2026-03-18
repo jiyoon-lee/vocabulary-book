@@ -10456,7 +10456,68 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431440,
+              "word": "thought",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "생각"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431441,
+              "word": "thinker",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "사상가"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431442,
+              "word": "it is thought to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~라고 여겨지다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431443,
+              "word": "it is thought that S + V",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~라고 생각되다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431444,
+              "word": "think of A as B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A를 B라고 여기다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722852,
