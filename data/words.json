@@ -11477,7 +11477,47 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431509,
+              "word": "existence",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "존재",
+                    "현존"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431510,
+              "word": "existent",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "존재하는",
+                    "현존하는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431511,
+              "word": "existing",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "기존의",
+                    "현재 사용되는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722885,
