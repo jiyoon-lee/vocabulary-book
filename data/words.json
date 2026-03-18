@@ -10855,39 +10855,50 @@
           "related": [
             {
               "id": 1773206722858,
-              "word": "attendance",
-              "meanings": [
-                {
-                  "partOfSpeech": "명사",
-                  "definitions": [
-                    "출석",
-                    "참석"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1773206722859,
               "word": "attention",
               "meanings": [
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "주의(집중)",
+                    "주의",
                     "주목"
                   ]
                 }
               ]
             },
             {
-              "id": 1773206722860,
+              "id": 1773206722859,
               "word": "attendant",
               "meanings": [
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "종업원",
-                    "안내원"
+                    "종업원"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773206722860,
+              "word": "attend on 명사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~을 시중들다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431472,
+              "word": "attend to 명사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "주의하다",
+                    "보살피다"
                   ]
                 }
               ]
