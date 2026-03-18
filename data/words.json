@@ -11093,6 +11093,31 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773798431480,
+              "word": "competitive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "경쟁의",
+                    "경쟁에 의한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431481,
+              "word": "competent",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "유능한"
+                  ]
+                }
+              ]
             }
           ]
         },
