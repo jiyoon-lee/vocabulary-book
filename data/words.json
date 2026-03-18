@@ -10617,7 +10617,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431455,
+              "word": "have to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~해야 한다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722854,
