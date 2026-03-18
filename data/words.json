@@ -10317,6 +10317,42 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773798431432,
+              "word": "inviting",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "마음을 끄는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431433,
+              "word": "invite 명사 to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~하도록 권유하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431434,
+              "word": "invite A to B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A를 B로 초대하다"
+                  ]
+                }
+              ]
             }
           ]
         },
