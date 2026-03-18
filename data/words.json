@@ -10367,7 +10367,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431435,
+              "word": "understandable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "이해하기 쉬운"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431436,
+              "word": "understanding",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "이해"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722850,
