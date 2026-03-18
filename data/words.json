@@ -11321,6 +11321,19 @@
           "related": [
             {
               "id": 1773206722877,
+              "word": "examiner",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "검사관",
+                    "시험관"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431491,
               "word": "examination",
               "meanings": [
                 {
