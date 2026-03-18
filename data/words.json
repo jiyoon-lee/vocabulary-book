@@ -12166,7 +12166,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773851676011,
+              "word": "worrying",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "걱정스러운"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796472,
