@@ -10680,7 +10680,44 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431460,
+              "word": "get + 형용사",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~한 상태가 되다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431461,
+              "word": "get to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~하게 되다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431462,
+              "word": "get 명사 to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~하도록 시키다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722855,
