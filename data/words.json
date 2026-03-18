@@ -11278,7 +11278,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431488,
+              "word": "connection",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "연결",
+                    "관계"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431489,
+              "word": "connect A with B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A와 B를 연결하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722876,
