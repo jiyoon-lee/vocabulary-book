@@ -11918,7 +11918,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431512,
+              "word": "annoyance",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "성가심"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431513,
+              "word": "annoying",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "성가신",
+                    "귀찮은"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431514,
+              "word": "be annoyed at / to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~때문에 성가시다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722903,
