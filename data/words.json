@@ -11027,7 +11027,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431478,
+              "word": "enjoyable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "즐거운"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722866,
