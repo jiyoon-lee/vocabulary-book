@@ -11188,6 +11188,19 @@
           "related": [
             {
               "id": 1773206722871,
+              "word": "consumption",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "소비",
+                    "소모"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431486,
               "word": "consumer",
               "meanings": [
                 {
