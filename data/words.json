@@ -12358,7 +12358,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773851676022,
+              "word": "continuous",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "계속되는",
+                    "지속적인"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773851676023,
+              "word": "continuity",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "연속(성)"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796477,
