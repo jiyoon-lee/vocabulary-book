@@ -10957,7 +10957,44 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431475,
+              "word": "repetition",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "반복"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431476,
+              "word": "repeatedly",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "되풀이하여"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431477,
+              "word": "repetitive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "반복적인"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722864,
