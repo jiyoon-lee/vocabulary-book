@@ -10629,6 +10629,42 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 1773798431457,
+              "word": "have 명사 RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~하도록 시키다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431458,
+              "word": "have 명사 p.p",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "명사가 ~되게 시키다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431459,
+              "word": "had better RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~하는 편이 낫다"
+                  ]
+                }
+              ]
             }
           ]
         },
