@@ -10530,7 +10530,57 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431445,
+              "word": "makeshift",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "임시변통",
+                    "미봉책"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431446,
+              "word": "make for",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~로 향하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431447,
+              "word": "make it",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "성공하다; 도착하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431448,
+              "word": "make A[IO] B[DO]",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A에게 B를 만들어주다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722853,
