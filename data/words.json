@@ -11505,7 +11505,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431506,
+              "word": "boastful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "뽐내는",
+                    "자랑하는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431507,
+              "word": "boasting",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "자랑"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722887,
