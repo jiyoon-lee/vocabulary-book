@@ -11532,7 +11532,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431504,
+              "word": "shining",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "빛나는",
+                    "반짝거리는"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722890,
