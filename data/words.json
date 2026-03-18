@@ -11392,7 +11392,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1773798431492,
+              "word": "content",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "내용"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1773798431493,
+              "word": "container",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "그룻",
+                    "용기"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773206722881,
