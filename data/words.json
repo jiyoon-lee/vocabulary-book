@@ -12436,7 +12436,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774311879895,
+              "word": "beginning",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "초반",
+                    "시작"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774311879896,
+              "word": "begginer",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "초심자"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796480,
