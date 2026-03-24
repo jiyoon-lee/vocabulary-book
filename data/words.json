@@ -12674,7 +12674,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774311879904,
+              "word": "appointment",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "약속",
+                    "임명"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796490,
