@@ -12704,12 +12704,24 @@
           "related": [
             {
               "id": 1773286796489,
-              "word": "get rid of",
+              "word": "rid A of B",
               "meanings": [
                 {
                   "partOfSpeech": "숙어",
                   "definitions": [
-                    "~를 제거하다"
+                    "A에게서 B를 제거하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774311879906,
+              "word": "get rid of",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~을 제거하다"
                   ]
                 }
               ]
