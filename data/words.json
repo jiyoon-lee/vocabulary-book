@@ -12784,7 +12784,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774311879908,
+              "word": "adjustment",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "수정",
+                    "적용"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796494,
