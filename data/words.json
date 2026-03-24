@@ -12579,7 +12579,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774311879902,
+              "word": "hesitation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "주저",
+                    "망설임"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796485,
