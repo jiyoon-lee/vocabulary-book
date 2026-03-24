@@ -12526,7 +12526,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774311879900,
+              "word": "exhibition",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "전시회"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796483,
