@@ -12626,7 +12626,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774311879903,
+              "word": "allowance",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "급여",
+                    "용돈"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796487,
