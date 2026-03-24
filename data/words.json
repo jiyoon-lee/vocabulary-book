@@ -12758,7 +12758,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774311879907,
+              "word": "investigation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "조사"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796493,
