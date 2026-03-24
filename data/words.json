@@ -12484,8 +12484,31 @@
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "환경",
-                    "배경; 설정"
+                    "설치"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774311879898,
+              "word": "set up",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "세우다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774311879899,
+              "word": "set about",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "착수하다"
                   ]
                 }
               ]
