@@ -12398,7 +12398,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774311879893,
+              "word": "learned",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "박식한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774311879894,
+              "word": "learner",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "학습자"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796478,
