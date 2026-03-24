@@ -12812,7 +12812,45 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774311879910,
+              "word": "critic",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "비평가"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774311879911,
+              "word": "criticism",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "비판",
+                    "비난"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774311879912,
+              "word": "critical",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "비판적인; 결정적인"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796495,
