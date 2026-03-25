@@ -14192,6 +14192,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774401289358,
+          "word": "dare",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "감히 ~하다",
+                "대담하게 ~하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774401289357,
+              "word": "dare to RV",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "감히 ~하다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
