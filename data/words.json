@@ -13551,7 +13551,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289340,
+              "word": "bet that S + V",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~이라고 단언하다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
