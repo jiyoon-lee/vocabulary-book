@@ -14526,6 +14526,52 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774401289381,
+          "word": "benefit",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "유익을 주다",
+                "유용하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "이익",
+                "유리"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774401289379,
+              "word": "beneficial",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "유익한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289380,
+              "word": "beneficiary",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "수혜자"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
