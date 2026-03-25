@@ -14458,6 +14458,40 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774401289376,
+          "word": "figure",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "계산하다; 이해하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "수치",
+                "모양",
+                "인물"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774401289375,
+              "word": "figurative",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "비유적인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
