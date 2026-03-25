@@ -14099,6 +14099,57 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774401289350,
+          "word": "divide",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "나누다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774401289347,
+              "word": "devided",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "분리된"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289348,
+              "word": "devision",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "분할",
+                    "분배"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289349,
+              "word": "dividend",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "배당금"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
