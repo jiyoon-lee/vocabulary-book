@@ -14338,6 +14338,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774401289367,
+          "word": "note",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "적어두다; 주목하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "메모; 주목"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
