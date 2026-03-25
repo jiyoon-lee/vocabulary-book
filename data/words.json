@@ -14065,6 +14065,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774401289345,
+          "word": "jam",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "쑤셔 넣다",
+                "막다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "혼잡"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
