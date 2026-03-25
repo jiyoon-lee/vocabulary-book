@@ -14051,6 +14051,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774401289344,
+          "word": "float",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "뜨다",
+                "떠다니다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
