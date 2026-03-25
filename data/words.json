@@ -13107,7 +13107,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289319,
+              "word": "dyed",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "염색한",
+                    "물들인"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796510,
