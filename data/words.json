@@ -13067,7 +13067,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289318,
+              "word": "apology",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "사과"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796508,
