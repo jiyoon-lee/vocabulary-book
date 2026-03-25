@@ -14005,7 +14005,35 @@
     {
       "id": 1773286796530,
       "name": "10강",
-      "words": []
+      "words": [
+        {
+          "id": 1774401289342,
+          "word": "weigh",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "(몸)무게가 ~이다; ~를 숙고하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774401289341,
+              "word": "weight",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "무게",
+                    "체중"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 1773286796531,
