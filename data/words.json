@@ -13507,7 +13507,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289338,
+              "word": "pronunciation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "발음"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289339,
+              "word": "pronounced",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "뚜렷한"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796528,
