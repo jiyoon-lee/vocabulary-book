@@ -14150,6 +14150,48 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774401289356,
+          "word": "engage",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "약속하다",
+                "종사하다",
+                "약혼하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774401289354,
+              "word": "engagement",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "약혼",
+                    "약속"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289355,
+              "word": "engaging",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "매력적인",
+                    "마음을 끄는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
