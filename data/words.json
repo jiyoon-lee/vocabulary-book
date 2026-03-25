@@ -14420,7 +14420,44 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289372,
+              "word": "accountant",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "회계원"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289373,
+              "word": "accounting",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "회계(학)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289374,
+              "word": "accountable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "책임이 있는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
