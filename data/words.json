@@ -12980,12 +12980,25 @@
           "related": [
             {
               "id": 1773286796502,
+              "word": "detection",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "발견",
+                    "탐지"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289314,
               "word": "detective",
               "meanings": [
                 {
                   "partOfSpeech": "명사",
                   "definitions": [
-                    "명사"
+                    "형사"
                   ]
                 }
               ]
