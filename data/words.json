@@ -14356,7 +14356,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289368,
+              "word": "notable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "주목할 만한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289369,
+              "word": "noted",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "저명한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
