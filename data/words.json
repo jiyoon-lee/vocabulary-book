@@ -14402,6 +14402,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774401289371,
+          "word": "account",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "설명하다; 차지하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "계좌; 설명"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
