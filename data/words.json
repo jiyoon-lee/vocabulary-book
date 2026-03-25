@@ -13229,7 +13229,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289322,
+              "word": "sailing",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "항해",
+                    "출항"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796516,
