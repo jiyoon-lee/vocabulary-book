@@ -14265,6 +14265,60 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774401289365,
+          "word": "compare",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "비교하다",
+                "비유하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774401289362,
+              "word": "comparison",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "비교",
+                    "유사"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289363,
+              "word": "comparable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "비슷한",
+                    "비교되는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289364,
+              "word": "comparative",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "비교적인",
+                    "상대적인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
