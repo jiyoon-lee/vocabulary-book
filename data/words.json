@@ -14492,6 +14492,40 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774401289378,
+          "word": "cause",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "일으키다",
+                "야기하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "원인",
+                "이유"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774401289377,
+              "word": "casual",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "인과(관계)의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
