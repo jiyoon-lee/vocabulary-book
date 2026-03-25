@@ -14319,6 +14319,25 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774401289366,
+          "word": "tear",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "찣다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "눈물(s)"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
