@@ -13369,7 +13369,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289334,
+              "word": "quotation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "인용"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796519,
