@@ -13342,7 +13342,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289333,
+              "word": "handling",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "취급",
+                    "처리"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796518,
