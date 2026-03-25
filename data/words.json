@@ -13176,7 +13176,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289321,
+              "word": "enroll",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "등록하다",
+                    "기록하다"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796513,
