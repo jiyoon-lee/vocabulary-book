@@ -13134,7 +13134,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289323,
+              "word": "shot",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "발사",
+                    "발포"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289324,
+              "word": "shooting",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "사격"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796511,
