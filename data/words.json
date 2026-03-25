@@ -13148,7 +13148,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289320,
+              "word": "beaten",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "지친",
+                    "기진맥진한"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796512,
