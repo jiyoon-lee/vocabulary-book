@@ -14382,6 +14382,26 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774401289370,
+          "word": "issue",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "발행하다",
+                "발령하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "쟁점"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
