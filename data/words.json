@@ -14219,6 +14219,52 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774401289361,
+          "word": "prevent",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "예방하다",
+                "막다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774401289359,
+              "word": "prevention",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "예방",
+                    "방지"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289360,
+              "word": "preventive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "예방을 위한"
+                  ]
+                },
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "피임약"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
