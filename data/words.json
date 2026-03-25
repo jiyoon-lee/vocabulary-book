@@ -13283,7 +13283,34 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289328,
+              "word": "urgency",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "긴급",
+                    "긴박"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774401289329,
+              "word": "urgent",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "긴급한",
+                    "시급한"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796517,
