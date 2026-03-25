@@ -12905,7 +12905,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289311,
+              "word": "boiled",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "끟인",
+                    "삶은"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796499,
