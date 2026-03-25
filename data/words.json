@@ -13409,7 +13409,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774401289335,
+              "word": "burial",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "매장",
+                    "장례식"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796521,
