@@ -14258,6 +14258,53 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774591368589,
+          "word": "desert",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "버리다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "사막"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774591368587,
+              "word": "deserve",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "~을 받을 만하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774591368588,
+              "word": "desertion",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "내버림",
+                    "유기",
+                    "탈영",
+                    "황폐"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
