@@ -14512,6 +14512,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774591368602,
+          "word": "comfort",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "위로하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "위로",
+                "위안"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
