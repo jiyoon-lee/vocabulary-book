@@ -13955,7 +13955,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774570697695,
+              "word": "challenging",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "도전적인",
+                    "해볼 만한"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1773286796557,
