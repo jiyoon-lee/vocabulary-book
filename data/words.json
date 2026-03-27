@@ -14578,6 +14578,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774591368606,
+          "word": "suspect",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "의심하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "용의자"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
