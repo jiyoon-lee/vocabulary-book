@@ -14191,6 +14191,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774591368583,
+          "word": "demand",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "요구하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
