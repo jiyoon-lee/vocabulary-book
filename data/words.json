@@ -14424,6 +14424,40 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774591368598,
+          "word": "damage",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "손해를 입다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "손해",
+                "손상"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774591368597,
+              "word": "damaging",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "손상을 주는",
+                    "해로운"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
