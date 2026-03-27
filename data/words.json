@@ -14136,6 +14136,40 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774570697692,
+          "word": "control",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "지배하다",
+                "규제하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "통제",
+                "지배"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774570697691,
+              "word": "controllable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "제어 가능한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
