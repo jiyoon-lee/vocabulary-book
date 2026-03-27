@@ -14305,6 +14305,59 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774591368592,
+          "word": "object",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "반대하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "물건; 목적"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774591368590,
+              "word": "objection",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "반대",
+                    "이의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774591368591,
+              "word": "objective",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "객관적인",
+                    "실재하는"
+                  ]
+                },
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "목표",
+                    "객체"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
