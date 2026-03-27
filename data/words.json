@@ -14358,6 +14358,53 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774591368595,
+          "word": "taste",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "~한 맛이 나다",
+                "맛보다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "미각",
+                "맛"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774591368593,
+              "word": "tasteful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "고상한",
+                    "우아한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774591368594,
+              "word": "tasty",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "맛있는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
