@@ -14042,6 +14042,80 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774570697689,
+          "word": "care",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "신경 쓰다",
+                "걱정하다",
+                "보살피다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "보살핌",
+                "돌봄",
+                "걱정"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774570697685,
+              "word": "careful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "조심하는",
+                    "주의 깊은"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774570697686,
+              "word": "care for",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "돌보다",
+                    "신경쓰다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774570697687,
+              "word": "care about",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~에 대해 관심을 갖다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774570697688,
+              "word": "take care of",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~을 보살피다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
