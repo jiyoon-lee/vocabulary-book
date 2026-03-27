@@ -14224,6 +14224,40 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774591368586,
+          "word": "function",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "움직이다",
+                "작동하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "기능"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774591368585,
+              "word": "functional",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "기능 위주의",
+                    "실용적인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
