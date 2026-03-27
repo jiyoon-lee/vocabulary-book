@@ -14558,6 +14558,26 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774591368605,
+          "word": "delay",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "미루다",
+                "연기하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "지연"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
