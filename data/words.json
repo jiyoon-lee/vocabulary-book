@@ -14209,7 +14209,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774591368584,
+              "word": "demanding",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "힘든",
+                    "벅찬"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
