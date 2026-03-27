@@ -14492,6 +14492,26 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774591368601,
+          "word": "approach",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "다가가다",
+                "접근하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "접근법; 방법"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
