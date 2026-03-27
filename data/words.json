@@ -14531,7 +14531,33 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774591368603,
+              "word": "comfortable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "편안한",
+                    "쾌적한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774591368604,
+              "word": "comforting",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "위안이 되는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
