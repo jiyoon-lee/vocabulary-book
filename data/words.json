@@ -14596,7 +14596,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774591368607,
+              "word": "suspicion",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "의심",
+                    "혐의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
