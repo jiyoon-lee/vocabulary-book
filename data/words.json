@@ -14009,6 +14009,39 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774570697684,
+          "word": "strike",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "치다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "파업"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774570697683,
+              "word": "stroke",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "일격",
+                    "발작"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
