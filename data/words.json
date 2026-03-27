@@ -14405,6 +14405,25 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774591368596,
+          "word": "loan",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "빌려주다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "대출"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
