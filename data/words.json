@@ -14116,6 +14116,26 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774570697690,
+          "word": "award",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "수여하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "상; 상품",
+                "상금"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
