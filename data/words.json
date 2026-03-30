@@ -14856,6 +14856,25 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774829338762,
+          "word": "stick",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "찌르다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "막대기"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
