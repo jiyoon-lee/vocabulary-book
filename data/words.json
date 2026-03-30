@@ -14946,7 +14946,41 @@
     {
       "id": 1773286796530,
       "name": "10강",
-      "words": []
+      "words": [
+        {
+          "id": 1774843117706,
+          "word": "ache",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "아프다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "아픔",
+                "통증"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774843117705,
+              "word": "aching",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "아픈"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 1773286796531,
