@@ -14643,6 +14643,27 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774829338750,
+          "word": "turn",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "돌리다",
+                "돌다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "회전",
+                "차례"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
