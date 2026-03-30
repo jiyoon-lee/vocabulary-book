@@ -14992,6 +14992,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774843117708,
+          "word": "fever",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "열(병); 열기",
+                "과열"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
