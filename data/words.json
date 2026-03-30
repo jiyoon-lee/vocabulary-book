@@ -14875,6 +14875,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774829338764,
+          "word": "cope",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "대처하다",
+                "대응하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774829338763,
+              "word": "cope with",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "~애 대처하다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
