@@ -14774,7 +14774,21 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774829338757,
+              "word": "cracked",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "금이 간",
+                    "깨진"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
