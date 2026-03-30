@@ -14948,39 +14948,6 @@
       "name": "10강",
       "words": [
         {
-          "id": 1774401289343,
-          "word": "fancy",
-          "meanings": [
-            {
-              "partOfSpeech": "동사",
-              "definitions": [
-                "상상하다"
-              ]
-            },
-            {
-              "partOfSpeech": "형용사",
-              "definitions": [
-                "근사한"
-              ]
-            }
-          ],
-          "related": []
-        },
-        {
-          "id": 1774401289344,
-          "word": "float",
-          "meanings": [
-            {
-              "partOfSpeech": "동사",
-              "definitions": [
-                "뜨다",
-                "떠다니다"
-              ]
-            }
-          ],
-          "related": []
-        },
-        {
           "id": 1774401289345,
           "word": "jam",
           "meanings": [
