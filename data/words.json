@@ -14822,6 +14822,40 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774829338761,
+          "word": "aid",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "돕다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "원조",
+                "도움; 조력자"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774829338760,
+              "word": "aide",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "측근",
+                    "조수"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
