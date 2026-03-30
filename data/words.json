@@ -14702,6 +14702,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774829338753,
+          "word": "rub",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "문지르다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
