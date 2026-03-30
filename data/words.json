@@ -14902,6 +14902,44 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774829338767,
+          "word": "furnish",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "공급하다. 제공하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774829338765,
+              "word": "furniture",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "가구"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1774829338766,
+              "word": "furnish A with B",
+              "meanings": [
+                {
+                  "partOfSpeech": "구문",
+                  "definitions": [
+                    "A에게 B를 제공하다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
