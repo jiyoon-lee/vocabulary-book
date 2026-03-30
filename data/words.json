@@ -14754,6 +14754,27 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774829338756,
+          "word": "crack",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "쪼개다",
+                "갈라지다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "(갈라져 생긴) 금",
+                "틈"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
