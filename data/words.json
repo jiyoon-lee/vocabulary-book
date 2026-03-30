@@ -15105,7 +15105,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1774843117717,
+              "word": "laborious",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "힘든"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1774843117716,
