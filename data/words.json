@@ -14683,6 +14683,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774829338752,
+          "word": "tie",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "묶다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "동점"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
