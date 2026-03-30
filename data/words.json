@@ -14946,47 +14946,7 @@
     {
       "id": 1773286796530,
       "name": "10강",
-      "words": [
-        {
-          "id": 1774401289366,
-          "word": "tear",
-          "meanings": [
-            {
-              "partOfSpeech": "동사",
-              "definitions": [
-                "찣다"
-              ]
-            },
-            {
-              "partOfSpeech": "명사",
-              "definitions": [
-                "눈물(s)"
-              ]
-            }
-          ],
-          "related": []
-        },
-        {
-          "id": 1774401289370,
-          "word": "issue",
-          "meanings": [
-            {
-              "partOfSpeech": "동사",
-              "definitions": [
-                "발행하다",
-                "발령하다"
-              ]
-            },
-            {
-              "partOfSpeech": "명사",
-              "definitions": [
-                "쟁점"
-              ]
-            }
-          ],
-          "related": []
-        }
-      ]
+      "words": []
     },
     {
       "id": 1773286796531,
