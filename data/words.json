@@ -14715,6 +14715,26 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774829338754,
+          "word": "whistle",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "휘파람을 불다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "휘파람",
+                "호각"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
