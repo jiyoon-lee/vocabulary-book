@@ -14735,6 +14735,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774829338755,
+          "word": "lock",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "잠그다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "자물쇠"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
