@@ -14967,50 +14967,6 @@
           "related": []
         },
         {
-          "id": 1774401289367,
-          "word": "note",
-          "meanings": [
-            {
-              "partOfSpeech": "동사",
-              "definitions": [
-                "적어두다; 주목하다"
-              ]
-            },
-            {
-              "partOfSpeech": "명사",
-              "definitions": [
-                "메모; 주목"
-              ]
-            }
-          ],
-          "related": [
-            {
-              "id": 1774401289368,
-              "word": "notable",
-              "meanings": [
-                {
-                  "partOfSpeech": "형용사",
-                  "definitions": [
-                    "주목할 만한"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1774401289369,
-              "word": "noted",
-              "meanings": [
-                {
-                  "partOfSpeech": "형용사",
-                  "definitions": [
-                    "저명한"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": 1774401289370,
           "word": "issue",
           "meanings": [
@@ -15148,52 +15104,6 @@
                   "partOfSpeech": "형용사",
                   "definitions": [
                     "인과(관계)의"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": 1774401289381,
-          "word": "benefit",
-          "meanings": [
-            {
-              "partOfSpeech": "동사",
-              "definitions": [
-                "유익을 주다",
-                "유용하다"
-              ]
-            },
-            {
-              "partOfSpeech": "명사",
-              "definitions": [
-                "이익",
-                "유리"
-              ]
-            }
-          ],
-          "related": [
-            {
-              "id": 1774401289379,
-              "word": "beneficial",
-              "meanings": [
-                {
-                  "partOfSpeech": "형용사",
-                  "definitions": [
-                    "유익한"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": 1774401289380,
-              "word": "beneficiary",
-              "meanings": [
-                {
-                  "partOfSpeech": "명사",
-                  "definitions": [
-                    "수혜자"
                   ]
                 }
               ]
