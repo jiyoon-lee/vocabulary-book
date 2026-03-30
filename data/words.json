@@ -15106,6 +15106,28 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774843117716,
+          "word": "master",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "주인",
+                "대가",
+                "선생님"
+              ]
+            },
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "정복하다",
+                "숙달하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
