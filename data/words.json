@@ -15073,6 +15073,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774843117714,
+          "word": "label",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "꼬리표",
+                "표시"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
