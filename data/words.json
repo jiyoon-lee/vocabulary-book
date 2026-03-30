@@ -14624,6 +14624,25 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774829338749,
+          "word": "aim",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "목표로 삼다; 겨냥하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "조준; 목표"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
