@@ -14664,6 +14664,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1774829338751,
+          "word": "defeat",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "패배시키다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "패배"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
