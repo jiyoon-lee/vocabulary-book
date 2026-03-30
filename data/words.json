@@ -14979,6 +14979,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774843117707,
+          "word": "fable",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "우화"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
