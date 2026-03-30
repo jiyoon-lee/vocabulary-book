@@ -14789,6 +14789,39 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1774829338759,
+          "word": "deal",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "다루다",
+                "처리하다; 처리하다"
+              ]
+            },
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "처리"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1774829338758,
+              "word": "dealer",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "상인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
