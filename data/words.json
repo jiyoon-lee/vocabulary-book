@@ -15175,6 +15175,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530815,
+          "word": "volume",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "(소리의) 크기; 덩어리; 권"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
