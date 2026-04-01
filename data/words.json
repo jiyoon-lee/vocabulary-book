@@ -15800,6 +15800,45 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530862,
+          "word": "beauty",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "아름다움; 미인"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775003530860,
+              "word": "beautify",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "아름답게 하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775003530861,
+              "word": "beautiful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "아름다운",
+                    "훌륭한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
