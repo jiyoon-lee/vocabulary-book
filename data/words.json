@@ -15161,6 +15161,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530814,
+          "word": "zone",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "지대",
+                "지역"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
