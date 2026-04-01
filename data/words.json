@@ -15628,6 +15628,34 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775003530848,
+          "word": "earth",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "지구",
+                "땅",
+                "흙"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775003530847,
+              "word": "earthly",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "지구의; 세속적인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
