@@ -15322,6 +15322,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530825,
+          "word": "rate",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "비율; 요금; 속도"
+              ]
+            },
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "평가하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
