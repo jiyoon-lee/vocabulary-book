@@ -15682,6 +15682,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530852,
+          "word": "gift",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "선물",
+                "재능"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775003530851,
+              "word": "gifted",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "타고난"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
