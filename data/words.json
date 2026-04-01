@@ -15301,6 +15301,27 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530824,
+          "word": "rank",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "등급",
+                "계급; 열",
+                "줄"
+              ]
+            },
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "정렬시키다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
