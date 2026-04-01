@@ -15550,6 +15550,45 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775003530843,
+          "word": "quality",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "품질",
+                "성질"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775003530841,
+              "word": "qualify",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "자격을 주다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775003530842,
+              "word": "qualitative",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "질적인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
