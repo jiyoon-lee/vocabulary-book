@@ -15393,6 +15393,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530830,
+          "word": "president",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "대통령"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
