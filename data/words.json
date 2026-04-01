@@ -15267,6 +15267,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530822,
+          "word": "state",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "상태; 주; 국가"
+              ]
+            },
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "진술하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
