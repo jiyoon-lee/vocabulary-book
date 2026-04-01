@@ -15240,6 +15240,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530820,
+          "word": "sculptor",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "조각가"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
