@@ -15866,6 +15866,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530866,
+          "word": "wealth",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "부",
+                "재산"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775003530865,
+              "word": "wealthy",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "부유한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
