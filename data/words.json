@@ -15253,6 +15253,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530821,
+          "word": "spirit",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "정신",
+                "영혼"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
