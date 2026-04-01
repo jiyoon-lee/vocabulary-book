@@ -15787,6 +15787,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530859,
+          "word": "newspaper",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "신문"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
