@@ -15438,6 +15438,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530834,
+          "word": "breath",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "호흡"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775003530833,
+              "word": "breathe",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "호흡하다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
