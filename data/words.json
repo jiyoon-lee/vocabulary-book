@@ -15464,6 +15464,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775003530835,
+          "word": "knowledge",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "지식"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
