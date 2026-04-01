@@ -15341,6 +15341,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530826,
+          "word": "region",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "지역"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
