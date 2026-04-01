@@ -15524,6 +15524,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775003530840,
+          "word": "population",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "인구"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775003530839,
+              "word": "populous",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "인구가 조밀한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
