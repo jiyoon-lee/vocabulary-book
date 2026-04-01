@@ -15286,6 +15286,21 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530823,
+          "word": "string",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "끈",
+                "줄; 선",
+                "현"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
