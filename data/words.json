@@ -15748,6 +15748,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530857,
+          "word": "performance",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "수행; 공연"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775003530856,
+              "word": "performer",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "행위자; 연주자"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
