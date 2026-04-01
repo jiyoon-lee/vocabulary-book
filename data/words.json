@@ -15839,6 +15839,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775003530863,
+          "word": "career",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "직업",
+                "경력"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
