@@ -15188,6 +15188,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530817,
+          "word": "talent",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "재능"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775003530816,
+              "word": "talented",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "재능이 있는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
