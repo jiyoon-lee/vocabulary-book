@@ -15214,6 +15214,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775003530818,
+          "word": "trash",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "쓰레기"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
