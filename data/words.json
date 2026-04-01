@@ -15893,6 +15893,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775003530867,
+          "word": "goods",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "상품"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
