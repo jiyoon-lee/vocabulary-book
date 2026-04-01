@@ -15477,6 +15477,53 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530838,
+          "word": "fear",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "공포",
+                "두려움"
+              ]
+            },
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "두려워하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775003530836,
+              "word": "fearful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "걱정하는",
+                    "무시무시한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775003530837,
+              "word": "fearless",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "두려음을 모르는",
+                    "용감한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
