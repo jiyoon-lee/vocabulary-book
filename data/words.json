@@ -15419,6 +15419,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775003530832,
+          "word": "novel",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "소설"
+              ]
+            },
+            {
+              "partOfSpeech": "형용사",
+              "definitions": [
+                "새로운"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
