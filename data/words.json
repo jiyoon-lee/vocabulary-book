@@ -15656,6 +15656,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775003530849,
+          "word": "flood",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "홍수"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
