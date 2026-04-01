@@ -15709,6 +15709,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775003530854,
+          "word": "peace",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "평화"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775003530853,
+              "word": "peaceful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "평화로운"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
