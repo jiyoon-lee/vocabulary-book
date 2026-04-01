@@ -15774,6 +15774,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775003530858,
+          "word": "lecture",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "강의"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
