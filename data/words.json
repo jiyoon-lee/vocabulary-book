@@ -15589,6 +15589,45 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775003530846,
+          "word": "accident",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "사고"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775003530844,
+              "word": "accidental",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "우연한",
+                    "돌발적인"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775003530845,
+              "word": "accidentially",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "우연히"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
