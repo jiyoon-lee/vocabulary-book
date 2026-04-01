@@ -15735,6 +15735,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775003530855,
+          "word": "language",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "언어"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
