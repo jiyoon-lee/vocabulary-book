@@ -16384,6 +16384,47 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775093525872,
+          "word": "pain",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "고통; 수고"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775093525870,
+              "word": "painful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "아픈",
+                    "괴로운",
+                    "골치 아픈"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775093525871,
+              "word": "painless",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "고통이 없는",
+                    "괴롭지 않은"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
