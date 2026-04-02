@@ -16098,6 +16098,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775089923227,
+          "word": "neighbor",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "이웃"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775089923226,
+              "word": "neighborhood",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "근처; 이웃"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
