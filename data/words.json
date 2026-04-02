@@ -16694,6 +16694,62 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775103793689,
+          "word": "repair",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "수리"
+              ]
+            },
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "수리하다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775103793686,
+              "word": "reparation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "배상"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775103793687,
+              "word": "repairer",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "수리공"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775103793688,
+              "word": "repairable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "수리 가능한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
