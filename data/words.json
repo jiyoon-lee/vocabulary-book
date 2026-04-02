@@ -16870,6 +16870,25 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775107728217,
+          "word": "vote",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "투표"
+              ]
+            },
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "투표하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
