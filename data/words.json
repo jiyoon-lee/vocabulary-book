@@ -16279,6 +16279,44 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775093525864,
+          "word": "medicine",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "약"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775093525862,
+              "word": "medical",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "의학의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775093525863,
+              "word": "medicinal",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "약효가 있는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
