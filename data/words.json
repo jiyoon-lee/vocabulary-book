@@ -16045,6 +16045,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775089923222,
+          "word": "task",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "일",
+                "임무"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
