@@ -17090,6 +17090,34 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775107728234,
+          "word": "faith",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "신뢰",
+                "신념"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775107728233,
+              "word": "faithful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "충실한",
+                    "충직한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
