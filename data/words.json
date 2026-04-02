@@ -16888,7 +16888,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1775107728219,
+              "word": "voting",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "투표권 행사"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 1775107728218,
