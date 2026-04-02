@@ -16425,6 +16425,34 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775093525874,
+          "word": "path",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "길",
+                "통로"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775093525873,
+              "word": "pathless",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "길 없는",
+                    "인적 없는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
