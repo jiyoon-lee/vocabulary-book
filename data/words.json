@@ -16601,6 +16601,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775103793679,
+          "word": "hall",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "복도"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
