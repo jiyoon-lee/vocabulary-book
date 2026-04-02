@@ -16655,6 +16655,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775103793683,
+          "word": "joke",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "농담"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
