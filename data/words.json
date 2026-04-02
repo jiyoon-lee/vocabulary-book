@@ -17130,7 +17130,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1775107728236,
+              "word": "financial",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "금융의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
