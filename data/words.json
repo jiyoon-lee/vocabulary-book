@@ -16816,6 +16816,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775107728213,
+          "word": "journey",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "여행"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
