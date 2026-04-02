@@ -17208,6 +17208,21 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775107728242,
+          "word": "core",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "핵심",
+                "속",
+                "중심부"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
