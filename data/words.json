@@ -17144,6 +17144,44 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775107728239,
+          "word": "flight",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "비행"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775107728237,
+              "word": "fly",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "날다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775107728238,
+              "word": "flee",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "달아나다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
