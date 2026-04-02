@@ -16506,6 +16506,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775093525880,
+          "word": "member",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "회원",
+                "일원"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775093525879,
+              "word": "membership",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "회원 자격"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
