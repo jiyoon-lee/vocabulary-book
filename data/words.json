@@ -17051,6 +17051,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775107728231,
+          "word": "effort",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "노력"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775107728230,
+              "word": "effortlessly",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "손쉽게"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
