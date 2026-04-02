@@ -16240,6 +16240,45 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775093525861,
+          "word": "variety",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "다양성",
+                "변화"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775093525859,
+              "word": "very",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "변화하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775093525860,
+              "word": "various",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "여러 가지의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
