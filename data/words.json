@@ -15942,6 +15942,45 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775089923216,
+          "word": "reason",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "이유; 이성"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775089923214,
+              "word": "reasonable",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "타당한",
+                    "합당한 (가격이) 적정한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775089923215,
+              "word": "reasoning",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "추론"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
