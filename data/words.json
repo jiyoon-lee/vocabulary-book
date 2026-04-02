@@ -16163,6 +16163,44 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775089923233,
+          "word": "liberty",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "자유"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775089923231,
+              "word": "liberal",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "자유주의의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775089923232,
+              "word": "liberalism",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "자유주의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
