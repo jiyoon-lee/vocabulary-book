@@ -17077,6 +17077,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775107728232,
+          "word": "factory",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "공장"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
