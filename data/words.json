@@ -16790,6 +16790,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775107728212,
+          "word": "item",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "항목; 상품"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775107728211,
+              "word": "itemize",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "항목별로 적다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
