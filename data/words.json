@@ -16317,6 +16317,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775093525866,
+          "word": "oil",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "기름",
+                "석유"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775093525865,
+              "word": "oily",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "기름진"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
