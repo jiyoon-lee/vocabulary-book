@@ -16007,6 +16007,44 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775089923221,
+          "word": "environment",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "환경"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775089923219,
+              "word": "environmental",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "환경의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775089923220,
+              "word": "environmentally",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "환경적으로"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
