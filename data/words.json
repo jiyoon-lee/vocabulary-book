@@ -15981,6 +15981,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775089923218,
+          "word": "relationship",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "관계"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775089923217,
+              "word": "relation",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "관계"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
