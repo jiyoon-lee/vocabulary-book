@@ -17182,6 +17182,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775107728241,
+          "word": "grammar",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "문법"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775107728240,
+              "word": "grammatical",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "문법의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
