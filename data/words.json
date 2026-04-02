@@ -16344,6 +16344,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775093525867,
+          "word": "tool",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "도구"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
