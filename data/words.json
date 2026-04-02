@@ -16929,6 +16929,47 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775107728223,
+          "word": "birth",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "탄생",
+                "출생"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775107728221,
+              "word": "bear",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "참다",
+                    "떠밀다; (아이를) 낳다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775107728222,
+              "word": "born",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "타고난",
+                    "선천적인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
