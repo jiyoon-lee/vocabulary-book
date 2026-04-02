@@ -16997,6 +16997,60 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775107728229,
+          "word": "effect",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "영향",
+                "결과",
+                "효과"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775107728226,
+              "word": "efficient",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "효과적인; 유능한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775107728227,
+              "word": "effective",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "유효한",
+                    "효과적인"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775107728228,
+              "word": "effectual",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "효과적인",
+                    "효험 있는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
