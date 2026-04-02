@@ -17118,6 +17118,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775107728235,
+          "word": "finance",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "재정"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
