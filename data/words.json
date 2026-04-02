@@ -16970,6 +16970,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775107728225,
+          "word": "culture",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "문화",
+                "교양"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775107728224,
+              "word": "cultural",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "문화의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
