@@ -16750,6 +16750,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775107728210,
+          "word": "technique",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "기술"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775107728208,
+              "word": "technical",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "기술적인",
+                    "기술의",
+                    "전문적인"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775107728209,
+              "word": "technology",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "과학 기술"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
