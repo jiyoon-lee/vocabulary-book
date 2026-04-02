@@ -16453,6 +16453,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775093525877,
+          "word": "nation",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "나라"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775093525875,
+              "word": "national",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "국가의",
+                    "국가소유의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775093525876,
+              "word": "nationalism",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "국가주의",
+                    "민족주의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
