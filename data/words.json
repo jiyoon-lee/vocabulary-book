@@ -16201,6 +16201,45 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775093525858,
+          "word": "manner",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "방법",
+                "태도"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775093525856,
+              "word": "manners",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "예절"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775093525857,
+              "word": "mannerly",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "예의바른"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
