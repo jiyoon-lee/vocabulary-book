@@ -16889,6 +16889,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775107728218,
+          "word": "weapon",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "무기"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
