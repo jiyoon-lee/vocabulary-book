@@ -16548,6 +16548,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775103793676,
+          "word": "heaven",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "천국"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775103793675,
+              "word": "heavenly",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "하늘의",
+                    "천국과 같은"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
