@@ -16059,6 +16059,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775089923224,
+          "word": "fact",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "사실"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775089923223,
+              "word": "factual",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "사실에 기반을 둔"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
