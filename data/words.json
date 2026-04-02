@@ -15916,7 +15916,21 @@
     {
       "id": 1773286796531,
       "name": "11강",
-      "words": []
+      "words": [
+        {
+          "id": 1775089923212,
+          "word": "guest",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "손님"
+              ]
+            }
+          ],
+          "related": []
+        }
+      ]
     },
     {
       "id": 1773286796532,
