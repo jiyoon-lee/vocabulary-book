@@ -16533,6 +16533,21 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775103793674,
+          "word": "gap",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "사이",
+                "간격",
+                "금"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
