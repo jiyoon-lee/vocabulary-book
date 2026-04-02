@@ -16124,6 +16124,45 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775089923230,
+          "word": "generation",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "세대"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775089923228,
+              "word": "generate",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "발생시키다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775089923229,
+              "word": "generative",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "발생의",
+                    "생식긔"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
