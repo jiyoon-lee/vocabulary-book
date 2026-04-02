@@ -16575,6 +16575,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775103793678,
+          "word": "opinion",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "의견"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775103793677,
+              "word": "opinionated",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "고집이 센"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
