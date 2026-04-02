@@ -16915,6 +16915,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775107728220,
+          "word": "yard",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "안뜰",
+                "안마당"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
