@@ -16829,6 +16829,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775107728214,
+          "word": "thing",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "것",
+                "물건"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
