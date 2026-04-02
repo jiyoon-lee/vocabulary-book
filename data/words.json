@@ -16085,6 +16085,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775089923225,
+          "word": "village",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "마을"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
