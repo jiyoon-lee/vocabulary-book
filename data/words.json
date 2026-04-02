@@ -16357,6 +16357,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775093525869,
+          "word": "option",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "선택",
+                "선택권"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775093525868,
+              "word": "optional",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "선택의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
