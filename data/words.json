@@ -16493,6 +16493,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775093525878,
+          "word": "nobody",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "아무도 ~않다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     },
