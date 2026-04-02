@@ -16614,6 +16614,47 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775103793682,
+          "word": "injury",
+          "meanings": [
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "상처",
+                "부상"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775103793680,
+              "word": "injure",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "부상을 입다",
+                    "해치다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775103793681,
+              "word": "injurious",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "손상을 주는",
+                    "해로운"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
