@@ -17525,6 +17525,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178487,
+          "word": "nest",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "둥지"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
