@@ -18357,6 +18357,44 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178551,
+          "word": "insurance",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "보험"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178549,
+              "word": "insure",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "보험에 들다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178550,
+              "word": "insurer",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "보험 회사"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
