@@ -18421,6 +18421,34 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178555,
+          "word": "frame",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "틀",
+                "구조"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178554,
+              "word": "framwork",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "뼈대",
+                    "구조"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
