@@ -17847,6 +17847,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178512,
+          "word": "poverty",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "빈곤"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178511,
+              "word": "poor",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "가난한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
