@@ -17912,7 +17912,20 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1775446178516,
+              "word": "racial",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "인종의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
