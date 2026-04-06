@@ -17749,6 +17749,26 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178504,
+          "word": "schedule",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "일정",
+                "시간표"
+              ]
+            },
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "예정하다"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
