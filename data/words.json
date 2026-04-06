@@ -18595,7 +18595,46 @@
     {
       "id": 1775446178567,
       "name": "13강",
-      "words": []
+      "words": [
+        {
+          "id": 1775446178570,
+          "word": "horror",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "공포"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178568,
+              "word": "horrify",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "몸서리치게 만들다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178569,
+              "word": "horrible",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "지긋지긋한"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
