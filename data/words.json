@@ -17423,6 +17423,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775446178480,
+          "word": "law",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "법"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178479,
+              "word": "lawful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "합법적인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
