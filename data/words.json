@@ -18469,6 +18469,45 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775446178559,
+          "word": "courage",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "용기",
+                "용감함"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178557,
+              "word": "encourage",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "격려하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178558,
+              "word": "courageous",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "용감한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
