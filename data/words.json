@@ -18673,6 +18673,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178575,
+          "word": "glue",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "접착제"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178574,
+              "word": "glutionous",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "끈적끈적한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
