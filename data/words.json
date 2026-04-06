@@ -17499,6 +17499,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178486,
+          "word": "method",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "방법"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178485,
+              "word": "methodical",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "체계적인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
