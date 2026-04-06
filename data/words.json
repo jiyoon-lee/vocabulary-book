@@ -17538,6 +17538,46 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775446178490,
+          "word": "occasion",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "때",
+                "경우; 기회"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178488,
+              "word": "occasional",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "가끔의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178489,
+              "word": "occasionally",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "이따금",
+                    "가끔"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
