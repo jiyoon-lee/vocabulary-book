@@ -18633,6 +18633,46 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178573,
+          "word": "history",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "역사"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178571,
+              "word": "historic",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "역사적으로 중요한",
+                    "역사적인"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178572,
+              "word": "historical",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "역사적",
+                    "역사상의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
