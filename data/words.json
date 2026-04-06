@@ -17578,6 +17578,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178491,
+          "word": "article",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "기사; 논문; 품목"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
