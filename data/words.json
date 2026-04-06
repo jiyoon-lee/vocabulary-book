@@ -17672,6 +17672,44 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178500,
+          "word": "risk",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "위험"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178498,
+              "word": "risky",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "위험한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178499,
+              "word": "riskless",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "위험이 없는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
