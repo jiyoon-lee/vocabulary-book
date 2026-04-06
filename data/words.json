@@ -17449,6 +17449,56 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178484,
+          "word": "machine",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "기계"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178481,
+              "word": "mechanize",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "기계화하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178482,
+              "word": "mechanical",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "기계로 작동되는"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178483,
+              "word": "mechine-like",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "기계 같은"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
