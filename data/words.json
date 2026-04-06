@@ -18082,6 +18082,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775446178530,
+          "word": "youth",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "젊음; 청년"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178529,
+              "word": "young",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "젊은"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
