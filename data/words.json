@@ -18738,6 +18738,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178579,
+          "word": "goal",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "목표"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
