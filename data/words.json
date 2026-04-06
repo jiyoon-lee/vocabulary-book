@@ -18221,6 +18221,51 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775446178541,
+          "word": "objective",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "목표",
+                "목적"
+              ]
+            },
+            {
+              "partOfSpeech": "형용사",
+              "definitions": [
+                "객관적인"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178539,
+              "word": "objectivity",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "객관성"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178540,
+              "word": "objectively",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "객관적으로"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
