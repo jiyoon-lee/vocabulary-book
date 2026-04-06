@@ -17978,6 +17978,45 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178523,
+          "word": "society",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "사회"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178521,
+              "word": "social",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "사회의",
+                    "사회적인"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178522,
+              "word": "socialism",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "사회주의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
