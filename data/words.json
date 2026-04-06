@@ -18508,6 +18508,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178560,
+          "word": "bill",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "청구서",
+                "계산서"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
