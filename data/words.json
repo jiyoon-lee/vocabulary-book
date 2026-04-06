@@ -18876,6 +18876,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775446178589,
+          "word": "diary",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "일기"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
