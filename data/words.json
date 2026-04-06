@@ -17363,6 +17363,25 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178475,
+          "word": "interior",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "안쪽"
+              ]
+            },
+            {
+              "partOfSpeech": "형용사",
+              "definitions": [
+                "안쪽의"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
