@@ -17410,6 +17410,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178478,
+          "word": "kingdom",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "왕국"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
