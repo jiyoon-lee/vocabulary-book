@@ -18266,6 +18266,44 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178544,
+          "word": "luck",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "행운"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178542,
+              "word": "lucky",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "운이 좋은"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178543,
+              "word": "luckless",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "운 나쁜"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
