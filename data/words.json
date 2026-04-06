@@ -18449,6 +18449,26 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178556,
+          "word": "devil",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "악마"
+              ]
+            },
+            {
+              "partOfSpeech": "형용사",
+              "definitions": [
+                "나쁜",
+                "사악한"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
