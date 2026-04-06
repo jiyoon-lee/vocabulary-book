@@ -18862,6 +18862,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178588,
+          "word": "drugstore",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "약국",
+                "편의점"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
