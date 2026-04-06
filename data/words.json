@@ -18043,6 +18043,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178527,
+          "word": "standard",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "표준"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178526,
+              "word": "standardize",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "표준화하다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
