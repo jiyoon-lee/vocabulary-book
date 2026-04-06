@@ -18069,6 +18069,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178528,
+          "word": "staff",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "직원"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
