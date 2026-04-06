@@ -17873,6 +17873,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178514,
+          "word": "rail",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "선로",
+                "난간"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178513,
+              "word": "railing",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "난간"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
