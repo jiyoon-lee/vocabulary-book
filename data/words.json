@@ -18331,6 +18331,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178548,
+          "word": "joy",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "기쁨"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178547,
+              "word": "joyful",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "아주 기뻐하는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
