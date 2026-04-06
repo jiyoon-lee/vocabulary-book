@@ -17230,7 +17230,28 @@
     {
       "id": 1773286796532,
       "name": "12강",
-      "words": []
+      "words": [
+        {
+          "id": 1775446178466,
+          "word": "host",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "주인",
+                "호스트"
+              ]
+            },
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "(파티의) 주인 역을 맡다"
+              ]
+            }
+          ],
+          "related": []
+        }
+      ]
     }
   ]
 }
