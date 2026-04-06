@@ -18304,6 +18304,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178546,
+          "word": "level",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "수평; 수준",
+                "표준"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178545,
+              "word": "lever",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "지레"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
