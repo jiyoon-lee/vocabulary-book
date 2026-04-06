@@ -17710,6 +17710,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178501,
+          "word": "salary",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "봉급"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
