@@ -18562,6 +18562,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178566,
+          "word": "belief",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "믿음",
+                "신념"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178565,
+              "word": "believe",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "믿다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
