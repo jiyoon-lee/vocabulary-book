@@ -17646,6 +17646,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775446178497,
+          "word": "choice",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "선택"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178496,
+              "word": "choose",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "선택하다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
