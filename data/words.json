@@ -17382,6 +17382,34 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775446178477,
+          "word": "journal",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "신문",
+                "정기간행물; 일기"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178476,
+              "word": "journalism",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "저너리즘",
+                    "신문잡지업계"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
