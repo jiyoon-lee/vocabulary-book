@@ -17769,6 +17769,46 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775446178507,
+          "word": "silent",
+          "meanings": [
+            {
+              "partOfSpeech": "형용사",
+              "definitions": [
+                "조용한",
+                "침묵하는"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178505,
+              "word": "silence",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "고요"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178506,
+              "word": "silently",
+              "meanings": [
+                {
+                  "partOfSpeech": "부사",
+                  "definitions": [
+                    "아무 말 없이",
+                    "조용히"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
