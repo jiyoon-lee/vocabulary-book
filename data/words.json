@@ -18167,6 +18167,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178536,
+          "word": "violence",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "폭력"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178535,
+              "word": "violent",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "폭력적인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
