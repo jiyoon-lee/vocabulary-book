@@ -17809,6 +17809,44 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178510,
+          "word": "pollution",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "오염"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178508,
+              "word": "pollute",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "오염시키다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178509,
+              "word": "pollutant",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "오염물질"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
