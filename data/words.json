@@ -18135,6 +18135,38 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178534,
+          "word": "trouble",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "걱정거리; 고생"
+              ]
+            },
+            {
+              "partOfSpeech": "동사",
+              "definitions": [
+                "걱정시키다; 괴롭히다"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178533,
+              "word": "troublesome",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "골칫거리인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
