@@ -18108,6 +18108,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178532,
+          "word": "theory",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "가설",
+                "이론"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178531,
+              "word": "theoretical",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "이론의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
