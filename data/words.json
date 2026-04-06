@@ -17250,6 +17250,50 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775446178469,
+          "word": "human",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "인간"
+              ]
+            },
+            {
+              "partOfSpeech": "형용사",
+              "definitions": [
+                "인간의"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178467,
+              "word": "humanity",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "인간성"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178468,
+              "word": "humane",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "자비로운"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
