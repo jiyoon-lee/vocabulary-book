@@ -18206,6 +18206,21 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775446178538,
+          "word": "pattern",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "양식",
+                "모법",
+                "무늬"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
