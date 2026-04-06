@@ -18777,6 +18777,44 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775446178584,
+          "word": "moment",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "순간"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775446178582,
+              "word": "momentary",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "순간적인"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775446178583,
+              "word": "momentous",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "중대한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
