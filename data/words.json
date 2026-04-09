@@ -19437,6 +19437,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775713988702,
+          "word": "climate",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "기후"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
