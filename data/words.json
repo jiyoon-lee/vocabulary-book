@@ -19573,6 +19573,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988712,
+          "word": "brain",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "뇌",
+                "두뇌; 지능"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
