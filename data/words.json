@@ -19794,6 +19794,46 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775713988731,
+          "word": "attention",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "주의",
+                "주목"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988729,
+              "word": "attend",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "참석하다",
+                    "주의를 기울이다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775713988730,
+              "word": "attentive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "주의를 기울이는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
