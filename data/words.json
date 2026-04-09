@@ -19600,6 +19600,47 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775713988716,
+          "word": "apprearance",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "겉모습",
+                "외모"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988714,
+              "word": "appear",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "나타나다",
+                    "~인 것 같다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775713988715,
+              "word": "apparent",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "분명한",
+                    "~인 것처럼 보이는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
