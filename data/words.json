@@ -18959,6 +18959,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775710245102,
+          "word": "disease",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "질병"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
