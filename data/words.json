@@ -19781,6 +19781,19 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775713988728,
+          "word": "background",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "배경"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
