@@ -19654,6 +19654,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775713988719,
+          "word": "difficulty",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "어려움"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988718,
+              "word": "difficult",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "어려운"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
