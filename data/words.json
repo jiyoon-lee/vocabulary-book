@@ -19450,6 +19450,34 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775713988704,
+          "word": "comedy",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "희극",
+                "코미디"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988703,
+              "word": "comic",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "희극의",
+                    "웃기는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
