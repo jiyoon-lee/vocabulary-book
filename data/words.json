@@ -18972,6 +18972,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775710245103,
+          "word": "clue",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "실마리",
+                "단서"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
