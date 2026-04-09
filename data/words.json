@@ -19235,6 +19235,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988688,
+          "word": "university",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "대학"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988687,
+              "word": "universal",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "우주의; 보편적인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
