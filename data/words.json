@@ -19117,6 +19117,45 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988680,
+          "word": "decision",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "결정",
+                "판단"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988678,
+              "word": "decide",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "결정하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775713988679,
+              "word": "decisive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "결정적인"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
