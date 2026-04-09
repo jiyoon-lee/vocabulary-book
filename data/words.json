@@ -19860,6 +19860,33 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988735,
+          "word": "ancestor",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "조상",
+                "선조"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988734,
+              "word": "ancestry",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "조상"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
