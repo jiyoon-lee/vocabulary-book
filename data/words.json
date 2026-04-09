@@ -19834,6 +19834,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988733,
+          "word": "appointment",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "약속"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988732,
+              "word": "appoint",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "임명하다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
