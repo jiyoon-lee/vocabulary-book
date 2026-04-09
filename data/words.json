@@ -18918,6 +18918,33 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775710245100,
+          "word": "vehicle",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "차",
+                "탈것"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775710245099,
+              "word": "vehicular",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "차량을 위한"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
