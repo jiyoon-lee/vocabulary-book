@@ -19261,6 +19261,44 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988691,
+          "word": "thunder",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "천둥"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988689,
+              "word": "thunderous",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "우레 같은"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775713988690,
+              "word": "thunderstorm",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "뇌우"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
