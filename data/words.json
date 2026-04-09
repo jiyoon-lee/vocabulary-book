@@ -19718,6 +19718,56 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988726,
+          "word": "defense",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "방어"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988723,
+              "word": "defend",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "막다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775713988724,
+              "word": "defensive",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "방어의"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775713988725,
+              "word": "defendant",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "피고"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
