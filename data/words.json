@@ -19026,6 +19026,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775710245108,
+          "word": "jewel",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "보석"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775710245107,
+              "word": "jewelry",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "보석류"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
