@@ -19359,6 +19359,20 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775713988696,
+          "word": "course",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "진로",
+                "강의"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
