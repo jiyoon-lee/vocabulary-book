@@ -19641,6 +19641,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988717,
+          "word": "anniversary",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "기념일"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
