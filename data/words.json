@@ -18945,6 +18945,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775710245101,
+          "word": "dawn",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "새벽",
+                "시작"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
