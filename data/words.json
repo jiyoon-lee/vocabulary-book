@@ -18986,6 +18986,46 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775710245106,
+          "word": "customer",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "고객",
+                "소비자"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775710245104,
+              "word": "customize",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "개인의 취향에 맞추다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775710245105,
+              "word": "custom",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "관습",
+                    "풍습"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
