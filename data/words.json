@@ -19492,6 +19492,59 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775713988709,
+          "word": "composer",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "작곡가"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988706,
+              "word": "compose",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "조립하다",
+                    "작곡하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775713988707,
+              "word": "composed",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "침착한"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775713988708,
+              "word": "composition",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "조립",
+                    "구성",
+                    "작곡"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
