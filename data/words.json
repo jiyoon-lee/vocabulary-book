@@ -19411,6 +19411,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988700,
+          "word": "committee",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "위원회"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
