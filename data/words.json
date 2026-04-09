@@ -19091,7 +19091,32 @@
               ]
             }
           ],
-          "related": []
+          "related": [
+            {
+              "id": 1775710245112,
+              "word": "democratize",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "민주화하다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775710245113,
+              "word": "democratic",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "민주주의의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
