@@ -19545,6 +19545,34 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988711,
+          "word": "bunch",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "다발",
+                "묶음"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988710,
+              "word": "bunchy",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "송이가 있는",
+                    "다발이 된"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
