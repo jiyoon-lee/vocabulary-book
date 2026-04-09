@@ -19299,6 +19299,52 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988694,
+          "word": "crime",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "범죄",
+                "범행"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988692,
+              "word": "criminal",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "범죄의"
+                  ]
+                },
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "범죄자"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775713988693,
+              "word": "criminate",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "~에게 죄를 지우다",
+                    "비난하다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
