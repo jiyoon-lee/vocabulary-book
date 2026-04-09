@@ -19169,6 +19169,46 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775713988684,
+          "word": "element",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "요소",
+                "성분"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988682,
+              "word": "elemental",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "요소의",
+                    "기본적인"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775713988683,
+              "word": "elementary",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "초보의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
