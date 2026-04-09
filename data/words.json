@@ -19209,6 +19209,32 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988686,
+          "word": "sentence",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "문장; 판결"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988685,
+              "word": "sentential",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "판결의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
