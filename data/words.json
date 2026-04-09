@@ -19345,6 +19345,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988695,
+          "word": "creature",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "창조물",
+                "생물"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
