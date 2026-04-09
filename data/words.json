@@ -19373,6 +19373,44 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1775713988699,
+          "word": "conversation",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "대화"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988697,
+              "word": "converse",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "대화를 나누다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775713988698,
+              "word": "conversational",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "구어의"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
