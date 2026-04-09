@@ -19478,6 +19478,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988705,
+          "word": "crew",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "승무원",
+                "선원"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
