@@ -19680,6 +19680,44 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1775713988722,
+          "word": "difference",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "차이점"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1775713988720,
+              "word": "differ",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "다르다"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1775713988721,
+              "word": "differentiate",
+              "meanings": [
+                {
+                  "partOfSpeech": "동사",
+                  "definitions": [
+                    "구별짓다"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
