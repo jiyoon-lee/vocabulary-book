@@ -19997,6 +19997,32 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1776152558804,
+          "word": "spot",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "장소; 반점"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1776152558803,
+              "word": "spotless",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "얼룩이 없는"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
