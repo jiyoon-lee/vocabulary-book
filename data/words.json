@@ -19893,7 +19893,48 @@
     {
       "id": 1776152558794,
       "name": "14강",
-      "words": []
+      "words": [
+        {
+          "id": 1776152558797,
+          "word": "heat",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "열",
+                "불"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1776152558795,
+              "word": "hot",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "더운"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1776152558796,
+              "word": "heated",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "가열한",
+                    "열띤"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
