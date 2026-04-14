@@ -19984,6 +19984,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1776152558802,
+          "word": "port",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "항구"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
