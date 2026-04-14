@@ -19933,6 +19933,19 @@
               ]
             }
           ]
+        },
+        {
+          "id": 1776152558798,
+          "word": "hole",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "구멍"
+              ]
+            }
+          ],
+          "related": []
         }
       ]
     }
