@@ -19946,6 +19946,44 @@
             }
           ],
           "related": []
+        },
+        {
+          "id": 1776152558801,
+          "word": "period",
+          "meanings": [
+            {
+              "partOfSpeech": "명사",
+              "definitions": [
+                "기간; 마침표"
+              ]
+            }
+          ],
+          "related": [
+            {
+              "id": 1776152558799,
+              "word": "periodic",
+              "meanings": [
+                {
+                  "partOfSpeech": "형용사",
+                  "definitions": [
+                    "주기적인"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 1776152558800,
+              "word": "periodical",
+              "meanings": [
+                {
+                  "partOfSpeech": "명사",
+                  "definitions": [
+                    "정기 간행물"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
